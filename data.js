@@ -1,41 +1,41 @@
-// const site = {
-//     year: "2020-2021",
-//     url: "https://github.com/lichen14/duducheng.github.io",
-//     lastUpdated: "April 15, 2021",
-//     showPageviews: false,
-//     navbar: [
-//         {
-//             tag: "Home",
-//             href: "#"
-//         },
-//         {
-//             tag: "Publications",
-//             href: "#publications"
-//         },
-//         {
-//             tag: "More",
-//             href: "#honors"
-//         },
-//     ],
-//     relatedProjects: [
-//         {
-//             tag: "AI Deadlines (CV-oriented)",
-//             href: "https://m3dv.github.io/ai-deadlines/"
-//         },
-//         {
-//             tag: "Deep Learning Kickstart",
-//             href: "https://github.com/M3DV/Kickstart"
-//         },
-//         {
-//             tag: "My Learning Notes",
-//             href: "https://github.com/duducheng/Learning-Notes"
-//         },
-//         {
-//             tag: "2048 Game API",
-//             href: "https://github.com/duducheng/2048-api"
-//         }
-//     ]
-// };
+const site = {
+    year: "2020-2021",
+    url: "https://github.com/lichen14/duducheng.github.io",
+    lastUpdated: "April 15, 2021",
+    showPageviews: false,
+    navbar: [
+        {
+            tag: "Home",
+            href: "#"
+        },
+        {
+            tag: "Publications",
+            href: "#publications"
+        },
+        {
+            tag: "More",
+            href: "#honors"
+        },
+    ],
+    relatedProjects: [
+        {
+            tag: "AI Deadlines (CV-oriented)",
+            href: "https://m3dv.github.io/ai-deadlines/"
+        },
+        {
+            tag: "Deep Learning Kickstart",
+            href: "https://github.com/M3DV/Kickstart"
+        },
+        {
+            tag: "My Learning Notes",
+            href: "https://github.com/duducheng/Learning-Notes"
+        },
+        {
+            tag: "2048 Game API",
+            href: "https://github.com/duducheng/2048-api"
+        }
+    ]
+};
 
 // const about = {
 //     nameEN: "Chen Li",
@@ -125,44 +125,44 @@
 //     }
 // ];
 
-const site = {
-    year: "2020-2021",
-    url: "https://github.com/lichen14/lichen14.github.com",
-    lastUpdated: "April 15, 2021",
-    showPageviews: false,
-    navbar: [
-        {
-            tag: "Home",
-            href: "#"
-        },
-        {
-            tag: "Publications",
-            href: "#publications"
-        },
-        {
-            tag: "More",
-            href: "#honors"
-        },
-    ],
-    relatedProjects: [
-        {
-            tag: "AI Deadlines (CV-oriented)",
-            href: "https://m3dv.github.io/ai-deadlines/"
-        },
-        {
-            tag: "Deep Learning Kickstart",
-            href: "https://github.com/M3DV/Kickstart"
-        },
-        {
-            tag: "My Learning Notes",
-            href: "https://github.com/duducheng/Learning-Notes"
-        },
-        {
-            tag: "2048 Game API",
-            href: "https://github.com/duducheng/2048-api"
-        }
-    ]
-};
+// const site = {
+//     year: "2020-2021",
+//     url: "https://github.com/lichen14/lichen14.github.com",
+//     lastUpdated: "April 15, 2021",
+//     showPageviews: false,
+//     navbar: [
+//         {
+//             tag: "Home",
+//             href: "#"
+//         },
+//         {
+//             tag: "Publications",
+//             href: "#publications"
+//         },
+//         {
+//             tag: "More",
+//             href: "#honors"
+//         },
+//     ],
+//     relatedProjects: [
+//         {
+//             tag: "AI Deadlines (CV-oriented)",
+//             href: "https://m3dv.github.io/ai-deadlines/"
+//         },
+//         {
+//             tag: "Deep Learning Kickstart",
+//             href: "https://github.com/M3DV/Kickstart"
+//         },
+//         {
+//             tag: "My Learning Notes",
+//             href: "https://github.com/duducheng/Learning-Notes"
+//         },
+//         {
+//             tag: "2048 Game API",
+//             href: "https://github.com/duducheng/2048-api"
+//         }
+//     ]
+// };
 
 const about = {
     nameEN: "Chen Li",

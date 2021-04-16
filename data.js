@@ -65,7 +65,7 @@ const about = {
 
 const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
 
-I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored X+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS.`
+I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored X+ papers on top-tier journals / conferences, e.g., Computers & Graphics, ICIP, Applied Sciences and MICAD.`
 
 const news = [
     {
@@ -129,31 +129,29 @@ const news = [
 
 const publications = [
     {
-        title: "3D Human Action Representation Learning via Cross-View Consistency Pursuit",
-        file: "#TODO",
-        venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-        abbr: "CVPR",
-        year: "2021",
-        authors: ["Linguo Li", "Minsi Wang", "Bingbing Ni", "Hang Wang", "Jiancheng Yang", "Wenjun Zhang"],
-        img: "assets/imgs/LLG CVPR21.png",
+        title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
+        venue: "Applied Sciences",
+        year: "2020",
+        authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
+        //img: "assets/imgs/LLG CVPR21.png",
         materials: [
             {
                 tag: "publication",
-                href: "#TODO"
+                href: "#"
             },
             {
                 tag: "code",
-                href: "https://github.com/LinguoLi/CrosSCLR"
+                href: "TODO"
             }
         ]
     },
     {
-        title: "MedMNIST Classification Decathlon: A Lightweight AutoML Benchmark for Medical Image Analysis",
+        title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
         file: "assets/publication/MedMNIST ISBI21.pdf",
-        venue: "IEEE International Symposium on Biomedical Imaging",
-        abbr: "ISBI",
-        year: "2021",
-        authors: ["Jiancheng Yang", "Rui Shi", "Bingbing Ni"],
+        venue: "Applied Sciences",
+//         abbr: "ISBI",
+        year: "2020",
+        authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
         img: "assets/imgs/MedMNIST 2010.14925.jpg",
         materials: [
             {
@@ -179,12 +177,12 @@ const publications = [
         ]
     },
     {
-        title: "Reinventing 2D Convolutions for 3D Images",
+        title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
         file: "assets/publication/ACSConv JBHI.pdf",
-        venue: "IEEE Journal of Biomedical and Health Informatics",
-        abbr: "IEEE JBHI",
-        year: "2021",
-        authors: ["Jiancheng Yang*", "Xiaoyang Huang*", "Yi He", "Jingwei Xu", "Canqian Yang", "Guozheng Xu", "Bingbing Ni"],
+        venue: "Computers & Graphics",
+//         abbr: "IEEE JBHI",
+        year: "2020",
+        authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yulin He", "Yuanming Gao", "Fei Li"],
         img: "assets/imgs/ACSConv 1911.10477.jpg",
         materials: [
             {
@@ -194,51 +192,52 @@ const publications = [
             {
                 tag: "code",
                 href: "https://github.com/M3DV/ACSConv"
-            },
-            {
-                tag: "preprint",
-                href: "https://arxiv.org/abs/1911.10477"
             }
+//             ,
+//             {
+//                 tag: "preprint",
+//                 href: "https://arxiv.org/abs/1911.10477"
+//             }
         ]
     },
+//     {
+//         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
+//         file: "assets/publication/FracNet EBioMedicine.pdf",
+//         venue: "EBioMedicine (by The Lancet)",
+//         year: "2020",
+//         authors: ["Liang Jin*", "Jiancheng Yang*", "Kaiming Kuang", "Bingbing Ni", "Yiyi Gao", "Yingli Sun", "Pan Gao", "Weiling Ma", "Mingyu Tan", "Hui Kang", "Jiajun Chen", "Ming Li"],
+//         img: "assets/imgs/FracNet EBioMedicine.png",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "https://doi.org/10.1016/j.ebiom.2020.103106"
+//             },
+//             {
+//                 tag: "project page",
+//                 href: "https://m3dv.github.io/FracNet/"
+//             },
+//             {
+//                 tag: "code",
+//                 href: "https://github.com/M3DV/FracNet"
+//             },
+//             {
+//                 tag: "dataset",
+//                 href: "https://ribfrac.grand-challenge.org/"
+//             },
+//             {
+//                 tag: "commentary",
+//                 href: "https://doi.org/10.1016/j.ebiom.2020.103158"
+//             }
+//         ]
+//     },
     {
-        title: "Deep-Learning-Assisted Detection and Segmentation of Rib Fractures from CT Scans: Development and Validation of FracNet",
-        file: "assets/publication/FracNet EBioMedicine.pdf",
-        venue: "EBioMedicine (by The Lancet)",
-        year: "2020",
-        authors: ["Liang Jin*", "Jiancheng Yang*", "Kaiming Kuang", "Bingbing Ni", "Yiyi Gao", "Yingli Sun", "Pan Gao", "Weiling Ma", "Mingyu Tan", "Hui Kang", "Jiajun Chen", "Ming Li"],
-        img: "assets/imgs/FracNet EBioMedicine.png",
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1016/j.ebiom.2020.103106"
-            },
-            {
-                tag: "project page",
-                href: "https://m3dv.github.io/FracNet/"
-            },
-            {
-                tag: "code",
-                href: "https://github.com/M3DV/FracNet"
-            },
-            {
-                tag: "dataset",
-                href: "https://ribfrac.grand-challenge.org/"
-            },
-            {
-                tag: "commentary",
-                href: "https://doi.org/10.1016/j.ebiom.2020.103158"
-            }
-        ]
-    },
-    {
-        title: "Learning Black-Box Attackers with Transferable Priors and Query Feedback",
+        title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
         file: "assets/publication/LeBA NeurIPS20.pdf",
-        venue: "Neural Information Processing Systems",
-        abbr: "NeurIPS",
+        venue: "IEEE International Conference on Image Processing",
+        abbr: "ICIP",
         year: "2020",
-        authors: ["Jiancheng Yang*", "Yangzhou Jiang*", "Xiaoyang Huang", "Bingbing Ni", "Chenglong Zhao"],
-        img: "assets/imgs/LeBA NeurIPS20.png",
+        authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yuanming Gao", "Xiaogang Jia", "Zhiying Wang"],
+//         img: "assets/imgs/LeBA NeurIPS20.png",
         materials: [
             {
                 tag: "publication",
@@ -246,303 +245,305 @@ const publications = [
             },
             {
                 tag: "code",
-                href: "https://github.com/TrustworthyDL/LeBA"
+                href: "#TODO"
             },
+//             {
+//                 tag: "short slides",
+//                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
+//             },
             {
-                tag: "short slides",
-                href: "assets/materials/LeBA NeurIPS20 slides.pdf"
-            },
-            {
-                tag: "long slides",
+                tag: "slides",
                 href: "assets/materials/LeBA NeurIPS20 long_slides.pdf"
-            },
-            {
-                tag: "poster",
-                href: "assets/materials/LeBA NeurIPS20 poster.pdf"
+            }
+//             ,
+//             {
+//                 tag: "poster",
+//                 href: "assets/materials/LeBA NeurIPS20 poster.pdf"
             }
         ]
     },
+//     {
+//         title: "医学三维计算机视觉: 研究进展和挑战",
+//         file: "assets/publication/M3DV CJIG.pdf",
+//         note: "Advances and Challenges in Medical 3D Computer Vision; in Chinese",
+//         venue: "中国图象图形学报 (Journal of Image and Graphics)",
+//         year: "2020",
+//         authors: ["Jiancheng Yang", "Bingbing Ni"],
+//         img: "assets/imgs/M3DV CJIG.jpg",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "http://doi.org/10.11834/jig.200244"
+//             }
+//         ]
+//     },
     {
-        title: "医学三维计算机视觉: 研究进展和挑战",
-        file: "assets/publication/M3DV CJIG.pdf",
-        note: "Advances and Challenges in Medical 3D Computer Vision; in Chinese",
-        venue: "中国图象图形学报 (Journal of Image and Graphics)",
-        year: "2020",
-        authors: ["Jiancheng Yang", "Bingbing Ni"],
-        img: "assets/imgs/M3DV CJIG.jpg",
-        materials: [
-            {
-                tag: "publication",
-                href: "http://doi.org/10.11834/jig.200244"
-            }
-        ]
-    },
-    {
-        title: "AlignShift: Bridging the Gap of Imaging Thickness in 3D Anisotropic Volumes",
+        title: "Application of U-Shaped Convolutional Neural Network Based on Attention Mechanism in Liver CT Image Segmentation",
         file: "assets/publication/AlignShift MICCAI20.pdf",
-        venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
-        abbr: "MICCAI",
+        venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
+        abbr: "MICAD",
         year: "2020",
-        authors: ["Jiancheng Yang*", "Yi He*", "Xiaoyang Huang", "Jingwei Xu", "Xiaodan Ye", "Guangyu Tao", "Bingbing Ni"],
-        highlight: "Early Accepted",
+        authors: ["Chen Li", "Wei Chen", "Xin Luo", "Mingfei Wu", "Xiaogang Jia", "Yusong Tan","Zhiying Wang"],
+//         highlight: "Early Accepted",
         materials: [
             {
                 tag: "publication",
                 href: "http://doi.org/10.1007/978-3-030-59719-1_55",
-            },
-            {
-                tag: "code",
-                href: "https://github.com/M3DV/AlignShift",
-            },
-            {
-                tag: "video",
-                href: "https://www.bilibili.com/video/BV1qT4y1c73k/"
-            },
-            {
-                tag: "slides",
-                href: "assets/materials/AlignShift MICCAI20 slides.pdf"
-            },
-            {
-                tag: "graphical abstract",
-                href: "assets/materials/AlignShift MICCAI20 abstract.pdf"
             }
+//             {
+//                 tag: "code",
+//                 href: "#TODO",
+//             },
+//             {
+//                 tag: "video",
+//                 href: "https://www.bilibili.com/video/BV1qT4y1c73k/"
+//             },
+//             {
+//                 tag: "slides",
+//                 href: "assets/materials/AlignShift MICCAI20 slides.pdf"
+//             },
+//             {
+//                 tag: "graphical abstract",
+//                 href: "assets/materials/AlignShift MICCAI20 abstract.pdf"
+//             }
         ],
-        img: "assets/imgs/AlignShift MICCAI20.jpg"
-    },
-    {
-        title: "Hierarchical Classification of Pulmonary Lesions: A Large-Scale Radio-Pathomics Study",
-        file: "assets/publication/Hier MICCAI20.pdf",
-        venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
-        abbr: "MICCAI",
-        year: "2020",
-        authors: ["Jiancheng Yang*", "Mingze Gao*", "Kaiming Kuang", "Bingbing Ni", "Yunlang She", "Dong Xie", "Chang Chen"],
-        highlight: "Early Accepted",
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1007/978-3-030-59725-2_48",
-            },
-            {
-                tag: "video",
-                href: "https://www.bilibili.com/video/BV11a4y157TR/"
-            },
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS2thQ1ZpSWtYb0lZ"
-            },
-            {
-                tag: "graphical abstract",
-                href: "assets/materials/Hier MICCAI20 abstract.pdf"
-            }
-        ],
-        img: "assets/imgs/Hier MICCAI20.jpg"
-    },
-    {
-        title: "MIA-Prognosis: A Deep Learning Framework to Predict Therapy Response",
-        file: "assets/publication/MIA MICCAI20.pdf",
-        venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
-        abbr: "MICCAI",
-        year: "2020",
-        authors: ["Jiancheng Yang*", "Jiajun Chen*", "Kaiming Kuang", "Tiancheng Lin", "Junjun He", "Bingbing Ni"],
-        highlight: "Early Accepted; Student Travel Award",
-        materials: [
-            {
-                tag: "publication",
-                href: "http://doi.org/10.1007/978-3-030-59713-9_21",
-            },
-            {
-                tag: "video",
-                href: "https://www.bilibili.com/video/BV1AV411278k/"
-            },
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS3JDVGhyR2dScFdp"
-            },
-            {
-                tag: "graphical abstract",
-                href: "assets/materials/MIA MICCAI20 abstract.pdf"
-            },
-            {
-                tag: "code",
-                href: "https://github.com/M3DV/SimTA"
-            }
-        ],
-        img: "assets/imgs/MIA MICCAI20.jpg"
-    },
-    {
-        title: "Learning Tumor Growth via Follow-Up Volume Prediction for Lung Nodules",
-        file: "assets/publication/NoFo MICCAI20.pdf",
-        venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
-        abbr: "MICCAI",
-        year: "2020",
-        authors: ["Yamin Li*", "Jiancheng Yang*", "Yi Xu", "Jingwei Xu", "Xiaodan Ye", 'Guangyu Tao', 'Xueqian Xie', 'Liu Guixue'],
-        img: "assets/imgs/NoFo MICCAI20.jpg",
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1007/978-3-030-59725-2_49",
-            },
-            {
-                tag: "video",
-                href: "https://www.bilibili.com/video/BV1954y117Rz/"
-            },
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS1ZnUENFc1Rra1lt"
-            },
-            {
-                tag: "graphical abstract",
-                href: "assets/materials/NoFo MICCAI20 abstract.pdf"
-            }
-        ]
-    },
-    {
-        title: "Decoupled Gradient Harmonized Detector for Partial Annotation: Application to Signet Ring Cell Detection",
-        file: "assets/publication/LTC Neurocomputing.pdf",
-        note: "1st runner up solution for MICCAI DigestPath 2019 challenge detection track",
-        venue: "Neurocomputing",
-        year: "2020",
-        authors: ["Tiancheng Lin", 'Yuanfan Guo', 'Canqian Yang', 'Jiancheng Yang', "Yi Xu"],
-        img: "assets/imgs/LTC Neurocomputing.jpg"
-    },
-    {
-        title: "Deep Kinematics Analysis for Monocular 3D Pose Estimation",
-        file: "assets/publication/XJW CVPR20.pdf",
-        venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-        abbr: "CVPR",
-        year: "2020",
-        authors: ["Jingwei Xu", "Zhenbo Yu", "Bingbing Ni", "Jiancheng Yang", "Xiaokang Yang", "Wenjun Zhang"],
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1109/CVPR42600.2020.00098",
-            },
-            {
-                tag: "video",
-                href: "https://www.youtube.com/watch?v=zm0yYZOsMig"
-            }
-        ],
-        img: "assets/imgs/XJW CVPR20.jpg"
-    },
-    {
-        title: "Relational Learning between Multiple Pulmonary Nodules via Deep Set Attention Transformers",
-        file: "assets/publication/NoduleSAT ISBI20.pdf",
-        venue: "IEEE International Symposium on Biomedical Imaging",
-        abbr: "ISBI",
-        year: "2020",
-        authors: ["Jiancheng Yang", "Haoran Deng", "Xiaoyang Huang", "Bingbing Ni", "Yi Xu"],
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1109/ISBI45749.2020.9098722"
-            },
-            {
-                tag: "slides",
-                href: "assets/materials/NoduleSAT ISBI20 slides.pdf"
-            },
-            {
-                tag: "video",
-                href: "https://www.bilibili.com/video/BV1AK411K7GW/",
-            }
-        ],
-        img: "assets/imgs/NoduleSAT ISBI20.jpg"
-    },
-    {
-        title: "Dynamic Points Agglomeration for Hierarchical Point Sets Learning",
-        file: "assets/publication/LJX ICCV19.pdf",
-        venue: "IEEE International Conference on Computer Vision",
-        abbr: "ICCV",
-        year: "2019",
-        authors: ["Jinxian Liu", "Bingbing Ni", "Caiyuan Li", "Jiancheng Yang", "Qi Tian"],
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1109/ICCV.2019.00764"
-            }
-        ],
-        img: "assets/imgs/LJX ICCV19.jpg"
-    },
-    {
-        title: "Probabilistic Radiomics: Ambiguous Diagnosis with Controllable Shape Analysis",
-        file: "assets/publication/Radiomics MICCAI19.pdf",
-        venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
-        abbr: "MICCAI",
-        year: "2019",
-        authors: ["Jiancheng Yang*", "Rongyao Fang*", "Bingbing Ni", "Yamin Li", "Yi Xu", "Linguo Li"],
-        highlight: "Early Accepted",
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1007/978-3-030-32226-7_73"
-            },
-            {
-                tag: "poster",
-                href: "assets/materials/MICCAI19_poster_581.pdf"
-            }
-        ],
-        img: "assets/imgs/Radiomics MICCAI19.jpg"
-    },
-    {
-        title: "Toward Automatic Prediction of EGFR Mutation Status in Pulmonary Adenocarcinoma with 3D Deep Learning",
-        file: "assets/publication/EGFR Cancer Medicine.pdf",
-        venue: "Cancer Medicine",
-        year: "2019",
-        authors: ["Wei Zhao*", "Jiancheng Yang*", "Bingbing Ni", "Dexi Bi", "Yingli Sun", "Mengdi Xu", "Xiaoxia Zhu", "Cheng Li", "Liang Jin", "Pan Gao", "Peijun Wang", "Yanqing Hua", "Ming Li"],
-        highlight: "Cover Article",
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1002/cam4.2233"
-            },
-            {
-                tag: "cover image",
-                href: "https://doi.org/10.1002/cam4.2391"
-            }
-        ],
-        img: "assets/imgs/EGFR Cancer Medicine.jpg"
-    },
-    {
-        title: "Modeling Point Clouds with Self-Attention and Gumbel Subset Sampling",
-        file: "assets/publication/PAT CVPR19.pdf",
-        venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-        abbr: "CVPR",
-        year: "2019",
-        authors: ["Jiancheng Yang", "Qiang Zhang", "Bingbing Ni", "Linguo Li", "Jinxian Liu", "Qi Tian"],
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1109/CVPR.2019.00344"
-            },
-            {
-                tag: "poster",
-                href: "assets/materials/cvpr19_poster_2003.pdf"
-            }
-        ],
-        img: "assets/imgs/PAT CVPR19.jpg"
-    },
-    {
-        title: "3D Deep Learning from CT Scans Predicts Tumor Invasiveness of Subcentimeter Pulmonary Adenocarcinomas",
-        file: "assets/publication/Invasiveness Cancer Research.pdf",
-        venue: "Cancer Research",
-        year: "2018",
-        authors: ["Wei Zhao*", "Jiancheng Yang*", "Yingli Sun", "Cheng Li", "Weilan Wu", "Liang Jin", "Zhiming Yang", "Bingbing Ni", "Pan Gao", "Peijun Wang", "Yanqing Hua", "Ming Li"],
-        highlight: "Impact Factor: 9.130",
-        materials: [
-            {
-                tag: "publication",
-                href: "http://doi.org/10.1158/0008-5472.CAN-18-0696"
-            },
-            {
-                tag: "code",
-                href: "https://github.com/duducheng/DenseSharp"
-            },
-            {
-                tag: "graphical abstract",
-                href: "assets/materials/CR Graphical Abstract.pdf"
-            }
-        ],
-        img: "assets/imgs/Invasiveness Cancer Research.jpg"
+//         img: "assets/imgs/AlignShift MICCAI20.jpg"
     }
+//     ,
+//     {
+//         title: "Hierarchical Classification of Pulmonary Lesions: A Large-Scale Radio-Pathomics Study",
+//         file: "assets/publication/Hier MICCAI20.pdf",
+//         venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+//         abbr: "MICCAI",
+//         year: "2020",
+//         authors: ["Jiancheng Yang*", "Mingze Gao*", "Kaiming Kuang", "Bingbing Ni", "Yunlang She", "Dong Xie", "Chang Chen"],
+//         highlight: "Early Accepted",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "https://doi.org/10.1007/978-3-030-59725-2_48",
+//             },
+//             {
+//                 tag: "video",
+//                 href: "https://www.bilibili.com/video/BV11a4y157TR/"
+//             },
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS2thQ1ZpSWtYb0lZ"
+//             },
+//             {
+//                 tag: "graphical abstract",
+//                 href: "assets/materials/Hier MICCAI20 abstract.pdf"
+//             }
+//         ],
+//         img: "assets/imgs/Hier MICCAI20.jpg"
+//     },
+//     {
+//         title: "MIA-Prognosis: A Deep Learning Framework to Predict Therapy Response",
+//         file: "assets/publication/MIA MICCAI20.pdf",
+//         venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+//         abbr: "MICCAI",
+//         year: "2020",
+//         authors: ["Jiancheng Yang*", "Jiajun Chen*", "Kaiming Kuang", "Tiancheng Lin", "Junjun He", "Bingbing Ni"],
+//         highlight: "Early Accepted; Student Travel Award",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "http://doi.org/10.1007/978-3-030-59713-9_21",
+//             },
+//             {
+//                 tag: "video",
+//                 href: "https://www.bilibili.com/video/BV1AV411278k/"
+//             },
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS3JDVGhyR2dScFdp"
+//             },
+//             {
+//                 tag: "graphical abstract",
+//                 href: "assets/materials/MIA MICCAI20 abstract.pdf"
+//             },
+//             {
+//                 tag: "code",
+//                 href: "https://github.com/M3DV/SimTA"
+//             }
+//         ],
+//         img: "assets/imgs/MIA MICCAI20.jpg"
+//     },
+//     {
+//         title: "Learning Tumor Growth via Follow-Up Volume Prediction for Lung Nodules",
+//         file: "assets/publication/NoFo MICCAI20.pdf",
+//         venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+//         abbr: "MICCAI",
+//         year: "2020",
+//         authors: ["Yamin Li*", "Jiancheng Yang*", "Yi Xu", "Jingwei Xu", "Xiaodan Ye", 'Guangyu Tao', 'Xueqian Xie', 'Liu Guixue'],
+//         img: "assets/imgs/NoFo MICCAI20.jpg",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "https://doi.org/10.1007/978-3-030-59725-2_49",
+//             },
+//             {
+//                 tag: "video",
+//                 href: "https://www.bilibili.com/video/BV1954y117Rz/"
+//             },
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS1ZnUENFc1Rra1lt"
+//             },
+//             {
+//                 tag: "graphical abstract",
+//                 href: "assets/materials/NoFo MICCAI20 abstract.pdf"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Decoupled Gradient Harmonized Detector for Partial Annotation: Application to Signet Ring Cell Detection",
+//         file: "assets/publication/LTC Neurocomputing.pdf",
+//         note: "1st runner up solution for MICCAI DigestPath 2019 challenge detection track",
+//         venue: "Neurocomputing",
+//         year: "2020",
+//         authors: ["Tiancheng Lin", 'Yuanfan Guo', 'Canqian Yang', 'Jiancheng Yang', "Yi Xu"],
+//         img: "assets/imgs/LTC Neurocomputing.jpg"
+//     },
+//     {
+//         title: "Deep Kinematics Analysis for Monocular 3D Pose Estimation",
+//         file: "assets/publication/XJW CVPR20.pdf",
+//         venue: "IEEE Conference on Computer Vision and Pattern Recognition",
+//         abbr: "CVPR",
+//         year: "2020",
+//         authors: ["Jingwei Xu", "Zhenbo Yu", "Bingbing Ni", "Jiancheng Yang", "Xiaokang Yang", "Wenjun Zhang"],
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "https://doi.org/10.1109/CVPR42600.2020.00098",
+//             },
+//             {
+//                 tag: "video",
+//                 href: "https://www.youtube.com/watch?v=zm0yYZOsMig"
+//             }
+//         ],
+//         img: "assets/imgs/XJW CVPR20.jpg"
+//     },
+//     {
+//         title: "Relational Learning between Multiple Pulmonary Nodules via Deep Set Attention Transformers",
+//         file: "assets/publication/NoduleSAT ISBI20.pdf",
+//         venue: "IEEE International Symposium on Biomedical Imaging",
+//         abbr: "ISBI",
+//         year: "2020",
+//         authors: ["Jiancheng Yang", "Haoran Deng", "Xiaoyang Huang", "Bingbing Ni", "Yi Xu"],
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "https://doi.org/10.1109/ISBI45749.2020.9098722"
+//             },
+//             {
+//                 tag: "slides",
+//                 href: "assets/materials/NoduleSAT ISBI20 slides.pdf"
+//             },
+//             {
+//                 tag: "video",
+//                 href: "https://www.bilibili.com/video/BV1AK411K7GW/",
+//             }
+//         ],
+//         img: "assets/imgs/NoduleSAT ISBI20.jpg"
+//     },
+//     {
+//         title: "Dynamic Points Agglomeration for Hierarchical Point Sets Learning",
+//         file: "assets/publication/LJX ICCV19.pdf",
+//         venue: "IEEE International Conference on Computer Vision",
+//         abbr: "ICCV",
+//         year: "2019",
+//         authors: ["Jinxian Liu", "Bingbing Ni", "Caiyuan Li", "Jiancheng Yang", "Qi Tian"],
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "https://doi.org/10.1109/ICCV.2019.00764"
+//             }
+//         ],
+//         img: "assets/imgs/LJX ICCV19.jpg"
+//     },
+//     {
+//         title: "Probabilistic Radiomics: Ambiguous Diagnosis with Controllable Shape Analysis",
+//         file: "assets/publication/Radiomics MICCAI19.pdf",
+//         venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+//         abbr: "MICCAI",
+//         year: "2019",
+//         authors: ["Jiancheng Yang*", "Rongyao Fang*", "Bingbing Ni", "Yamin Li", "Yi Xu", "Linguo Li"],
+//         highlight: "Early Accepted",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "https://doi.org/10.1007/978-3-030-32226-7_73"
+//             },
+//             {
+//                 tag: "poster",
+//                 href: "assets/materials/MICCAI19_poster_581.pdf"
+//             }
+//         ],
+//         img: "assets/imgs/Radiomics MICCAI19.jpg"
+//     },
+//     {
+//         title: "Toward Automatic Prediction of EGFR Mutation Status in Pulmonary Adenocarcinoma with 3D Deep Learning",
+//         file: "assets/publication/EGFR Cancer Medicine.pdf",
+//         venue: "Cancer Medicine",
+//         year: "2019",
+//         authors: ["Wei Zhao*", "Jiancheng Yang*", "Bingbing Ni", "Dexi Bi", "Yingli Sun", "Mengdi Xu", "Xiaoxia Zhu", "Cheng Li", "Liang Jin", "Pan Gao", "Peijun Wang", "Yanqing Hua", "Ming Li"],
+//         highlight: "Cover Article",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "https://doi.org/10.1002/cam4.2233"
+//             },
+//             {
+//                 tag: "cover image",
+//                 href: "https://doi.org/10.1002/cam4.2391"
+//             }
+//         ],
+//         img: "assets/imgs/EGFR Cancer Medicine.jpg"
+//     },
+//     {
+//         title: "Modeling Point Clouds with Self-Attention and Gumbel Subset Sampling",
+//         file: "assets/publication/PAT CVPR19.pdf",
+//         venue: "IEEE Conference on Computer Vision and Pattern Recognition",
+//         abbr: "CVPR",
+//         year: "2019",
+//         authors: ["Jiancheng Yang", "Qiang Zhang", "Bingbing Ni", "Linguo Li", "Jinxian Liu", "Qi Tian"],
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "https://doi.org/10.1109/CVPR.2019.00344"
+//             },
+//             {
+//                 tag: "poster",
+//                 href: "assets/materials/cvpr19_poster_2003.pdf"
+//             }
+//         ],
+//         img: "assets/imgs/PAT CVPR19.jpg"
+//     },
+//     {
+//         title: "3D Deep Learning from CT Scans Predicts Tumor Invasiveness of Subcentimeter Pulmonary Adenocarcinomas",
+//         file: "assets/publication/Invasiveness Cancer Research.pdf",
+//         venue: "Cancer Research",
+//         year: "2018",
+//         authors: ["Wei Zhao*", "Jiancheng Yang*", "Yingli Sun", "Cheng Li", "Weilan Wu", "Liang Jin", "Zhiming Yang", "Bingbing Ni", "Pan Gao", "Peijun Wang", "Yanqing Hua", "Ming Li"],
+//         highlight: "Impact Factor: 9.130",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "http://doi.org/10.1158/0008-5472.CAN-18-0696"
+//             },
+//             {
+//                 tag: "code",
+//                 href: "https://github.com/duducheng/DenseSharp"
+//             },
+//             {
+//                 tag: "graphical abstract",
+//                 href: "assets/materials/CR Graphical Abstract.pdf"
+//             }
+//         ],
+//         img: "assets/imgs/Invasiveness Cancer Research.jpg"
+//     }
 ];
 
 const preprints = [

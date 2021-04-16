@@ -327,36 +327,36 @@ const publications = [
 //             }
         ]
     },
-// //     {
-// //         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
-// //         file: "assets/publication/FracNet EBioMedicine.pdf",
-// //         venue: "EBioMedicine (by The Lancet)",
-// //         year: "2020",
-// //         authors: ["Liang Jin*", "Jiancheng Yang*", "Kaiming Kuang", "Bingbing Ni", "Yiyi Gao", "Yingli Sun", "Pan Gao", "Weiling Ma", "Mingyu Tan", "Hui Kang", "Jiajun Chen", "Ming Li"],
-// //         img: "assets/imgs/FracNet EBioMedicine.png",
-// //         materials: [
-// //             {
-// //                 tag: "publication",
-// //                 href: "https://doi.org/10.1016/j.ebiom.2020.103106"
-// //             },
-// //             {
-// //                 tag: "project page",
-// //                 href: "https://m3dv.github.io/FracNet/"
-// //             },
-// //             {
-// //                 tag: "code",
-// //                 href: "https://github.com/M3DV/FracNet"
-// //             },
-// //             {
-// //                 tag: "dataset",
-// //                 href: "https://ribfrac.grand-challenge.org/"
-// //             },
-// //             {
-// //                 tag: "commentary",
-// //                 href: "https://doi.org/10.1016/j.ebiom.2020.103158"
-// //             }
-// //         ]
-// //     },
+    {
+        title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
+        file: "assets/publication/FracNet EBioMedicine.pdf",
+        venue: "EBioMedicine (by The Lancet)",
+        year: "2020",
+        authors: ["Liang Jin*", "Jiancheng Yang*", "Kaiming Kuang", "Bingbing Ni", "Yiyi Gao", "Yingli Sun", "Pan Gao", "Weiling Ma", "Mingyu Tan", "Hui Kang", "Jiajun Chen", "Ming Li"],
+        img: "assets/imgs/FracNet EBioMedicine.png",
+        materials: [
+            {
+                tag: "publication",
+                href: "https://doi.org/10.1016/j.ebiom.2020.103106"
+            },
+            {
+                tag: "project page",
+                href: "https://m3dv.github.io/FracNet/"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/M3DV/FracNet"
+            },
+            {
+                tag: "dataset",
+                href: "https://ribfrac.grand-challenge.org/"
+            },
+            {
+                tag: "commentary",
+                href: "https://doi.org/10.1016/j.ebiom.2020.103158"
+            }
+        ]
+    },
 //     {
 //         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
 //         file: "assets/publication/LeBA NeurIPS20.pdf",

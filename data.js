@@ -437,12 +437,10 @@ const publications = [
 //         img: "assets/imgs/AlignShift MICCAI20.jpg"
 //     },
     {
-        title: "3D Human Action Representation Learning via Cross-View Consistency Pursuit",
-        file: "#TODO",
-        venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-        abbr: "CVPR",
-        year: "2021",
-        authors: ["Linguo Li", "Minsi Wang", "Bingbing Ni", "Hang Wang", "Jiancheng Yang", "Wenjun Zhang"],
+        title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
+        venue: "Applied Sciences",
+        year: "2020",
+        authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
         img: "assets/imgs/LLG CVPR21.png",
         materials: [
             {

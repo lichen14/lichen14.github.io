@@ -330,9 +330,10 @@ const publications = [
     {
         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
         file: "assets/publication/FracNet EBioMedicine.pdf",
-        venue: "EBioMedicine (by The Lancet)",
+        venue: "IEEE International Conference on Image Processing",
+        abbr: "ICIP",
         year: "2020",
-        authors: ["Liang Jin*", "Jiancheng Yang*", "Kaiming Kuang", "Bingbing Ni", "Yiyi Gao", "Yingli Sun", "Pan Gao", "Weiling Ma", "Mingyu Tan", "Hui Kang", "Jiajun Chen", "Ming Li"],
+        authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yuanming Gao", "Xiaogang Jia", "Zhiying Wang"],
         img: "assets/imgs/FracNet EBioMedicine.png",
         materials: [
             {
@@ -404,38 +405,38 @@ const publications = [
 // //             }
 // //         ]
 // //     },
-//     {
-//         title: "Application of U-Shaped Convolutional Neural Network Based on Attention Mechanism in Liver CT Image Segmentation",
-//         file: "assets/publication/AlignShift MICCAI20.pdf",
-//         venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
-//         abbr: "MICAD",
-//         year: "2020",
-//         authors: ["Chen Li", "Wei Chen", "Xin Luo", "Mingfei Wu", "Xiaogang Jia", "Yusong Tan", "Zhiying Wang"],
-// //         highlight: "Early Accepted",
-//         materials: [
+    {
+        title: "Application of U-Shaped Convolutional Neural Network Based on Attention Mechanism in Liver CT Image Segmentation",
+        file: "assets/publication/AlignShift MICCAI20.pdf",
+        venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
+        abbr: "MICAD",
+        year: "2020",
+        authors: ["Chen Li", "Wei Chen", "Xin Luo", "Mingfei Wu", "Xiaogang Jia", "Yusong Tan", "Zhiying Wang"],
+//         highlight: "Early Accepted",
+        materials: [
+            {
+                tag: "publication",
+                href: "http://doi.org/10.1007/978-3-030-59719-1_55"
+            },
+            {
+                tag: "code",
+                href: "#TODO"
+            },
+            {
+                tag: "video",
+                href: "https://www.bilibili.com/video/BV1qT4y1c73k/"
+            },
+            {
+                tag: "slides",
+                href: "assets/materials/AlignShift MICCAI20 slides.pdf"
+            },
 //             {
-//                 tag: "publication",
-//                 href: "http://doi.org/10.1007/978-3-030-59719-1_55",
+//                 tag: "graphical abstract",
+//                 href: "assets/materials/AlignShift MICCAI20 abstract.pdf"
 //             }
-// //             {
-// //                 tag: "code",
-// //                 href: "#TODO",
-// //             },
-// //             {
-// //                 tag: "video",
-// //                 href: "https://www.bilibili.com/video/BV1qT4y1c73k/"
-// //             },
-// //             {
-// //                 tag: "slides",
-// //                 href: "assets/materials/AlignShift MICCAI20 slides.pdf"
-// //             },
-// //             {
-// //                 tag: "graphical abstract",
-// //                 href: "assets/materials/AlignShift MICCAI20 abstract.pdf"
-// //             }
-//         ],
-//         img: "assets/imgs/AlignShift MICCAI20.jpg"
-//     },
+        ],
+        img: "assets/imgs/AlignShift MICCAI20.jpg"
+    },
     {
         title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
         venue: "Applied Sciences",

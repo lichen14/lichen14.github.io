@@ -132,7 +132,7 @@ const publications = [
         venue: "Applied Sciences",
         year: "2020",
         authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
-        //img: "assets/imgs/LLG CVPR21.png",
+        img: "assets/imgs/LLG CVPR21.png",
         materials: [
             {
                 tag: "publication",
@@ -148,7 +148,7 @@ const publications = [
         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
         file: "assets/publication/MedMNIST ISBI21.pdf",
         venue: "Applied Sciences",
-//         abbr: "ISBI",
+        abbr: "ISBI",
         year: "2020",
         authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
         img: "assets/imgs/MedMNIST 2010.14925.jpg",
@@ -282,7 +282,7 @@ const publications = [
         venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
         abbr: "MICAD",
         year: "2020",
-        authors: ["Chen Li", "Wei Chen", "Xin Luo", "Mingfei Wu", "Xiaogang Jia", "Yusong Tan","Zhiying Wang"],
+        authors: ["Chen Li", "Wei Chen", "Xin Luo", "Mingfei Wu", "Xiaogang Jia", "Yusong Tan", "Zhiying Wang"],
 //         highlight: "Early Accepted",
         materials: [
             {
@@ -306,7 +306,7 @@ const publications = [
 //                 href: "assets/materials/AlignShift MICCAI20 abstract.pdf"
 //             }
         ],
-//         img: "assets/imgs/AlignShift MICCAI20.jpg"
+        img: "assets/imgs/AlignShift MICCAI20.jpg"
     }
 //     ,
 //     {

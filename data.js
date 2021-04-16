@@ -1,6 +1,6 @@
 const site = {
     year: "2020-2021",
-    url: "https://github.com/lichen14/lichen14.github.com",
+    url: "https://github.com/lichen14/lichen14.github.io",
     lastUpdated: "April 15, 2021",
     showPageviews: false,
     navbar: [

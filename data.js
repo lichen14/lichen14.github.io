@@ -65,7 +65,7 @@ const about = {
 
 const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan and Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
 
-I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. // I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
+I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored X+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS.`
 
 const news = [
     {

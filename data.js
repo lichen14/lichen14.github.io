@@ -40,7 +40,7 @@ const site = {
 const about = {
     nameEN: "Chen Li",
     nameCN: "李晨",
-    affiliation: "PhD, NUDT",
+    affiliation: "PhD, National University of Defense Technology",
     avatar: "assets/site/personal-square.jpg",
     contacts: [
         {
@@ -63,7 +63,7 @@ const about = {
     ]
 };
 
-const biography = `I am a 1st-year PhD student in the Department of Electronic Engineering, Shanghai Jiao Tong University, advised by <a href="https://scholar.google.com/citations?user=eUbmKwYAAAAJ">Prof. Bingbing Ni</a>. I received BEng and MEng degree in the Department of Automation from the same university. Enrolled in a double master degree program, I spent 2 years in France with an Engineer degree. I was a visiting research fellow in <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University. I am now visiting <a href="https://cvlab.epfl.ch/">EPFL CVLAB</a>, working with <a href="https://people.epfl.ch/pascal.fua">Prof. Pascal Fua</a>. <br>
+const biography = `I am a 1st-year PhD student in the Department of Electronic Engineering, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan and Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br>#I was a visiting research fellow in <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University. I am now visiting <a href="https://cvlab.epfl.ch/">EPFL CVLAB</a>, working with <a href="https://people.epfl.ch/pascal.fua">Prof. Pascal Fua</a>. <br>
 
 I focus on medical image analysis, 3D computer vision and trustworthy machine learning, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
 

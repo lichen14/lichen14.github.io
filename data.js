@@ -1,6 +1,6 @@
 const site = {
     year: "2020-2021",
-    url: "https://github.com/lichen14/duducheng.github.io",
+    url: "https://github.com/lichen14/lichen14.github.com",
     lastUpdated: "April 15, 2021",
     showPageviews: false,
     navbar: [
@@ -45,27 +45,27 @@ const about = {
     contacts: [
         {
             //Please make sure the first one is always Google Scholar.
-            href: "https://scholar.google.com/citations?user=EHkDyiUAAAAJ",
+            href: "https://scholar.google.com/citations?user=?",
             src: "assets/site/google_scholar.jpg"
         },
         {
-            href: "https://www.linkedin.com/in/yangjiancheng/",
+            href: "https://www.linkedin.com/in/lichen14/",
             src: "assets/site/linkedin.jpg"
         },
         {
-            href: "https://github.com/duducheng",
+            href: "https://github.com/lichen14",
             src: "assets/site/github.jpg"
         },
         {
-            href: "mailto:jekyll4168@sjtu.edu.cn",
+            href: "mailto:lichen14@nudt.edu.cn",
             src: "assets/site/mail.png"
         }
     ]
 };
 
-const biography = `I am a 1st-year PhD student in the Department of Electronic Engineering, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan and Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br>#I was a visiting research fellow in <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University. I am now visiting <a href="https://cvlab.epfl.ch/">EPFL CVLAB</a>, working with <a href="https://people.epfl.ch/pascal.fua">Prof. Pascal Fua</a>. <br>
+const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan and Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
 
-I focus on medical image analysis, 3D computer vision and trustworthy machine learning, with a clinical emphasis on lung cancer and thoracic diseases. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
+I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. // I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
 
 const news = [
     {

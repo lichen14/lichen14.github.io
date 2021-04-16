@@ -276,49 +276,49 @@ const publications = [
         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
         file: "assets/publication/MedMNIST ISBI21.pdf",
         venue: "Applied Sciences",
-        abbr: "ISBI",
+//         abbr: "ISBI",
         year: "2020",
-        authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
+        authors: ["Chen Li", "Wei Chen*", "Yusong Tan"],
         img: "assets/imgs/MedMNIST 2010.14925.jpg",
         materials: [
             {
-                tag: "publication",
+                tag: "paper",
                 href: "#TODO"
             },
-            {
-                tag: "project page",
-                href: "https://medmnist.github.io/"
-            },
+//             {
+//                 tag: "project page",
+//                 href: "https://medmnist.github.io/"
+//             },
             {
                 tag: "code",
                 href: "https://github.com/lichen14/RenderUNet-Pytorch"
-            },
-            {
-                tag: "dataset",
-                href: "https://medmnist.github.io/#dataset"
-            },
-            {
-                tag: "preprint",
-                href: "https://arxiv.org/abs/2010.14925"
             }
+//             {
+//                 tag: "dataset",
+//                 href: "https://medmnist.github.io/#dataset"
+//             },
+//             {
+//                 tag: "preprint",
+//                 href: "https://arxiv.org/abs/2010.14925"
+//             }
         ]
     },
     {
         title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
         file: "assets/publication/ACSConv JBHI.pdf",
         venue: "Computers & Graphics",
-//         abbr: "IEEE JBHI",
+//         abbr: "CG",
         year: "2020",
-        authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yulin He", "Yuanming Gao", "Fei Li"],
+        authors: ["Chen Li", "Yusong Tan*", "Wei Chen", "Xin Luo", "Yulin He", "Yuanming Gao", "Fei Li"],
         img: "assets/imgs/ACSConv 1911.10477.jpg",
         materials: [
             {
-                tag: "publication",
+                tag: "paper",
                 href: "https://doi.org/10.1109/JBHI.2021.3049452"
             },
             {
                 tag: "code",
-                href: "https://github.com/M3DV/ACSConv"
+                href: "#TODO"
             }
 //             ,
 //             {
@@ -333,29 +333,29 @@ const publications = [
         venue: "IEEE International Conference on Image Processing",
         abbr: "ICIP",
         year: "2020",
-        authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yuanming Gao", "Xiaogang Jia", "Zhiying Wang"],
+        authors: ["Chen Li", "Yusong Tan*", "Wei Chen", "Xin Luo", "Yuanming Gao", "Xiaogang Jia", "Zhiying Wang"],
         img: "assets/imgs/FracNet EBioMedicine.png",
         materials: [
             {
-                tag: "publication",
+                tag: "paper",
                 href: "https://doi.org/10.1016/j.ebiom.2020.103106"
             },
-            {
-                tag: "project page",
-                href: "https://m3dv.github.io/FracNet/"
-            },
+//             {
+//                 tag: "project page",
+//                 href: "https://m3dv.github.io/FracNet/"
+//             },
             {
                 tag: "code",
-                href: "https://github.com/M3DV/FracNet"
+                href: "#TODO"
             },
-            {
-                tag: "dataset",
-                href: "https://ribfrac.grand-challenge.org/"
-            },
-            {
-                tag: "commentary",
-                href: "https://doi.org/10.1016/j.ebiom.2020.103158"
-            }
+//             {
+//                 tag: "dataset",
+//                 href: "https://ribfrac.grand-challenge.org/"
+//             },
+//             {
+//                 tag: "commentary",
+//                 href: "https://doi.org/10.1016/j.ebiom.2020.103158"
+//             }
         ]
     },
 //     {
@@ -415,7 +415,7 @@ const publications = [
 //         highlight: "Early Accepted",
         materials: [
             {
-                tag: "publication",
+                tag: "paper",
                 href: "http://doi.org/10.1007/978-3-030-59719-1_55"
             },
             {
@@ -441,11 +441,11 @@ const publications = [
         title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
         venue: "Applied Sciences",
         year: "2020",
-        authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
+        authors: ["Chen Li", "Wei Chen*", "Yusong Tan"],
         img: "assets/imgs/LLG CVPR21.png",
         materials: [
             {
-                tag: "publication",
+                tag: "paper",
                 href: "#TODO"
             },
             {
@@ -464,7 +464,7 @@ const publications = [
         img: "assets/imgs/MedMNIST 2010.14925.jpg",
         materials: [
             {
-                tag: "publication",
+                tag: "paper",
                 href: "#TODO"
             },
             {
@@ -495,7 +495,7 @@ const publications = [
         img: "assets/imgs/ACSConv 1911.10477.jpg",
         materials: [
             {
-                tag: "publication",
+                tag: "paper",
                 href: "https://doi.org/10.1109/JBHI.2021.3049452"
             },
             {

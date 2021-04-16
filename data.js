@@ -1,129 +1,129 @@
-const site = {
-    year: "2020-2021",
-    url: "https://github.com/lichen14/duducheng.github.io",
-    lastUpdated: "April 15, 2021",
-    showPageviews: false,
-    navbar: [
-        {
-            tag: "Home",
-            href: "#"
-        },
-        {
-            tag: "Publications",
-            href: "#publications"
-        },
-        {
-            tag: "More",
-            href: "#honors"
-        },
-    ],
-    relatedProjects: [
-        {
-            tag: "AI Deadlines (CV-oriented)",
-            href: "https://m3dv.github.io/ai-deadlines/"
-        },
-        {
-            tag: "Deep Learning Kickstart",
-            href: "https://github.com/M3DV/Kickstart"
-        },
-        {
-            tag: "My Learning Notes",
-            href: "https://github.com/duducheng/Learning-Notes"
-        },
-        {
-            tag: "2048 Game API",
-            href: "https://github.com/duducheng/2048-api"
-        }
-    ]
-};
+// const site = {
+//     year: "2020-2021",
+//     url: "https://github.com/lichen14/duducheng.github.io",
+//     lastUpdated: "April 15, 2021",
+//     showPageviews: false,
+//     navbar: [
+//         {
+//             tag: "Home",
+//             href: "#"
+//         },
+//         {
+//             tag: "Publications",
+//             href: "#publications"
+//         },
+//         {
+//             tag: "More",
+//             href: "#honors"
+//         },
+//     ],
+//     relatedProjects: [
+//         {
+//             tag: "AI Deadlines (CV-oriented)",
+//             href: "https://m3dv.github.io/ai-deadlines/"
+//         },
+//         {
+//             tag: "Deep Learning Kickstart",
+//             href: "https://github.com/M3DV/Kickstart"
+//         },
+//         {
+//             tag: "My Learning Notes",
+//             href: "https://github.com/duducheng/Learning-Notes"
+//         },
+//         {
+//             tag: "2048 Game API",
+//             href: "https://github.com/duducheng/2048-api"
+//         }
+//     ]
+// };
 
-const about = {
-    nameEN: "Chen Li",
-    nameCN: "李晨",
-    affiliation: "PhD, National University of Defense Technology",
-    avatar: "assets/site/personal-square.jpg",
-    contacts: [
-        {
-            //Please make sure the first one is always Google Scholar.
-            href: "https://scholar.google.com/citations?user=?",
-            src: "assets/site/google_scholar.jpg"
-        },
-        {
-            href: "https://www.linkedin.com/in/lichen14/",
-            src: "assets/site/linkedin.jpg"
-        },
-        {
-            href: "https://github.com/lichen14",
-            src: "assets/site/github.jpg"
-        },
-        {
-            href: "mailto:lichen14@nudt.edu.cn",
-            src: "assets/site/mail.png"
-        }
-    ]
-};
+// const about = {
+//     nameEN: "Chen Li",
+//     nameCN: "李晨",
+//     affiliation: "PhD, National University of Defense Technology",
+//     avatar: "assets/site/personal-square.jpg",
+//     contacts: [
+//         {
+//             //Please make sure the first one is always Google Scholar.
+//             href: "https://scholar.google.com/citations?user=?",
+//             src: "assets/site/google_scholar.jpg"
+//         },
+//         {
+//             href: "https://www.linkedin.com/in/lichen14/",
+//             src: "assets/site/linkedin.jpg"
+//         },
+//         {
+//             href: "https://github.com/lichen14",
+//             src: "assets/site/github.jpg"
+//         },
+//         {
+//             href: "mailto:lichen14@nudt.edu.cn",
+//             src: "assets/site/mail.png"
+//         }
+//     ]
+// };
 
-const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
-I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored X+ papers on top-tier journals / conferences, e.g., Computers & Graphics, ICIP, Applied Sciences and MICAD.`
+// const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
+// I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored X+ papers on top-tier journals / conferences, e.g., Computers & Graphics, ICIP, Applied Sciences and MICAD.`
 
-const news = [
-    {
-        "mmyyyy": "03/2021",
-        "text": "1 paper on skeleton-based action recognition was accepted by CVPR'21."
-    },
-    {
-        "mmyyyy": "01/2021",
-        "text": "Our MedMNIST paper was accepted by ISBI'21. (<a href='https://medmnist.github.io/'>project page</a>)"
-    },
-    {
-        "mmyyyy": "01/2021",
-        "text": "Our ACSConv paper was accepted by IEEE JBHI. (<a href='https://arxiv.org/abs/1911.10477'>arXiv</a>)"
-    },
-    {
-        "mmyyyy": "10/2020",
-        "text": "1 paper on rib fracture detection was accepted by EBioMedicine (by The Lancet)!"
-    },
-    {
-        "mmyyyy": "09/2020",
-        "text": "1 paper on black-box attack was accepted by NeurIPS'20!"
-    },
-    {
-        "mmyyyy": "09/2020",
-        "text": "I receive China National PhD Scholarship again ;)"
-    },
-    {
-        "mmyyyy": "08/2020",
-        "text": "Fortunate to receive a <a href='https://bmvc2020.github.io/people/reviewers/'>BMVC 2020 Outstanding Reviewer Award</a>."
-    },
-    {
-        "mmyyyy": "07/2020",
-        "text": "Fortunate to receive a MICCAI 2020 Student Travel Award."
-    },
-    {
-        "mmyyyy": "06/2020",
-        "text": "1 more paper on tumor growth was accepted by MICCAI'20 after rebuttal. (<a href='https://arxiv.org/abs/2006.13890'>arXiv</a>)"
-    },
-    {
-        "mmyyyy": "05/2020",
-        "text": "3 papers (<a href='https://arxiv.org/abs/2005.01969'>universal lesion detection and imaging thickness</a>, hierachical classification, prognosis prediction) were early accepted by MICCAI'20! Lucky ;)"
-    },
-    {
-        "mmyyyy": "04/2020",
-        "text": "1 paper (2nd of MICCAI DigestPath2019) was accepted by Neurocomputing. (<a href='https://arxiv.org/abs/2004.04455'>arXiv</a>)"
-    },
-    {
-        "mmyyyy": "03/2020",
-        "text": "Our <a href='https://ribfrac.grand-challenge.org/'>RibFrac Challenge</a> has been accepted as an official MICCAI 2020 challenge."
-    },
-    {
-        "mmyyyy": "02/2020",
-        "text": "1 paper on 3D pose estimation was accepted by CVPR'20. (<a href='https://openaccess.thecvf.com/content_CVPR_2020/html/Xu_Deep_Kinematics_Analysis_for_Monocular_3D_Human_Pose_Estimation_CVPR_2020_paper.html'>CVF</a>)"
-    },
-    {
-        "mmyyyy": "01/2020",
-        "text": "1 paper on multiple lung nodules was accepted by ISBI'20. (<a href='https://arxiv.org/abs/2004.05640'>arXiv</a>)"
-    }
-];
+// const news = [
+//     {
+//         "mmyyyy": "03/2021",
+//         "text": "1 paper on skeleton-based action recognition was accepted by CVPR'21."
+//     },
+//     {
+//         "mmyyyy": "01/2021",
+//         "text": "Our MedMNIST paper was accepted by ISBI'21. (<a href='https://medmnist.github.io/'>project page</a>)"
+//     },
+//     {
+//         "mmyyyy": "01/2021",
+//         "text": "Our ACSConv paper was accepted by IEEE JBHI. (<a href='https://arxiv.org/abs/1911.10477'>arXiv</a>)"
+//     },
+//     {
+//         "mmyyyy": "10/2020",
+//         "text": "1 paper on rib fracture detection was accepted by EBioMedicine (by The Lancet)!"
+//     },
+//     {
+//         "mmyyyy": "09/2020",
+//         "text": "1 paper on black-box attack was accepted by NeurIPS'20!"
+//     },
+//     {
+//         "mmyyyy": "09/2020",
+//         "text": "I receive China National PhD Scholarship again ;)"
+//     },
+//     {
+//         "mmyyyy": "08/2020",
+//         "text": "Fortunate to receive a <a href='https://bmvc2020.github.io/people/reviewers/'>BMVC 2020 Outstanding Reviewer Award</a>."
+//     },
+//     {
+//         "mmyyyy": "07/2020",
+//         "text": "Fortunate to receive a MICCAI 2020 Student Travel Award."
+//     },
+//     {
+//         "mmyyyy": "06/2020",
+//         "text": "1 more paper on tumor growth was accepted by MICCAI'20 after rebuttal. (<a href='https://arxiv.org/abs/2006.13890'>arXiv</a>)"
+//     },
+//     {
+//         "mmyyyy": "05/2020",
+//         "text": "3 papers (<a href='https://arxiv.org/abs/2005.01969'>universal lesion detection and imaging thickness</a>, hierachical classification, prognosis prediction) were early accepted by MICCAI'20! Lucky ;)"
+//     },
+//     {
+//         "mmyyyy": "04/2020",
+//         "text": "1 paper (2nd of MICCAI DigestPath2019) was accepted by Neurocomputing. (<a href='https://arxiv.org/abs/2004.04455'>arXiv</a>)"
+//     },
+//     {
+//         "mmyyyy": "03/2020",
+//         "text": "Our <a href='https://ribfrac.grand-challenge.org/'>RibFrac Challenge</a> has been accepted as an official MICCAI 2020 challenge."
+//     },
+//     {
+//         "mmyyyy": "02/2020",
+//         "text": "1 paper on 3D pose estimation was accepted by CVPR'20. (<a href='https://openaccess.thecvf.com/content_CVPR_2020/html/Xu_Deep_Kinematics_Analysis_for_Monocular_3D_Human_Pose_Estimation_CVPR_2020_paper.html'>CVF</a>)"
+//     },
+//     {
+//         "mmyyyy": "01/2020",
+//         "text": "1 paper on multiple lung nodules was accepted by ISBI'20. (<a href='https://arxiv.org/abs/2004.05640'>arXiv</a>)"
+//     }
+// ];
 
 const site = {
     year: "2020-2021",

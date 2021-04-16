@@ -37,34 +37,34 @@ const site = {
     ]
 };
 
-// const about = {
-//     nameEN: "Chen Li",
-//     nameCN: "李晨",
-//     affiliation: "PhD, National University of Defense Technology",
-//     avatar: "assets/site/personal-square.jpg",
-//     contacts: [
-//         {
-//             //Please make sure the first one is always Google Scholar.
-//             href: "https://scholar.google.com/citations?user=?",
-//             src: "assets/site/google_scholar.jpg"
-//         },
-//         {
-//             href: "https://www.linkedin.com/in/lichen14/",
-//             src: "assets/site/linkedin.jpg"
-//         },
-//         {
-//             href: "https://github.com/lichen14",
-//             src: "assets/site/github.jpg"
-//         },
-//         {
-//             href: "mailto:lichen14@nudt.edu.cn",
-//             src: "assets/site/mail.png"
-//         }
-//     ]
-// };
+const about = {
+    nameEN: "Chen Li",
+    nameCN: "李晨",
+    affiliation: "PhD, National University of Defense Technology",
+    avatar: "assets/site/personal-square.jpg",
+    contacts: [
+        {
+            //Please make sure the first one is always Google Scholar.
+            href: "https://scholar.google.com/citations?user=?",
+            src: "assets/site/google_scholar.jpg"
+        },
+        {
+            href: "https://www.linkedin.com/in/lichen14/",
+            src: "assets/site/linkedin.jpg"
+        },
+        {
+            href: "https://github.com/lichen14",
+            src: "assets/site/github.jpg"
+        },
+        {
+            href: "mailto:lichen14@nudt.edu.cn",
+            src: "assets/site/mail.png"
+        }
+    ]
+};
 
-// const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
-// I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored X+ papers on top-tier journals / conferences, e.g., Computers & Graphics, ICIP, Applied Sciences and MICAD.`
+const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
+I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored X+ papers on top-tier journals / conferences, e.g., Computers & Graphics, ICIP, Applied Sciences and MICAD.`
 
 // const news = [
 //     {
@@ -164,35 +164,35 @@ const site = {
 //     ]
 // };
 
-const about = {
-    nameEN: "Chen Li",
-    nameCN: "李晨",
-    affiliation: "PhD, National University of Defense Technology",
-    avatar: "assets/site/personal-square.jpg",
-    contacts: [
-        {
-            //Please make sure the first one is always Google Scholar.
-            href: "https://scholar.google.com/citations?user=?",
-            src: "assets/site/google_scholar.jpg"
-        },
-        {
-            href: "https://www.linkedin.com/in/lichen14/",
-            src: "assets/site/linkedin.jpg"
-        },
-        {
-            href: "https://github.com/lichen14",
-            src: "assets/site/github.jpg"
-        },
-        {
-            href: "mailto:lichen14@nudt.edu.cn",
-            src: "assets/site/mail.png"
-        }
-    ]
-};
+// const about = {
+//     nameEN: "Chen Li",
+//     nameCN: "李晨",
+//     affiliation: "PhD, National University of Defense Technology",
+//     avatar: "assets/site/personal-square.jpg",
+//     contacts: [
+//         {
+//             //Please make sure the first one is always Google Scholar.
+//             href: "https://scholar.google.com/citations?user=?",
+//             src: "assets/site/google_scholar.jpg"
+//         },
+//         {
+//             href: "https://www.linkedin.com/in/lichen14/",
+//             src: "assets/site/linkedin.jpg"
+//         },
+//         {
+//             href: "https://github.com/lichen14",
+//             src: "assets/site/github.jpg"
+//         },
+//         {
+//             href: "mailto:lichen14@nudt.edu.cn",
+//             src: "assets/site/mail.png"
+//         }
+//     ]
+// };
 
-const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan and Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
+// const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan and Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
 
-I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. // I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
+// I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored 10+ papers on top-tier journals / conferences, e.g., Cancer Research, CVPR, MICCAI and NeurIPS. // I was a reviewer for 10+ prestigious venues, a top-ranking participant for several AI competitions, and the lead organizer for <a href="https://ribfrac.grand-challenge.org/">MICCAI 2020 RibFrac Challenge</a>. `
 
 const news = [
     {

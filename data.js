@@ -136,11 +136,11 @@ const publications = [
         materials: [
             {
                 tag: "publication",
-                href: "#"
+                href: "#TODO"
             },
             {
                 tag: "code",
-                href: "TODO"
+                href: "#TODO"
             }
         ]
     },

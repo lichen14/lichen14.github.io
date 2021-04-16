@@ -435,7 +435,8 @@ const publications = [
 //             }
         ],
         img: "assets/imgs/AlignShift MICCAI20.jpg"
-    }
+    },
+    {
         title: "3D Human Action Representation Learning via Cross-View Consistency Pursuit",
         file: "#TODO",
         venue: "IEEE Conference on Computer Vision and Pattern Recognition",

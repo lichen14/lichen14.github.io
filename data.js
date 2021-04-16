@@ -255,187 +255,187 @@ const news = [
 
 
 const publications = [
-    {
-        title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
-        venue: "Applied Sciences",
-        year: "2020",
-        authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
-        img: "assets/imgs/LLG CVPR21.png",
-        materials: [
-            {
-                tag: "publication",
-                href: "#TODO"
-            },
-            {
-                tag: "code",
-                href: "#TODO"
-            }
-        ]
-    },
-    {
-        title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
-        file: "assets/publication/MedMNIST ISBI21.pdf",
-        venue: "Applied Sciences",
-        abbr: "ISBI",
-        year: "2020",
-        authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
-        img: "assets/imgs/MedMNIST 2010.14925.jpg",
-        materials: [
-            {
-                tag: "publication",
-                href: "#TODO"
-            },
-            {
-                tag: "project page",
-                href: "https://medmnist.github.io/"
-            },
-            {
-                tag: "code",
-                href: "https://github.com/lichen14/RenderUNet-Pytorch"
-            },
-            {
-                tag: "dataset",
-                href: "https://medmnist.github.io/#dataset"
-            },
-            {
-                tag: "preprint",
-                href: "https://arxiv.org/abs/2010.14925"
-            }
-        ]
-    },
-    {
-        title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
-        file: "assets/publication/ACSConv JBHI.pdf",
-        venue: "Computers & Graphics",
-//         abbr: "IEEE JBHI",
-        year: "2020",
-        authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yulin He", "Yuanming Gao", "Fei Li"],
-        img: "assets/imgs/ACSConv 1911.10477.jpg",
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1109/JBHI.2021.3049452"
-            },
-            {
-                tag: "code",
-                href: "https://github.com/M3DV/ACSConv"
-            }
-//             ,
-//             {
-//                 tag: "preprint",
-//                 href: "https://arxiv.org/abs/1911.10477"
-//             }
-        ]
-    },
 //     {
-//         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
-//         file: "assets/publication/FracNet EBioMedicine.pdf",
-//         venue: "EBioMedicine (by The Lancet)",
+//         title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
+//         venue: "Applied Sciences",
 //         year: "2020",
-//         authors: ["Liang Jin*", "Jiancheng Yang*", "Kaiming Kuang", "Bingbing Ni", "Yiyi Gao", "Yingli Sun", "Pan Gao", "Weiling Ma", "Mingyu Tan", "Hui Kang", "Jiajun Chen", "Ming Li"],
-//         img: "assets/imgs/FracNet EBioMedicine.png",
+//         authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
+//         img: "assets/imgs/LLG CVPR21.png",
 //         materials: [
 //             {
 //                 tag: "publication",
-//                 href: "https://doi.org/10.1016/j.ebiom.2020.103106"
+//                 href: "#TODO"
+//             },
+//             {
+//                 tag: "code",
+//                 href: "#TODO"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
+//         file: "assets/publication/MedMNIST ISBI21.pdf",
+//         venue: "Applied Sciences",
+//         abbr: "ISBI",
+//         year: "2020",
+//         authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
+//         img: "assets/imgs/MedMNIST 2010.14925.jpg",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "#TODO"
 //             },
 //             {
 //                 tag: "project page",
-//                 href: "https://m3dv.github.io/FracNet/"
+//                 href: "https://medmnist.github.io/"
 //             },
 //             {
 //                 tag: "code",
-//                 href: "https://github.com/M3DV/FracNet"
+//                 href: "https://github.com/lichen14/RenderUNet-Pytorch"
 //             },
 //             {
 //                 tag: "dataset",
-//                 href: "https://ribfrac.grand-challenge.org/"
+//                 href: "https://medmnist.github.io/#dataset"
 //             },
 //             {
-//                 tag: "commentary",
-//                 href: "https://doi.org/10.1016/j.ebiom.2020.103158"
+//                 tag: "preprint",
+//                 href: "https://arxiv.org/abs/2010.14925"
 //             }
 //         ]
 //     },
-    {
-        title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
-        file: "assets/publication/LeBA NeurIPS20.pdf",
-        venue: "IEEE International Conference on Image Processing",
-        abbr: "ICIP",
-        year: "2020",
-        authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yuanming Gao", "Xiaogang Jia", "Zhiying Wang"],
-//         img: "assets/imgs/LeBA NeurIPS20.png",
-        materials: [
-            {
-                tag: "publication",
-                href: "https://papers.nips.cc/paper/2020/hash/90599c8fdd2f6e7a03ad173e2f535751-Abstract.html"
-            },
-            {
-                tag: "code",
-                href: "#TODO"
-            },
-//             {
-//                 tag: "short slides",
-//                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
-//             },
-            {
-                tag: "slides",
-                href: "assets/materials/LeBA NeurIPS20 long_slides.pdf"
-            }
-//             ,
-//             {
-//                 tag: "poster",
-//                 href: "assets/materials/LeBA NeurIPS20 poster.pdf"
-            }
-        ]
-    },
 //     {
-//         title: "医学三维计算机视觉: 研究进展和挑战",
-//         file: "assets/publication/M3DV CJIG.pdf",
-//         note: "Advances and Challenges in Medical 3D Computer Vision; in Chinese",
-//         venue: "中国图象图形学报 (Journal of Image and Graphics)",
+//         title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
+//         file: "assets/publication/ACSConv JBHI.pdf",
+//         venue: "Computers & Graphics",
+// //         abbr: "IEEE JBHI",
 //         year: "2020",
-//         authors: ["Jiancheng Yang", "Bingbing Ni"],
-//         img: "assets/imgs/M3DV CJIG.jpg",
+//         authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yulin He", "Yuanming Gao", "Fei Li"],
+//         img: "assets/imgs/ACSConv 1911.10477.jpg",
 //         materials: [
 //             {
 //                 tag: "publication",
-//                 href: "http://doi.org/10.11834/jig.200244"
+//                 href: "https://doi.org/10.1109/JBHI.2021.3049452"
+//             },
+//             {
+//                 tag: "code",
+//                 href: "https://github.com/M3DV/ACSConv"
+//             }
+// //             ,
+// //             {
+// //                 tag: "preprint",
+// //                 href: "https://arxiv.org/abs/1911.10477"
+// //             }
+//         ]
+//     },
+// //     {
+// //         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
+// //         file: "assets/publication/FracNet EBioMedicine.pdf",
+// //         venue: "EBioMedicine (by The Lancet)",
+// //         year: "2020",
+// //         authors: ["Liang Jin*", "Jiancheng Yang*", "Kaiming Kuang", "Bingbing Ni", "Yiyi Gao", "Yingli Sun", "Pan Gao", "Weiling Ma", "Mingyu Tan", "Hui Kang", "Jiajun Chen", "Ming Li"],
+// //         img: "assets/imgs/FracNet EBioMedicine.png",
+// //         materials: [
+// //             {
+// //                 tag: "publication",
+// //                 href: "https://doi.org/10.1016/j.ebiom.2020.103106"
+// //             },
+// //             {
+// //                 tag: "project page",
+// //                 href: "https://m3dv.github.io/FracNet/"
+// //             },
+// //             {
+// //                 tag: "code",
+// //                 href: "https://github.com/M3DV/FracNet"
+// //             },
+// //             {
+// //                 tag: "dataset",
+// //                 href: "https://ribfrac.grand-challenge.org/"
+// //             },
+// //             {
+// //                 tag: "commentary",
+// //                 href: "https://doi.org/10.1016/j.ebiom.2020.103158"
+// //             }
+// //         ]
+// //     },
+//     {
+//         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
+//         file: "assets/publication/LeBA NeurIPS20.pdf",
+//         venue: "IEEE International Conference on Image Processing",
+//         abbr: "ICIP",
+//         year: "2020",
+//         authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yuanming Gao", "Xiaogang Jia", "Zhiying Wang"],
+// //         img: "assets/imgs/LeBA NeurIPS20.png",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "https://papers.nips.cc/paper/2020/hash/90599c8fdd2f6e7a03ad173e2f535751-Abstract.html"
+//             },
+//             {
+//                 tag: "code",
+//                 href: "#TODO"
+//             },
+// //             {
+// //                 tag: "short slides",
+// //                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
+// //             },
+//             {
+//                 tag: "slides",
+//                 href: "assets/materials/LeBA NeurIPS20 long_slides.pdf"
+//             }
+// //             ,
+// //             {
+// //                 tag: "poster",
+// //                 href: "assets/materials/LeBA NeurIPS20 poster.pdf"
 //             }
 //         ]
 //     },
-    {
-        title: "Application of U-Shaped Convolutional Neural Network Based on Attention Mechanism in Liver CT Image Segmentation",
-        file: "assets/publication/AlignShift MICCAI20.pdf",
-        venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
-        abbr: "MICAD",
-        year: "2020",
-        authors: ["Chen Li", "Wei Chen", "Xin Luo", "Mingfei Wu", "Xiaogang Jia", "Yusong Tan", "Zhiying Wang"],
-//         highlight: "Early Accepted",
-        materials: [
-            {
-                tag: "publication",
-                href: "http://doi.org/10.1007/978-3-030-59719-1_55",
-            }
+// //     {
+// //         title: "医学三维计算机视觉: 研究进展和挑战",
+// //         file: "assets/publication/M3DV CJIG.pdf",
+// //         note: "Advances and Challenges in Medical 3D Computer Vision; in Chinese",
+// //         venue: "中国图象图形学报 (Journal of Image and Graphics)",
+// //         year: "2020",
+// //         authors: ["Jiancheng Yang", "Bingbing Ni"],
+// //         img: "assets/imgs/M3DV CJIG.jpg",
+// //         materials: [
+// //             {
+// //                 tag: "publication",
+// //                 href: "http://doi.org/10.11834/jig.200244"
+// //             }
+// //         ]
+// //     },
+//     {
+//         title: "Application of U-Shaped Convolutional Neural Network Based on Attention Mechanism in Liver CT Image Segmentation",
+//         file: "assets/publication/AlignShift MICCAI20.pdf",
+//         venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
+//         abbr: "MICAD",
+//         year: "2020",
+//         authors: ["Chen Li", "Wei Chen", "Xin Luo", "Mingfei Wu", "Xiaogang Jia", "Yusong Tan", "Zhiying Wang"],
+// //         highlight: "Early Accepted",
+//         materials: [
 //             {
-//                 tag: "code",
-//                 href: "#TODO",
-//             },
-//             {
-//                 tag: "video",
-//                 href: "https://www.bilibili.com/video/BV1qT4y1c73k/"
-//             },
-//             {
-//                 tag: "slides",
-//                 href: "assets/materials/AlignShift MICCAI20 slides.pdf"
-//             },
-//             {
-//                 tag: "graphical abstract",
-//                 href: "assets/materials/AlignShift MICCAI20 abstract.pdf"
+//                 tag: "publication",
+//                 href: "http://doi.org/10.1007/978-3-030-59719-1_55",
 //             }
-        ],
-        img: "assets/imgs/AlignShift MICCAI20.jpg"
-    },
+// //             {
+// //                 tag: "code",
+// //                 href: "#TODO",
+// //             },
+// //             {
+// //                 tag: "video",
+// //                 href: "https://www.bilibili.com/video/BV1qT4y1c73k/"
+// //             },
+// //             {
+// //                 tag: "slides",
+// //                 href: "assets/materials/AlignShift MICCAI20 slides.pdf"
+// //             },
+// //             {
+// //                 tag: "graphical abstract",
+// //                 href: "assets/materials/AlignShift MICCAI20 abstract.pdf"
+// //             }
+//         ],
+//         img: "assets/imgs/AlignShift MICCAI20.jpg"
+//     },
     {
         title: "3D Human Action Representation Learning via Cross-View Consistency Pursuit",
         file: "#TODO",

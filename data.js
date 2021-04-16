@@ -272,37 +272,37 @@ const publications = [
 //             }
 //         ]
 //     },
-//     {
-//         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
-//         file: "assets/publication/MedMNIST ISBI21.pdf",
-//         venue: "Applied Sciences",
-//         abbr: "ISBI",
-//         year: "2020",
-//         authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
-//         img: "assets/imgs/MedMNIST 2010.14925.jpg",
-//         materials: [
-//             {
-//                 tag: "publication",
-//                 href: "#TODO"
-//             },
-//             {
-//                 tag: "project page",
-//                 href: "https://medmnist.github.io/"
-//             },
-//             {
-//                 tag: "code",
-//                 href: "https://github.com/lichen14/RenderUNet-Pytorch"
-//             },
-//             {
-//                 tag: "dataset",
-//                 href: "https://medmnist.github.io/#dataset"
-//             },
-//             {
-//                 tag: "preprint",
-//                 href: "https://arxiv.org/abs/2010.14925"
-//             }
-//         ]
-//     },
+    {
+        title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
+        file: "assets/publication/MedMNIST ISBI21.pdf",
+        venue: "Applied Sciences",
+        abbr: "ISBI",
+        year: "2020",
+        authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
+        img: "assets/imgs/MedMNIST 2010.14925.jpg",
+        materials: [
+            {
+                tag: "publication",
+                href: "#TODO"
+            },
+            {
+                tag: "project page",
+                href: "https://medmnist.github.io/"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/lichen14/RenderUNet-Pytorch"
+            },
+            {
+                tag: "dataset",
+                href: "https://medmnist.github.io/#dataset"
+            },
+            {
+                tag: "preprint",
+                href: "https://arxiv.org/abs/2010.14925"
+            }
+        ]
+    },
     {
         title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
         file: "assets/publication/ACSConv JBHI.pdf",

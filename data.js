@@ -303,30 +303,30 @@ const publications = [
 //             }
 //         ]
 //     },
-//     {
-//         title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
-//         file: "assets/publication/ACSConv JBHI.pdf",
-//         venue: "Computers & Graphics",
-// //         abbr: "IEEE JBHI",
-//         year: "2020",
-//         authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yulin He", "Yuanming Gao", "Fei Li"],
-//         img: "assets/imgs/ACSConv 1911.10477.jpg",
-//         materials: [
+    {
+        title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
+        file: "assets/publication/ACSConv JBHI.pdf",
+        venue: "Computers & Graphics",
+//         abbr: "IEEE JBHI",
+        year: "2020",
+        authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yulin He", "Yuanming Gao", "Fei Li"],
+        img: "assets/imgs/ACSConv 1911.10477.jpg",
+        materials: [
+            {
+                tag: "publication",
+                href: "https://doi.org/10.1109/JBHI.2021.3049452"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/M3DV/ACSConv"
+            }
+//             ,
 //             {
-//                 tag: "publication",
-//                 href: "https://doi.org/10.1109/JBHI.2021.3049452"
-//             },
-//             {
-//                 tag: "code",
-//                 href: "https://github.com/M3DV/ACSConv"
+//                 tag: "preprint",
+//                 href: "https://arxiv.org/abs/1911.10477"
 //             }
-// //             ,
-// //             {
-// //                 tag: "preprint",
-// //                 href: "https://arxiv.org/abs/1911.10477"
-// //             }
-//         ]
-//     },
+        ]
+    },
 // //     {
 // //         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
 // //         file: "assets/publication/FracNet EBioMedicine.pdf",

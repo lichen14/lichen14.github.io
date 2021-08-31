@@ -19,13 +19,13 @@ const site = {
     ],
     relatedProjects: [
         {
-            tag: "TriDL",
-            href: "https://github.com/lichen14/TriDL"
-        },
-        {
-            tag: "AttENT",
-            href: "https://github.com/lichen14/AttENT"
+            tag: "TBD)",
+            href: "https://github.com/lichen14"
         }
+//         {
+//             tag: "Deep Learning Kickstart",
+//             href: "https://github.com/M3DV/Kickstart"
+//         },
 //         {
 //             tag: "My Learning Notes",
 //             href: "https://github.com/duducheng/Learning-Notes"
@@ -45,7 +45,7 @@ const about = {
     contacts: [
         {
             //Please make sure the first one is always Google Scholar.
-            href: "https://scholar.google.com/citations?user=Bm7n1YUAAAAJ",
+            href: "https://scholar.google.com/citations?user=?",
             src: "assets/site/google_scholar.jpg"
         },
         {
@@ -223,18 +223,14 @@ const news = [
 //         "mmyyyy": "08/2020",
 //         "text": "Fortunate to receive a <a href='https://bmvc2020.github.io/people/reviewers/'>BMVC 2020 Outstanding Reviewer Award</a>."
 //     },
-    {
-        "mmyyyy": "07/2021",
-        "text": "1 more paper on Lane Detection was accepted by Sensors.(<a href='https://doi.org/10.3390/s21144657')"
-    },
-    {
-        "mmyyyy": "06/2021",
-        "text": "1 more paper on lane detection was accepted by ACM MM'21. (Fast and Accurate Lane Detection via Frequency Domain Learning)"
-    },
-    {
-        "mmyyyy": "02/2021",
-        "text": "1 more paper on Stereo Matching was accepted by Sensors.(<a href='https://doi.org/10.3390/s21041430')"
-    },
+//     {
+//         "mmyyyy": "07/2020",
+//         "text": "Fortunate to receive a MICCAI 2020 Student Travel Award."
+//     },
+//     {
+//         "mmyyyy": "06/2020",
+//         "text": "1 more paper on tumor growth was accepted by MICCAI'20 after rebuttal. (<a href='https://arxiv.org/abs/2006.13890'>arXiv</a>)"
+//     },
     {
         "mmyyyy": "08/2020",
         "text": "2 papers (render-based method and point-sampling method for multi-organs & tumors segmentation) were accepted by Applied Science.)"
@@ -252,10 +248,6 @@ const news = [
         "text": "1 paper on liver CT segmentation with attention u-net was accepted by ICIP'20."
     },
     {
-        "mmyyyy": "02/2020",
-        "text": "1 paper on Stereo Matching was published in Remote Sensors.<a href='https://doi.org/10.3390/rs12030588'>"
-    },
-    {
         "mmyyyy": "01/2020",
         "text": "1 paper on the application of u-net was accepted by MICAD'20."
     }
@@ -263,23 +255,23 @@ const news = [
 
 
 const publications = [
-    {
-        title: "Fast and Accurate Lane Detection via Graph Structure and Disentangled Representation Learning",
-        venue: "Sensors",
-        year: "2021",
-        authors: ["Yulin He","Wei Chen *","Chen Li","Xin Luo","Libo Huang"],
-        img: "",
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.3390/s21144657"
-            },
-            {
-                tag: "code",
-                href: "#TODO"
-            }
-        ]
-    },
+//     {
+//         title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
+//         venue: "Applied Sciences",
+//         year: "2020",
+//         authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
+//         img: "assets/imgs/LLG CVPR21.png",
+//         materials: [
+//             {
+//                 tag: "publication",
+//                 href: "#TODO"
+//             },
+//             {
+//                 tag: "code",
+//                 href: "#TODO"
+//             }
+//         ]
+//     },
     {
         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
         file: "assets/publication/MedMNIST ISBI21.pdf",
@@ -311,7 +303,6 @@ const publications = [
 //             }
         ]
     },
-  
     {
         title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
         file: "assets/publication/ACSConv JBHI.pdf",
@@ -367,33 +358,38 @@ const publications = [
 //             }
         ]
     },
-    {
-        title: "A Joint 2D-3D Complementary Network for Stereo Matching",
-        file: "",
-        abbr: "Sensors",
-        year: "2020",
-        authors: ["Xiaogang Jia","Wei Chen *","Zhengfa Liang","Xin Luo","Mingfei Wu","Chen Li","Yulin He","Yusong Tan","Libo Huang"],
-//         img: "assets/imgs/LeBA NeurIPS20.png",
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.3390/s21041430"
-            },
-            {
-                tag: "code",
-                href: "#TODO"
-            },
+//     {
+//         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
+//         file: "assets/publication/LeBA NeurIPS20.pdf",
+//         venue: "IEEE International Conference on Image Processing",
+//         abbr: "ICIP",
+//         year: "2020",
+//         authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yuanming Gao", "Xiaogang Jia", "Zhiying Wang"],
+// //         img: "assets/imgs/LeBA NeurIPS20.png",
+//         materials: [
 //             {
-//                 tag: "short slides",
-//                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
+//                 tag: "publication",
+//                 href: "https://papers.nips.cc/paper/2020/hash/90599c8fdd2f6e7a03ad173e2f535751-Abstract.html"
 //             },
-//             ,
 //             {
-//                 tag: "poster",
-//                 href: "assets/materials/LeBA NeurIPS20 poster.pdf"
-            }
-        ]
-    },
+//                 tag: "code",
+//                 href: "#TODO"
+//             },
+// //             {
+// //                 tag: "short slides",
+// //                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
+// //             },
+//             {
+//                 tag: "slides",
+//                 href: "assets/materials/LeBA NeurIPS20 long_slides.pdf"
+//             }
+// //             ,
+// //             {
+// //                 tag: "poster",
+// //                 href: "assets/materials/LeBA NeurIPS20 poster.pdf"
+//             }
+//         ]
+//     },
 // //     {
 // //         title: "医学三维计算机视觉: 研究进展和挑战",
 // //         file: "assets/publication/M3DV CJIG.pdf",
@@ -456,37 +452,6 @@ const publications = [
                 tag: "code",
                 href: "#TODO"
             }
-        ]
-    },
-    {
-        title: "A Unified Framework for Depth Prediction from a Single Image and Binocular Stereo Matching",
-        file: "",
-        venue: "Remote Sensors",
-//         abbr: "ISBI",
-        year: "2020",
-        authors: ["Wei Chen","Xin Luo","Zhengfa Liang","Chen Li","Mingfei Wu","Yuanming Gao","Xiaogang Jia"],
-        img: "",
-        materials: [
-            {
-                tag: "paper",
-                href: "https://doi.org/10.3390/rs12030588"
-            },
-//             {
-//                 tag: "project page",
-//                 href: "https://medmnist.github.io/"
-//             },
-            {
-                tag: "code",
-                href: "https://github.com/lichen14/RenderUNet-Pytorch"
-            }
-//             {
-//                 tag: "dataset",
-//                 href: "https://medmnist.github.io/#dataset"
-//             },
-//             {
-//                 tag: "preprint",
-//                 href: "https://arxiv.org/abs/2010.14925"
-//             }
         ]
     }
 //     {
@@ -1059,133 +1024,133 @@ const talks = [
             }
         ]
     }
-    {
-        title: "How to Develop Open Research Dataset: Examples of Medical Images",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS0xDdEVwTkd2RnBW"
-            },
-            {
-                tag: "video (in Chinese)",
-                href: "https://www.slidestalk.com/Baiyulan/20210126OpenData163895?video=&_fuid=40979"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "01/2021",
-                where: "AI Institute, SJTU, Shanghai",
-                note: "<a href='https://mp.weixin.qq.com/s/vVzECjq3ekjh2SxKcqTa3g' target='_blank'>Flyer</a> & <a href='https://mp.weixin.qq.com/s/XmjkcJWKlelpvCu4QLI5zQ' target='_blank'>Press</a> in Chinese"
-            }
-        ]
-    },
-    {
-        title: "Towards Trustworthy Medical 3D Vision",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS3FaQnRialJBWGl5"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "12/2020",
-                where: "CV/CG/ML Reading Group (online)",
-                note: "Host: <a href='http://www-personal.umich.edu/~zzhengxi/' target='_blank'>Zhengxia Zou</a>"
-            }
-        ]
-    },
-    {
-        title: "迈向可信的医学3D视觉：研究方法与感悟",
-        turns: [
-            {
-                mmyyyy: "11/2020",
-                where: "第四届上海交通大学&复旦大学联合电子信息技术学术论坛开幕式 (SJTU, Shanghai)"
-            }
-        ]
-    },
-    {
-        title: "Review of MICCAI 2020 RibFrac Challenge",
-        materials: [
-            {
-                tag: "videos & slides",
-                href: "https://ribfrac.grand-challenge.org/program/"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "10/2020",
-                where: "<a href='https://ribfrac.grand-challenge.org/' target='_blank'>MICCAI 2020 Satellite Event (RibFrac Challenge)</a>"
-            }
-        ]
-    },
-    {
-        title: "Tutorial: Techniques, Tricks and Trends in Deep Learning",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS09HV21tVGxXQ2NO"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "04/2020",
-                where: "SJTU Course: EE228 Machine Learning for AI Class"
-            }
-        ]
-    },
-    {
-        title: "Tutorial: Design of Modern CNNs",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS3ZsVUtVWW1uUGl2"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "10/2019",
-                where: "SJTU Course: EE369 Machine Learning"
-            }
-        ]
-    },
-    {
-        title: "3D视觉遇上医学图像计算",
-        turns: [
-            {
-                mmyyyy: "08/2019",
-                where: "上海交通大学人工智能研究生学术论坛 (SJTU, Shanghai)"
-            }
-        ]
-    },
-    {
-        title: "3rd-Place Solution for Alibaba Medical AI Competition",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS2xWUFdiZWdWdVlE"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "10/2017",
-                where: "Alibaba Group, Hangzhou"
-            },
-            {
-                mmyyyy: "10/2017",
-                where: "<a href='https://zhuanlan.zhihu.com/p/30346668' target='_blank'>AI Challenger Webinar</a>"
-            }
-        ]
-    }
+//     {
+//         title: "How to Develop Open Research Dataset: Examples of Medical Images",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS0xDdEVwTkd2RnBW"
+//             },
+//             {
+//                 tag: "video (in Chinese)",
+//                 href: "https://www.slidestalk.com/Baiyulan/20210126OpenData163895?video=&_fuid=40979"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "01/2021",
+//                 where: "AI Institute, SJTU, Shanghai",
+//                 note: "<a href='https://mp.weixin.qq.com/s/vVzECjq3ekjh2SxKcqTa3g' target='_blank'>Flyer</a> & <a href='https://mp.weixin.qq.com/s/XmjkcJWKlelpvCu4QLI5zQ' target='_blank'>Press</a> in Chinese"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Towards Trustworthy Medical 3D Vision",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS3FaQnRialJBWGl5"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "12/2020",
+//                 where: "CV/CG/ML Reading Group (online)",
+//                 note: "Host: <a href='http://www-personal.umich.edu/~zzhengxi/' target='_blank'>Zhengxia Zou</a>"
+//             }
+//         ]
+//     },
+//     {
+//         title: "迈向可信的医学3D视觉：研究方法与感悟",
+//         turns: [
+//             {
+//                 mmyyyy: "11/2020",
+//                 where: "第四届上海交通大学&复旦大学联合电子信息技术学术论坛开幕式 (SJTU, Shanghai)"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Review of MICCAI 2020 RibFrac Challenge",
+//         materials: [
+//             {
+//                 tag: "videos & slides",
+//                 href: "https://ribfrac.grand-challenge.org/program/"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "10/2020",
+//                 where: "<a href='https://ribfrac.grand-challenge.org/' target='_blank'>MICCAI 2020 Satellite Event (RibFrac Challenge)</a>"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Tutorial: Techniques, Tricks and Trends in Deep Learning",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS09HV21tVGxXQ2NO"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "04/2020",
+//                 where: "SJTU Course: EE228 Machine Learning for AI Class"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Tutorial: Design of Modern CNNs",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS3ZsVUtVWW1uUGl2"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "10/2019",
+//                 where: "SJTU Course: EE369 Machine Learning"
+//             }
+//         ]
+//     },
+//     {
+//         title: "3D视觉遇上医学图像计算",
+//         turns: [
+//             {
+//                 mmyyyy: "08/2019",
+//                 where: "上海交通大学人工智能研究生学术论坛 (SJTU, Shanghai)"
+//             }
+//         ]
+//     },
+//     {
+//         title: "3rd-Place Solution for Alibaba Medical AI Competition",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS2xWUFdiZWdWdVlE"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "10/2017",
+//                 where: "Alibaba Group, Hangzhou"
+//             },
+//             {
+//                 mmyyyy: "10/2017",
+//                 where: "<a href='https://zhuanlan.zhihu.com/p/30346668' target='_blank'>AI Challenger Webinar</a>"
+//             }
+//         ]
+//     }
 ];
 
 const misc = [
-//     "<i>Teaching</i>: Machine Learning (EE369: Aut’18, Aut’19), Machine Learning for AI class (EE228: Spr’19, Spr’20).",
-//     "<i>Tools</i>: Python (10+ years), PyTorch, scikit-learn, Keras, TensorFlow, MXNet, Tableau, Javascript, Scala, etc.",
-//     "<i>Patent</i>: 3 CN patents granted and several pending.",
-//     "<i>Language</i>: I use 中文, <i>English</i> and <i>un peu Français</i>.",
-//     "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games.",
-//     '<i>"Do not go gentle into that good night."</i> --- Dylan Thomas (also from <i><a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank">Interstellar</a></i>)'
+    "<i>Teaching</i>: Machine Learning (EE369: Aut’18, Aut’19), Machine Learning for AI class (EE228: Spr’19, Spr’20).",
+    "<i>Tools</i>: Python (10+ years), PyTorch, scikit-learn, Keras, TensorFlow, MXNet, Tableau, Javascript, Scala, etc.",
+    "<i>Patent</i>: 3 CN patents granted and several pending.",
+    "<i>Language</i>: I use 中文, <i>English</i> and <i>un peu Français</i>.",
+    "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games.",
+    '<i>"Do not go gentle into that good night."</i> --- Dylan Thomas (also from <i><a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank">Interstellar</a></i>)'
 ];
 
 // const publications = [

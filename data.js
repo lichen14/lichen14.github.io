@@ -19,13 +19,13 @@ const site = {
     ],
     relatedProjects: [
         {
-            tag: "TBD)",
-            href: "https://github.com/lichen14"
+            tag: "TriDL",
+            href: "https://github.com/lichen14/TriDL"
+        },
+        {
+            tag: "AttENT",
+            href: "https://github.com/lichen14/AttENT"
         }
-//         {
-//             tag: "Deep Learning Kickstart",
-//             href: "https://github.com/M3DV/Kickstart"
-//         },
 //         {
 //             tag: "My Learning Notes",
 //             href: "https://github.com/duducheng/Learning-Notes"
@@ -45,7 +45,7 @@ const about = {
     contacts: [
         {
             //Please make sure the first one is always Google Scholar.
-            href: "https://scholar.google.com/citations?user=?",
+            href: "https://scholar.google.com/citations?user=Bm7n1YUAAAAJ",
             src: "assets/site/google_scholar.jpg"
         },
         {
@@ -223,14 +223,18 @@ const news = [
 //         "mmyyyy": "08/2020",
 //         "text": "Fortunate to receive a <a href='https://bmvc2020.github.io/people/reviewers/'>BMVC 2020 Outstanding Reviewer Award</a>."
 //     },
-//     {
-//         "mmyyyy": "07/2020",
-//         "text": "Fortunate to receive a MICCAI 2020 Student Travel Award."
-//     },
-//     {
-//         "mmyyyy": "06/2020",
-//         "text": "1 more paper on tumor growth was accepted by MICCAI'20 after rebuttal. (<a href='https://arxiv.org/abs/2006.13890'>arXiv</a>)"
-//     },
+    {
+        "mmyyyy": "07/2021",
+        "text": "1 more paper on Lane Detection was accepted by Sensors.(<a href='https://doi.org/10.3390/s21144657')"
+    },
+    {
+        "mmyyyy": "06/2021",
+        "text": "1 more paper on lane detection was accepted by ACM MM'21. (Fast and Accurate Lane Detection via Frequency Domain Learning)"
+    },
+    {
+        "mmyyyy": "02/2021",
+        "text": "1 more paper on Stereo Matching was accepted by Sensors.(<a href='https://doi.org/10.3390/s21041430')"
+    },
     {
         "mmyyyy": "08/2020",
         "text": "2 papers (render-based method and point-sampling method for multi-organs & tumors segmentation) were accepted by Applied Science.)"
@@ -248,6 +252,10 @@ const news = [
         "text": "1 paper on liver CT segmentation with attention u-net was accepted by ICIP'20."
     },
     {
+        "mmyyyy": "02/2020",
+        "text": "1 paper on Stereo Matching was published in Remote Sensors.<a href='https://doi.org/10.3390/rs12030588'>"
+    },
+    {
         "mmyyyy": "01/2020",
         "text": "1 paper on the application of u-net was accepted by MICAD'20."
     }
@@ -255,23 +263,23 @@ const news = [
 
 
 const publications = [
-//     {
-//         title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
-//         venue: "Applied Sciences",
-//         year: "2020",
-//         authors: ["Chen Li", "Wei Chen *", "Yusong Tan"],
-//         img: "assets/imgs/LLG CVPR21.png",
-//         materials: [
-//             {
-//                 tag: "publication",
-//                 href: "#TODO"
-//             },
-//             {
-//                 tag: "code",
-//                 href: "#TODO"
-//             }
-//         ]
-//     },
+    {
+        title: "Fast and Accurate Lane Detection via Graph Structure and Disentangled Representation Learning",
+        venue: "Sensors",
+        year: "2021",
+        authors: ["Yulin He","Wei Chen *","Chen Li","Xin Luo","Libo Huang"],
+        img: "",
+        materials: [
+            {
+                tag: "publication",
+                href: "https://doi.org/10.3390/s21144657"
+            },
+            {
+                tag: "code",
+                href: "#TODO"
+            }
+        ]
+    },
     {
         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
         file: "assets/publication/MedMNIST ISBI21.pdf",
@@ -303,6 +311,7 @@ const publications = [
 //             }
         ]
     },
+  
     {
         title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
         file: "assets/publication/ACSConv JBHI.pdf",
@@ -358,38 +367,33 @@ const publications = [
 //             }
         ]
     },
-//     {
-//         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
-//         file: "assets/publication/LeBA NeurIPS20.pdf",
-//         venue: "IEEE International Conference on Image Processing",
-//         abbr: "ICIP",
-//         year: "2020",
-//         authors: ["Chen Li", "Yusong Tan *", "Wei Chen", "Xin Luo", "Yuanming Gao", "Xiaogang Jia", "Zhiying Wang"],
-// //         img: "assets/imgs/LeBA NeurIPS20.png",
-//         materials: [
+    {
+        title: "A Joint 2D-3D Complementary Network for Stereo Matching",
+        file: "",
+        abbr: "Sensors",
+        year: "2020",
+        authors: ["Xiaogang Jia","Wei Chen *","Zhengfa Liang","Xin Luo","Mingfei Wu","Chen Li","Yulin He","Yusong Tan","Libo Huang"],
+//         img: "assets/imgs/LeBA NeurIPS20.png",
+        materials: [
+            {
+                tag: "publication",
+                href: "https://doi.org/10.3390/s21041430"
+            },
+            {
+                tag: "code",
+                href: "#TODO"
+            },
 //             {
-//                 tag: "publication",
-//                 href: "https://papers.nips.cc/paper/2020/hash/90599c8fdd2f6e7a03ad173e2f535751-Abstract.html"
+//                 tag: "short slides",
+//                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
 //             },
+//             ,
 //             {
-//                 tag: "code",
-//                 href: "#TODO"
-//             },
-// //             {
-// //                 tag: "short slides",
-// //                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
-// //             },
-//             {
-//                 tag: "slides",
-//                 href: "assets/materials/LeBA NeurIPS20 long_slides.pdf"
-//             }
-// //             ,
-// //             {
-// //                 tag: "poster",
-// //                 href: "assets/materials/LeBA NeurIPS20 poster.pdf"
-//             }
-//         ]
-//     },
+//                 tag: "poster",
+//                 href: "assets/materials/LeBA NeurIPS20 poster.pdf"
+            }
+        ]
+    },
 // //     {
 // //         title: "医学三维计算机视觉: 研究进展和挑战",
 // //         file: "assets/publication/M3DV CJIG.pdf",
@@ -452,6 +456,37 @@ const publications = [
                 tag: "code",
                 href: "#TODO"
             }
+        ]
+    },
+    {
+        title: "A Unified Framework for Depth Prediction from a Single Image and Binocular Stereo Matching",
+        file: "",
+        venue: "Remote Sensors",
+//         abbr: "ISBI",
+        year: "2020",
+        authors: ["Wei Chen","Xin Luo","Zhengfa Liang","Chen Li","Mingfei Wu","Yuanming Gao","Xiaogang Jia"],
+        img: "",
+        materials: [
+            {
+                tag: "paper",
+                href: "https://doi.org/10.3390/rs12030588"
+            },
+//             {
+//                 tag: "project page",
+//                 href: "https://medmnist.github.io/"
+//             },
+            {
+                tag: "code",
+                href: "https://github.com/lichen14/RenderUNet-Pytorch"
+            }
+//             {
+//                 tag: "dataset",
+//                 href: "https://medmnist.github.io/#dataset"
+//             },
+//             {
+//                 tag: "preprint",
+//                 href: "https://arxiv.org/abs/2010.14925"
+//             }
         ]
     }
 //     {
@@ -919,111 +954,111 @@ const activities = {
 //     organizer: [
 //         "Lead organizer for <a href='https://ribfrac.grand-challenge.org/'>MICCAI 2020 RibFrac Challenge: Rib Fracture Detection and Classification</a>."
 //     ],
-    conference: [
-        {
-            venue: "Advances in Neural Information Processing Systems",
-            year: "2021",
-            abbr: "NeurIPS"
-        },
-        {
-            venue: "International Conference on Computer Vision",
-            year: "2021",
-            abbr: "ICCV"
-        },
-        {
-            venue: "International Conference on Machine Learning",
-            year: "2021",
-            abbr: "ICML"
-        },
-        {
-            venue: "International Conference on Medical Image Computing and Computer Assisted Intervention",
-            year: "2021",
-            abbr: "MICCAI"
-        },
-        {
-            venue: "IEEE International Symposium on Biomedical Imaging",
-            year: "2021",
-            abbr: "ISBI"
-        },
-        {
-            venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-            year: "2021",
-            abbr: "CVPR"
-        },
-        {
-            venue: "IEEE Winter Conference on Applications of Computer Vision",
-            year: "2021",
-            abbr: "WACV"
-        },
-        {
-            venue: "Asian Conference on Computer Vision",
-            year: "2020",
-            abbr: "ACCV"
-        },
-        {
-            venue: "Advances in Neural Information Processing Systems",
-            year: "2020",
-            abbr: "NeurIPS"
-        },
-        {
-            venue: "British Machine Vision Conference",
-            year: "2020",
-            abbr: "BMVC"
-        },
-        {
-            venue: "International Conference on Medical Image Computing and Computer Assisted Intervention",
-            year: "2020",
-            abbr: "MICCAI"
-        },
-        {
-            venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-            year: "2020",
-            abbr: "CVPR"
-        }
-    ],
-    journal: [
-        {
-            venue: "IEEE Transactions on Medical Imaging",
-            abbr: "IEEE TMI"
-        },
-        {
-            venue: "IEEE Transactions on Information Forensics and Security",
-            abbr: "IEEE TIFS"
-        },
-        {
-            venue: "Applied Science",
-            abbr: "App Sci"
-        },
-        {
-            venue: "IEEE Access"
-        },
-        {
-            venue: "Biomedical Signal Processing and Control"
-        }
-    ]
+//     conference: [
+//         {
+//             venue: "Advances in Neural Information Processing Systems",
+//             year: "2021",
+//             abbr: "NeurIPS"
+//         },
+//         {
+//             venue: "International Conference on Computer Vision",
+//             year: "2021",
+//             abbr: "ICCV"
+//         },
+//         {
+//             venue: "International Conference on Machine Learning",
+//             year: "2021",
+//             abbr: "ICML"
+//         },
+//         {
+//             venue: "International Conference on Medical Image Computing and Computer Assisted Intervention",
+//             year: "2021",
+//             abbr: "MICCAI"
+//         },
+//         {
+//             venue: "IEEE International Symposium on Biomedical Imaging",
+//             year: "2021",
+//             abbr: "ISBI"
+//         },
+//         {
+//             venue: "IEEE Conference on Computer Vision and Pattern Recognition",
+//             year: "2021",
+//             abbr: "CVPR"
+//         },
+//         {
+//             venue: "IEEE Winter Conference on Applications of Computer Vision",
+//             year: "2021",
+//             abbr: "WACV"
+//         },
+//         {
+//             venue: "Asian Conference on Computer Vision",
+//             year: "2020",
+//             abbr: "ACCV"
+//         },
+//         {
+//             venue: "Advances in Neural Information Processing Systems",
+//             year: "2020",
+//             abbr: "NeurIPS"
+//         },
+//         {
+//             venue: "British Machine Vision Conference",
+//             year: "2020",
+//             abbr: "BMVC"
+//         },
+//         {
+//             venue: "International Conference on Medical Image Computing and Computer Assisted Intervention",
+//             year: "2020",
+//             abbr: "MICCAI"
+//         },
+//         {
+//             venue: "IEEE Conference on Computer Vision and Pattern Recognition",
+//             year: "2020",
+//             abbr: "CVPR"
+//         }
+//     ],
+//     journal: [
+//         {
+//             venue: "IEEE Transactions on Medical Imaging",
+//             abbr: "IEEE TMI"
+//         },
+//         {
+//             venue: "IEEE Transactions on Information Forensics and Security",
+//             abbr: "IEEE TIFS"
+//         },
+//         {
+//             venue: "Applied Science",
+//             abbr: "App Sci"
+//         },
+//         {
+//             venue: "IEEE Access"
+//         },
+//         {
+//             venue: "Biomedical Signal Processing and Control"
+//         }
+//     ]
 };
 
 const talks = [
-    {
-        title: "TBD",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS1Bab21waEhtdXNF"
-            },
-            {
-                tag: "video (YouTube)",
-                href: "https://www.nova77.org/recorded-video-for-webinar-slides-for-medmnist-classification-decathlon-and-clinical-ai-by-jiancheng-yang/4068/"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "02/2021",
-                where: " Pie & AI by <a href='https://deeplearning.ai/' target='_blank'>DeepLearning.AI</a> (online)",
-                note: "Host: <a href='https://www.eventbrite.com/e/pie-ai-henderson-medmnist-classification-decathlon-clinical-ai-tickets-137316189419#' target='_blank'>Nova77 STEM Workshop</a>"
-            }
-        ]
-    }
+//     {
+//         title: "TBD",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS1Bab21waEhtdXNF"
+//             },
+//             {
+//                 tag: "video (YouTube)",
+//                 href: "https://www.nova77.org/recorded-video-for-webinar-slides-for-medmnist-classification-decathlon-and-clinical-ai-by-jiancheng-yang/4068/"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "02/2021",
+//                 where: " Pie & AI by <a href='https://deeplearning.ai/' target='_blank'>DeepLearning.AI</a> (online)",
+//                 note: "Host: <a href='https://www.eventbrite.com/e/pie-ai-henderson-medmnist-classification-decathlon-clinical-ai-tickets-137316189419#' target='_blank'>Nova77 STEM Workshop</a>"
+//             }
+//         ]
+//     }
 //     {
 //         title: "How to Develop Open Research Dataset: Examples of Medical Images",
 //         materials: [
@@ -1145,12 +1180,12 @@ const talks = [
 ];
 
 const misc = [
-    "<i>Teaching</i>: Machine Learning (EE369: Aut’18, Aut’19), Machine Learning for AI class (EE228: Spr’19, Spr’20).",
-    "<i>Tools</i>: Python (10+ years), PyTorch, scikit-learn, Keras, TensorFlow, MXNet, Tableau, Javascript, Scala, etc.",
-    "<i>Patent</i>: 3 CN patents granted and several pending.",
-    "<i>Language</i>: I use 中文, <i>English</i> and <i>un peu Français</i>.",
-    "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games.",
-    '<i>"Do not go gentle into that good night."</i> --- Dylan Thomas (also from <i><a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank">Interstellar</a></i>)'
+//     "<i>Teaching</i>: Machine Learning (EE369: Aut’18, Aut’19), Machine Learning for AI class (EE228: Spr’19, Spr’20).",
+//     "<i>Tools</i>: Python (10+ years), PyTorch, scikit-learn, Keras, TensorFlow, MXNet, Tableau, Javascript, Scala, etc.",
+//     "<i>Patent</i>: 3 CN patents granted and several pending.",
+//     "<i>Language</i>: I use 中文, <i>English</i> and <i>un peu Français</i>.",
+//     "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games.",
+//     '<i>"Do not go gentle into that good night."</i> --- Dylan Thomas (also from <i><a href="https://en.wikipedia.org/wiki/Interstellar_(film)" target="_blank">Interstellar</a></i>)'
 ];
 
 // const publications = [

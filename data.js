@@ -211,7 +211,7 @@ const publications = [
             {
                 tag: "code",
                 href: "#TODO"
-            },
+            }
 //             {
 //                 tag: "dataset",
 //                 href: "https://ribfrac.grand-challenge.org/"
@@ -237,7 +237,7 @@ const publications = [
             {
                 tag: "code",
                 href: "#TODO"
-            },
+            }
 //             {
 //                 tag: "short slides",
 //                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
@@ -246,7 +246,7 @@ const publications = [
 //             {
 //                 tag: "poster",
 //                 href: "assets/materials/LeBA NeurIPS20 poster.pdf"
-            }
+//             }
         ]
     },
     {
@@ -273,7 +273,7 @@ const publications = [
             {
                 tag: "slides",
                 href: "assets/materials/AlignShift MICCAI20 slides.pdf"
-            },
+            }
 //             {
 //                 tag: "graphical abstract",
 //                 href: "assets/materials/AlignShift MICCAI20 abstract.pdf"

@@ -10,11 +10,11 @@ const site = {
         },
         {
             tag: "Publications",
-            href: "#sectionPublications"
+            href: "#publications"
         },
         {
             tag: "More",
-            href: "#sectionHonors"
+            href: "#honors"
         },
     ],
     relatedProjects: [

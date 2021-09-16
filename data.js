@@ -182,7 +182,7 @@ const publications = [
         //         abbr: "CG",
         year: "2020",
         authors: ["Yulin He", "Limeng Zhang", "Wei Chen", "Xin Luo", "Xiaogang Jia", "Chen Li"],
-        img: "assets/imgs/AttentionUNet++.png",
+        img: "assets/imgs/centerrepp.gif",
         materials: [
             {
                 tag: "paper",
@@ -718,81 +718,81 @@ const activities = {
 //     organizer: [
 //         "Lead organizer for <a href='https://ribfrac.grand-challenge.org/'>MICCAI 2020 RibFrac Challenge: Rib Fracture Detection and Classification</a>."
 //     ],
-    conference: [
-        {
-            venue: "ACM International Conference on Multimedia",
-            year: "2021",
-            abbr: "ACM MM"
-        },
+//     conference: [
 //         {
-//             venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-//             year: "2020-2022",
-//             abbr: "CVPR"
-//         },
-//         {
-//             venue: "International Conference on Computer Vision",
+//             venue: "ACM International Conference on Multimedia",
 //             year: "2021",
-//             abbr: "ICCV"
+//             abbr: "ACM MM"
+//         },
+// //         {
+// //             venue: "IEEE Conference on Computer Vision and Pattern Recognition",
+// //             year: "2020-2022",
+// //             abbr: "CVPR"
+// //         },
+// //         {
+// //             venue: "International Conference on Computer Vision",
+// //             year: "2021",
+// //             abbr: "ICCV"
+// //         },
+// //         {
+// //             venue: "Advances in Neural Information Processing Systems",
+// //             year: "2020-2021",
+// //             abbr: "NeurIPS"
+// //         },
+// //         {
+// //             venue: "International Conference on Machine Learning",
+// //             year: "2021",
+// //             abbr: "ICML"
+// //         },
+//         {
+//             venue: "International Conference on Learning Representations",
+//             year: "2022",
+//             abbr: "ICLR"
 //         },
 //         {
-//             venue: "Advances in Neural Information Processing Systems",
-//             year: "2020-2021",
-//             abbr: "NeurIPS"
-//         },
-//         {
-//             venue: "International Conference on Machine Learning",
+//             venue: "IEEE International Symposium on Biomedical Imaging",
 //             year: "2021",
-//             abbr: "ICML"
+//             abbr: "ISBI"
 //         },
-        {
-            venue: "International Conference on Learning Representations",
-            year: "2022",
-            abbr: "ICLR"
-        },
-        {
-            venue: "IEEE International Symposium on Biomedical Imaging",
-            year: "2021",
-            abbr: "ISBI"
-        },
-        {
-            venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
-            year: "2020",
-            abbr: "MICAD"
-        },
-        {
-            venue: "International Conference on Pattern Recognition",
-            year: "2020",
-            abbr: "ICPR"
-        },
-        {
-            venue: "IEEE International Conference on Image Processing",
-            year: "2020",
-            abbr: "ICIP"
-        }
-    ],
-    journal: [
 //         {
-//             venue: "IEEE Transactions on Medical Imaging",
-//             abbr: "IEEE TMI"
+//             venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
+//             year: "2020",
+//             abbr: "MICAD"
 //         },
-        {
-            venue: "Computers & Graphics",
-            abbr: "C&G"
-        },
-        {
-            venue: "International Journal of Medical Imaging",
-            abbr: "IJMI"
-        },
-        {
-            venue: "Sensors"
-        },
-        {
-            venue: "Applied Sciences"
-        },
-        {
-            venue: "Remote Sensing"
-        }
-    ]
+//         {
+//             venue: "International Conference on Pattern Recognition",
+//             year: "2020",
+//             abbr: "ICPR"
+//         },
+//         {
+//             venue: "IEEE International Conference on Image Processing",
+//             year: "2020",
+//             abbr: "ICIP"
+//         }
+//     ],
+//     journal: [
+// //         {
+// //             venue: "IEEE Transactions on Medical Imaging",
+// //             abbr: "IEEE TMI"
+// //         },
+//         {
+//             venue: "Computers & Graphics",
+//             abbr: "C&G"
+//         },
+//         {
+//             venue: "International Journal of Medical Imaging",
+//             abbr: "IJMI"
+//         },
+//         {
+//             venue: "Sensors"
+//         },
+//         {
+//             venue: "Applied Sciences"
+//         },
+//         {
+//             venue: "Remote Sensing"
+//         }
+//     ]
 };
 
 const talks = [

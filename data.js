@@ -770,19 +770,19 @@ const activities = {
 //             abbr: "ICIP"
 //         }
 //     ],
-//     journal: [
-// //         {
-// //             venue: "IEEE Transactions on Medical Imaging",
-// //             abbr: "IEEE TMI"
-// //         },
+    journal: [
+//         {
+//             venue: "IEEE Transactions on Medical Imaging",
+//             abbr: "IEEE TMI"
+//         },
 //         {
 //             venue: "Computers & Graphics",
 //             abbr: "C&G"
 //         },
-//         {
-//             venue: "International Journal of Medical Imaging",
-//             abbr: "IJMI"
-//         },
+        {
+            venue: "International Journal of Medical Imaging",
+            abbr: "IJMI"
+        }
 //         {
 //             venue: "Sensors"
 //         },
@@ -792,7 +792,7 @@ const activities = {
 //         {
 //             venue: "Remote Sensing"
 //         }
-//     ]
+    ]
 };
 
 const talks = [

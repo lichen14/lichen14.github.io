@@ -80,12 +80,12 @@ const about = {
 };
 
 const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
-I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, Computers & Graphics, Sensors, ICIP, ICPR, Applied Sciences and MICAD.`
+I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, Computers & Graphics, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
 
 const news = [
     {
         "mmyyyy": "09/2021",
-        "text": "Begin to work as a reviewer in the IJMI (International Journal of Medical Imaging)."
+        "text": "Begin to work as a reviewer in the IJMI (International Journal of Medical Imaging) from Sept.2021 to Sept.2023 ."
     },
     {
         "mmyyyy": "07/2021",
@@ -101,15 +101,15 @@ const news = [
     },
     {
         "mmyyyy": "10/2021",
-        "text": "1 more paper on object detection was accepted by ICPR‘2020.<a href='https://doi.org/10.3390/s21041430'>"
+        "text": "1 more paper on Object Detection was accepted by ICPR‘2020.<a href='https://doi.org/10.3390/s21041430'>"
     },
     {
         "mmyyyy": "08/2020",
-        "text": "2 papers (render-based method and point-sampling method for multi-organs & tumors segmentation) were accepted by Applied Science.)"
+        "text": "2 papers (Render-based method and point-sampling method for multi-organs & tumors segmentation) were accepted by Applied Science.)"
     },
     {
         "mmyyyy": "05/2020",
-        "text": "1 paper on the nested attention u-net was accepted by SMI’2020 and published on Computers & Graphics."
+        "text": "1 paper on the Nested Attention U-Net was accepted by SMI’2020 and published on Computers & Graphics."
     },
     {
         "mmyyyy": "05/2020",

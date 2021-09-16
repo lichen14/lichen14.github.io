@@ -85,7 +85,7 @@ I focus on medical image analysis, computer vision and unsupervised domain adapt
 const news = [
     {
         "mmyyyy": "09/2021",
-        "text": "Begin to work as a reviewer in the IJMI (International Journal of Medical Imaging) from Sept.2021 to Sept.2023 ."
+        "text": "Begin to work as a reviewer in the IJMI (International Journal of Medical Imaging) from Sept.2021 to Sept.2023 and Applied Sciences, Biology, Sensors."
     },
     {
         "mmyyyy": "07/2021",
@@ -771,21 +771,19 @@ const activities = {
 //         }
 //     ],
     journal: [
-//         {
-//             venue: "IEEE Transactions on Medical Imaging",
-//             abbr: "IEEE TMI"
-//         },
-//         {
-//             venue: "Computers & Graphics",
-//             abbr: "C&G"
-//         },
         {
-            venue: "International Journal of Medical Imaging",
+            venue: "Applied Sciences (ISSN:2076-3417)"
+        },
+        {
+            venue: "Biology (ISSN:2079-7737)"
+        },
+        {
+            venue: "International Journal of Medical Imaging (ISSN:2330-8303)",
             abbr: "IJMI"
+        },
+        {
+            venue: "Sensors (ISSN:1424-8220)"
         }
-//         {
-//             venue: "Sensors"
-//         },
 //         {
 //             venue: "Applied Sciences"
 //         },

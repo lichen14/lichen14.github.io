@@ -146,7 +146,7 @@ const publications = [
     },
     {
         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
-        file: "assets/publication/appsci-2.pdf",
+        file: "assets/publication/applsci-10-06439.pdf",
         venue: "Applied Sciences",
 //         abbr: "ISBI",
         year: "2020",
@@ -201,7 +201,7 @@ const publications = [
     },
     {
         title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
-        file: "assets/publication/cg20.pdf",
+        file: "assets/publication/final_version.pdf",
         venue: "Computers & Graphics",
         //         abbr: "CG",
         year: "2020",
@@ -225,7 +225,7 @@ const publications = [
     },
     {
         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
-        file: "assets/publication/icip20.pdf",
+        file: "assets/publication/ICIP 论文全文.pdf",
         venue: "IEEE International Conference on Image Processing",
         abbr: "ICIP",
         year: "2020",
@@ -283,7 +283,7 @@ const publications = [
     },
     {
         title: "Application of U-Shaped Convolutional Neural Network Based on Attention Mechanism in Liver CT Image Segmentation",
-        file: "assets/publication/micad20.pdf",
+        file: "assets/publication/21.pdf",
         venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
         abbr: "MICAD",
         year: "2020",
@@ -315,7 +315,7 @@ const publications = [
     },
     {
         title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
-        file: "assets/publication/appsci-1.pdf",
+        file: "assets/publication/applsci-10-06838（Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation）.pdf",
         venue: "Applied Sciences",
         year: "2020",
         authors: ["Chen Li", "Wei Chen*", "Yusong Tan"],

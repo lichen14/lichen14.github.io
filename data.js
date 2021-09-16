@@ -80,20 +80,28 @@ const about = {
 };
 
 const biography = `I am a 1st-year PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
-I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have (co-)first-authored X+ papers on top-tier journals / conferences, e.g., Computers & Graphics, ICIP, Applied Sciences and MICAD.`
+I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, Computers & Graphics, Sensors, ICIP, ICPR, Applied Sciences and MICAD.`
 
 const news = [
+    {
+        "mmyyyy": "09/2021",
+        "text": "Begin to work as a reviewer in the IJMI (International Journal of Medical Imaging)."
+    },
     {
         "mmyyyy": "07/2021",
         "text": "1 more paper on Lane Detection was accepted by Sensors.<a href='https://doi.org/10.3390/s21144657'>"
     },
     {
         "mmyyyy": "06/2021",
-        "text": "1 more paper on Lane Detection was accepted by ACM MM'21. (Fast and Accurate Lane Detection via Frequency Domain Learning)"
+        "text": "1 more paper on Lane Detection was accepted by ACM MM'2021. (Fast and Accurate Lane Detection via Frequency Domain Learning)"
     },
     {
         "mmyyyy": "02/2021",
         "text": "1 more paper on Stereo Matching was accepted by Sensors.<a href='https://doi.org/10.3390/s21041430'>"
+    },
+    {
+        "mmyyyy": "10/2021",
+        "text": "1 more paper on object detection was accepted by ICPR‘2020.<a href='https://doi.org/10.3390/s21041430'>"
     },
     {
         "mmyyyy": "08/2020",
@@ -101,11 +109,11 @@ const news = [
     },
     {
         "mmyyyy": "05/2020",
-        "text": "1 paper on the nested attention u-net was accepted by SMI and published on Computers & Graphics."
+        "text": "1 paper on the nested attention u-net was accepted by SMI’2020 and published on Computers & Graphics."
     },
     {
         "mmyyyy": "05/2020",
-        "text": "1 paper on liver CT segmentation with attention u-net was accepted by ICIP'20."
+        "text": "1 paper on liver CT segmentation with attention u-net was accepted by ICIP'2020.<a href = 'https://ieeexplore.ieee.org/abstract/document/9190761'>"
     },
     {
         "mmyyyy": "02/2020",
@@ -124,7 +132,7 @@ const publications = [
         venue: "Sensors",
         year: "2021",
         authors: ["Yulin He","Wei Chen *","Chen Li","Xin Luo","Libo Huang"],
-        img: "",
+        img: "assets/imgs/fast_lane_detection.jpeg",
         materials: [
             {
                 tag: "publication",
@@ -138,7 +146,7 @@ const publications = [
     },
     {
         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
-        file: "assets/publication/MedMNIST ISBI21.pdf",
+        file: "assets/publication/appsci-2.pdf",
         venue: "Applied Sciences",
 //         abbr: "ISBI",
         year: "2020",
@@ -168,8 +176,32 @@ const publications = [
         ]
     },
     {
+        title: "CenterRepp: Predict Central Representative Point Set's Distribution For Detection",
+        file: "assets/publication/centerrepp.pdf",
+        venue: "ICPR (International Conference on Pattern Recognition)",
+        //         abbr: "CG",
+        year: "2020",
+        authors: ["Yulin He", "Limeng Zhang", "Wei Chen", "Xin Luo", "Xiaogang Jia", "Chen Li"],
+        img: "assets/imgs/AttentionUNet++.png",
+        materials: [
+            {
+                tag: "paper",
+                href: "https://ieeexplore.ieee.org/abstract/document/9190761"
+            },
+            {
+                tag: "code",
+                href: "#TODO"
+            }
+        //             ,
+        //             {
+        //                 tag: "preprint",
+        //                 href: "https://arxiv.org/abs/1911.10477"
+        //             }
+        ]
+    },
+    {
         title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
-        file: "assets/publication/ACSConv JBHI.pdf",
+        file: "assets/publication/cg20.pdf",
         venue: "Computers & Graphics",
         //         abbr: "CG",
         year: "2020",
@@ -193,7 +225,7 @@ const publications = [
     },
     {
         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
-        file: "assets/publication/FracNet EBioMedicine.pdf",
+        file: "assets/publication/icip20.pdf",
         venue: "IEEE International Conference on Image Processing",
         abbr: "ICIP",
         year: "2020",
@@ -251,7 +283,7 @@ const publications = [
     },
     {
         title: "Application of U-Shaped Convolutional Neural Network Based on Attention Mechanism in Liver CT Image Segmentation",
-        file: "assets/publication/AlignShift MICCAI20.pdf",
+        file: "assets/publication/micad20.pdf",
         venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
         abbr: "MICAD",
         year: "2020",
@@ -283,6 +315,7 @@ const publications = [
     },
     {
         title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
+        file: "assets/publication/appsci-1.pdf",
         venue: "Applied Sciences",
         year: "2020",
         authors: ["Chen Li", "Wei Chen*", "Yusong Tan"],
@@ -623,94 +656,94 @@ const preprints = [
 ];
 
 const honors = [
-    {
-        "yyyy": "2021",
-        "text": "Top 100 Chinese Rising Stars in AI (<a href='https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd'>AI华人新星百强榜单</a>)."
-    },
-    {
-        "yyyy": "2020",
-        "text": "China National PhD Scholarship (top 2%)."
-    },
-    {
-        "yyyy": "2020",
-        "text": "<a href='https://bmvc2020.github.io/people/reviewers/'>BMVC 2020 Outstanding Reviewer Award</a>."
-    },
-    {
-        "yyyy": "2020",
-        "text": "MICCAI 2020 Student Travel Award."
-    },
-    {
-        "yyyy": "2020",
-        "text": "<a href='https://www.kaggle.com/c/prostate-cancer-grade-assessment'>MICCAI 2020 Prostate cANcer graDe Assessment (PANDA) Challenge</a>: Kaggle Silver. <i>Role: team mentor</i>."
-    },
-    {
-        "yyyy": "2020",
-        "text": "<a href='https://isbi.deepdr.org/'>ISBI 2020 DeepDR Diabetic Retinopathy Image Dataset (DeepDRiD) Challenge</a> (Diabetic Retinopathy Disease Grading track): 1 / 371. <i>Role: team mentor</i>."
-    },
-    {
-        "yyyy": "2020",
-        "text": "<a href='https://isbi.deepdr.org/'>ISBI 2020 DeepDR Diabetic Retinopathy Image Dataset (DeepDRiD) Challenge</a> (Image Quality Estimation track): 2 / 371. <i>Role: team mentor</i>."
-    },
-    {
-        "yyyy": "2019",
-        "text": "China National PhD Scholarship (top 2%)."
-    },
-    {
-        "yyyy": "2019",
-        "text": "<a href='https://digestpath2019.grand-challenge.org/'>MICCAI 2019 Digestive-System Pathological (DigestPath) Challenge</a> (Signet Ring Cell Detection track): 2 / 731. <i>Role: team mentor</i>. Check our <a href='https://arxiv.org/abs/2004.04455'>paper</a> on Neurocomputing."
-    },
-    {
-        "yyyy": "2019",
-        "text": "<a href='https://digestpath2019.grand-challenge.org/'>MICCAI 2019 Digestive-System Pathological (DigestPath) Challenge</a> (Colonoscopy Tissue Segmentation track): 4/ 731. <i>Role: team mentor</i>."
-    },
-    {
-        "yyyy": "2019",
-        "text": "<a href='https://tianchi.aliyun.com/markets/tianchi/ijcai19_en'>IJCAI 2019 Adversarial AI Challenge</a> (Non-Targeted Attack track): 3 / 2520. <i>Role: team mentor</i>."
-    },
-    {
-        "yyyy": "2017",
-        "text": "<a href='https://tianchi.aliyun.com/competition/entrance/231601/introduction'>Alibaba Tianchi Medical AI Competition</a>: 3 / 2887. <i>Role: team leader</i>."
-    },
-    {
-        "yyyy": "2010",
-        "text": "National First Prize in the National High School Mathematics Competition."
-    },
-    {
-        "yyyy": "2010",
-        "text": "National Second Prize in the National High School Physics Competition."
-    },
+//     {
+//         "yyyy": "2021",
+//         "text": "Top 100 Chinese Rising Stars in AI (<a href='https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd'>AI华人新星百强榜单</a>)."
+//     },
+//     {
+//         "yyyy": "2020",
+//         "text": "China National PhD Scholarship (top 2%)."
+//     },
+//     {
+//         "yyyy": "2020",
+//         "text": "<a href='https://bmvc2020.github.io/people/reviewers/'>BMVC 2020 Outstanding Reviewer Award</a>."
+//     },
+//     {
+//         "yyyy": "2020",
+//         "text": "MICCAI 2020 Student Travel Award."
+//     },
+//     {
+//         "yyyy": "2020",
+//         "text": "<a href='https://www.kaggle.com/c/prostate-cancer-grade-assessment'>MICCAI 2020 Prostate cANcer graDe Assessment (PANDA) Challenge</a>: Kaggle Silver. <i>Role: team mentor</i>."
+//     },
+//     {
+//         "yyyy": "2020",
+//         "text": "<a href='https://isbi.deepdr.org/'>ISBI 2020 DeepDR Diabetic Retinopathy Image Dataset (DeepDRiD) Challenge</a> (Diabetic Retinopathy Disease Grading track): 1 / 371. <i>Role: team mentor</i>."
+//     },
+//     {
+//         "yyyy": "2020",
+//         "text": "<a href='https://isbi.deepdr.org/'>ISBI 2020 DeepDR Diabetic Retinopathy Image Dataset (DeepDRiD) Challenge</a> (Image Quality Estimation track): 2 / 371. <i>Role: team mentor</i>."
+//     },
+//     {
+//         "yyyy": "2019",
+//         "text": "China National PhD Scholarship (top 2%)."
+//     },
+//     {
+//         "yyyy": "2019",
+//         "text": "<a href='https://digestpath2019.grand-challenge.org/'>MICCAI 2019 Digestive-System Pathological (DigestPath) Challenge</a> (Signet Ring Cell Detection track): 2 / 731. <i>Role: team mentor</i>. Check our <a href='https://arxiv.org/abs/2004.04455'>paper</a> on Neurocomputing."
+//     },
+//     {
+//         "yyyy": "2019",
+//         "text": "<a href='https://digestpath2019.grand-challenge.org/'>MICCAI 2019 Digestive-System Pathological (DigestPath) Challenge</a> (Colonoscopy Tissue Segmentation track): 4/ 731. <i>Role: team mentor</i>."
+//     },
+//     {
+//         "yyyy": "2019",
+//         "text": "<a href='https://tianchi.aliyun.com/markets/tianchi/ijcai19_en'>IJCAI 2019 Adversarial AI Challenge</a> (Non-Targeted Attack track): 3 / 2520. <i>Role: team mentor</i>."
+//     },
+//     {
+//         "yyyy": "2017",
+//         "text": "<a href='https://tianchi.aliyun.com/competition/entrance/231601/introduction'>Alibaba Tianchi Medical AI Competition</a>: 3 / 2887. <i>Role: team leader</i>."
+//     },
+//     {
+//         "yyyy": "2010",
+//         "text": "National First Prize in the National High School Mathematics Competition."
+//     },
+//     {
+//         "yyyy": "2010",
+//         "text": "National Second Prize in the National High School Physics Competition."
+//     },
 ];
 
 const activities = {
-    organizer: [
-        "Lead organizer for <a href='https://ribfrac.grand-challenge.org/'>MICCAI 2020 RibFrac Challenge: Rib Fracture Detection and Classification</a>."
-    ],
+//     organizer: [
+//         "Lead organizer for <a href='https://ribfrac.grand-challenge.org/'>MICCAI 2020 RibFrac Challenge: Rib Fracture Detection and Classification</a>."
+//     ],
     conference: [
         {
-            venue: "International Conference on Medical Image Computing and Computer Assisted Intervention",
-            year: "2020-2021",
-            abbr: "MICCAI"
-        },
-        {
-            venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-            year: "2020-2022",
-            abbr: "CVPR"
-        },
-        {
-            venue: "International Conference on Computer Vision",
+            venue: "ACM International Conference on Multimedia",
             year: "2021",
-            abbr: "ICCV"
+            abbr: "ACM MM"
         },
-        {
-            venue: "Advances in Neural Information Processing Systems",
-            year: "2020-2021",
-            abbr: "NeurIPS"
-        },
-        {
-            venue: "International Conference on Machine Learning",
-            year: "2021",
-            abbr: "ICML"
-        },
+//         {
+//             venue: "IEEE Conference on Computer Vision and Pattern Recognition",
+//             year: "2020-2022",
+//             abbr: "CVPR"
+//         },
+//         {
+//             venue: "International Conference on Computer Vision",
+//             year: "2021",
+//             abbr: "ICCV"
+//         },
+//         {
+//             venue: "Advances in Neural Information Processing Systems",
+//             year: "2020-2021",
+//             abbr: "NeurIPS"
+//         },
+//         {
+//             venue: "International Conference on Machine Learning",
+//             year: "2021",
+//             abbr: "ICML"
+//         },
         {
             venue: "International Conference on Learning Representations",
             year: "2022",
@@ -722,191 +755,191 @@ const activities = {
             abbr: "ISBI"
         },
         {
-            venue: "British Machine Vision Conference",
+            venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
             year: "2020",
-            abbr: "BMVC"
+            abbr: "MICAD"
         },
         {
-            venue: "IEEE Winter Conference on Applications of Computer Vision",
-            year: "2021",
-            abbr: "WACV"
+            venue: "International Conference on Pattern Recognition",
+            year: "2020",
+            abbr: "ICPR"
         },
         {
-            venue: "Asian Conference on Computer Vision",
+            venue: "IEEE International Conference on Image Processing",
             year: "2020",
-            abbr: "ACCV"
+            abbr: "ICIP"
         }
     ],
     journal: [
+//         {
+//             venue: "IEEE Transactions on Medical Imaging",
+//             abbr: "IEEE TMI"
+//         },
         {
-            venue: "IEEE Transactions on Medical Imaging",
-            abbr: "IEEE TMI"
+            venue: "Computers & Graphics",
+            abbr: "C&G"
         },
         {
-            venue: "IEEE Transactions on Information Forensics and Security",
-            abbr: "IEEE TIFS"
+            venue: "International Journal of Medical Imaging",
+            abbr: "IJMI"
         },
         {
-            venue: "European Journal of Nuclear Medicine and Molecular Imaging",
-            abbr: "EJNMMI"
+            venue: "Sensors"
         },
         {
-            venue: "Expert Systems with Applications"
+            venue: "Applied Sciences"
         },
         {
-            venue: "IEEE Access"
-        },
-        {
-            venue: "Biomedical Signal Processing and Control"
+            venue: "Remote Sensing"
         }
     ]
 };
 
 const talks = [
-    {
-        title: "MedMNIST Classification Decathlon and Clinical AI",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS1Bab21waEhtdXNF"
-            },
-            {
-                tag: "video (YouTube)",
-                href: "https://www.nova77.org/recorded-video-for-webinar-slides-for-medmnist-classification-decathlon-and-clinical-ai-by-jiancheng-yang/4068/"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "02/2021",
-                where: " Pie & AI by <a href='https://deeplearning.ai/' target='_blank'>DeepLearning.AI</a> (online)",
-                note: "Host: <a href='https://www.eventbrite.com/e/pie-ai-henderson-medmnist-classification-decathlon-clinical-ai-tickets-137316189419#' target='_blank'>Nova77 STEM Workshop</a>"
-            }
-        ]
-    },
-    {
-        title: "How to Develop Open Research Dataset: Examples of Medical Images",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS0xDdEVwTkd2RnBW"
-            },
-            {
-                tag: "video (in Chinese)",
-                href: "https://www.slidestalk.com/Baiyulan/20210126OpenData163895?video=&_fuid=40979"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "01/2021",
-                where: "AI Institute, SJTU, Shanghai",
-                note: "<a href='https://mp.weixin.qq.com/s/vVzECjq3ekjh2SxKcqTa3g' target='_blank'>Flyer</a> & <a href='https://mp.weixin.qq.com/s/XmjkcJWKlelpvCu4QLI5zQ' target='_blank'>Press</a> in Chinese"
-            }
-        ]
-    },
-    {
-        title: "Towards Trustworthy Medical 3D Vision",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS3FaQnRialJBWGl5"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "12/2020",
-                where: "CV/CG/ML Reading Group (online)",
-                note: "Host: <a href='http://www-personal.umich.edu/~zzhengxi/' target='_blank'>Zhengxia Zou</a>"
-            }
-        ]
-    },
-    {
-        title: "迈向可信的医学3D视觉：研究方法与感悟",
-        turns: [
-            {
-                mmyyyy: "11/2020",
-                where: "第四届上海交通大学&复旦大学联合电子信息技术学术论坛开幕式 (SJTU, Shanghai)"
-            }
-        ]
-    },
-    {
-        title: "Review of MICCAI 2020 RibFrac Challenge",
-        materials: [
-            {
-                tag: "videos & slides",
-                href: "https://ribfrac.grand-challenge.org/program/"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "10/2020",
-                where: "<a href='https://ribfrac.grand-challenge.org/' target='_blank'>MICCAI 2020 Satellite Event (RibFrac Challenge)</a>"
-            }
-        ]
-    },
-    {
-        title: "Tutorial: Techniques, Tricks and Trends in Deep Learning",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS09HV21tVGxXQ2NO"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "04/2020",
-                where: "SJTU Course: EE228 Machine Learning for AI Class"
-            }
-        ]
-    },
-    {
-        title: "Tutorial: Design of Modern CNNs",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS3ZsVUtVWW1uUGl2"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "10/2019",
-                where: "SJTU Course: EE369 Machine Learning"
-            }
-        ]
-    },
-    {
-        title: "3D视觉遇上医学图像计算",
-        turns: [
-            {
-                mmyyyy: "08/2019",
-                where: "上海交通大学人工智能研究生学术论坛 (SJTU, Shanghai)"
-            }
-        ]
-    },
-    {
-        title: "3rd-Place Solution for Alibaba Medical AI Competition",
-        materials: [
-            {
-                tag: "slides",
-                href: "https://docs.qq.com/pdf/DS2xWUFdiZWdWdVlE"
-            }
-        ],
-        turns: [
-            {
-                mmyyyy: "10/2017",
-                where: "Alibaba Group, Hangzhou"
-            },
-            {
-                mmyyyy: "10/2017",
-                where: "<a href='https://zhuanlan.zhihu.com/p/30346668' target='_blank'>AI Challenger Webinar</a>"
-            }
-        ]
-    }
+//     {
+//         title: "MedMNIST Classification Decathlon and Clinical AI",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS1Bab21waEhtdXNF"
+//             },
+//             {
+//                 tag: "video (YouTube)",
+//                 href: "https://www.nova77.org/recorded-video-for-webinar-slides-for-medmnist-classification-decathlon-and-clinical-ai-by-jiancheng-yang/4068/"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "02/2021",
+//                 where: " Pie & AI by <a href='https://deeplearning.ai/' target='_blank'>DeepLearning.AI</a> (online)",
+//                 note: "Host: <a href='https://www.eventbrite.com/e/pie-ai-henderson-medmnist-classification-decathlon-clinical-ai-tickets-137316189419#' target='_blank'>Nova77 STEM Workshop</a>"
+//             }
+//         ]
+//     },
+//     {
+//         title: "How to Develop Open Research Dataset: Examples of Medical Images",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS0xDdEVwTkd2RnBW"
+//             },
+//             {
+//                 tag: "video (in Chinese)",
+//                 href: "https://www.slidestalk.com/Baiyulan/20210126OpenData163895?video=&_fuid=40979"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "01/2021",
+//                 where: "AI Institute, SJTU, Shanghai",
+//                 note: "<a href='https://mp.weixin.qq.com/s/vVzECjq3ekjh2SxKcqTa3g' target='_blank'>Flyer</a> & <a href='https://mp.weixin.qq.com/s/XmjkcJWKlelpvCu4QLI5zQ' target='_blank'>Press</a> in Chinese"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Towards Trustworthy Medical 3D Vision",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS3FaQnRialJBWGl5"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "12/2020",
+//                 where: "CV/CG/ML Reading Group (online)",
+//                 note: "Host: <a href='http://www-personal.umich.edu/~zzhengxi/' target='_blank'>Zhengxia Zou</a>"
+//             }
+//         ]
+//     },
+//     {
+//         title: "迈向可信的医学3D视觉：研究方法与感悟",
+//         turns: [
+//             {
+//                 mmyyyy: "11/2020",
+//                 where: "第四届上海交通大学&复旦大学联合电子信息技术学术论坛开幕式 (SJTU, Shanghai)"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Review of MICCAI 2020 RibFrac Challenge",
+//         materials: [
+//             {
+//                 tag: "videos & slides",
+//                 href: "https://ribfrac.grand-challenge.org/program/"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "10/2020",
+//                 where: "<a href='https://ribfrac.grand-challenge.org/' target='_blank'>MICCAI 2020 Satellite Event (RibFrac Challenge)</a>"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Tutorial: Techniques, Tricks and Trends in Deep Learning",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS09HV21tVGxXQ2NO"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "04/2020",
+//                 where: "SJTU Course: EE228 Machine Learning for AI Class"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Tutorial: Design of Modern CNNs",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS3ZsVUtVWW1uUGl2"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "10/2019",
+//                 where: "SJTU Course: EE369 Machine Learning"
+//             }
+//         ]
+//     },
+//     {
+//         title: "3D视觉遇上医学图像计算",
+//         turns: [
+//             {
+//                 mmyyyy: "08/2019",
+//                 where: "上海交通大学人工智能研究生学术论坛 (SJTU, Shanghai)"
+//             }
+//         ]
+//     },
+//     {
+//         title: "3rd-Place Solution for Alibaba Medical AI Competition",
+//         materials: [
+//             {
+//                 tag: "slides",
+//                 href: "https://docs.qq.com/pdf/DS2xWUFdiZWdWdVlE"
+//             }
+//         ],
+//         turns: [
+//             {
+//                 mmyyyy: "10/2017",
+//                 where: "Alibaba Group, Hangzhou"
+//             },
+//             {
+//                 mmyyyy: "10/2017",
+//                 where: "<a href='https://zhuanlan.zhihu.com/p/30346668' target='_blank'>AI Challenger Webinar</a>"
+//             }
+//         ]
+//     }
 ];
 
 const misc = [
-    "<i>Teaching</i>: Machine Learning (EE369: Aut’18, Aut’19), Machine Learning for AI class (EE228: Spr’19, Spr’20).",
-    "<i>Tools</i>: Python (10+ years), PyTorch, scikit-learn, Keras, TensorFlow, MXNet, Tableau, Javascript, Scala, etc.",
-    "<i>Patent</i>: 3 CN patents granted and several pending.",
-    "<i>Language</i>: I use 中文, <i>English</i> and <i>un peu Français</i>.",
-    "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games."
+//     "<i>Teaching</i>: Machine Learning (EE369: Aut’18, Aut’19), Machine Learning for AI class (EE228: Spr’19, Spr’20).",
+//     "<i>Tools</i>: Python (10+ years), PyTorch, scikit-learn, Keras, TensorFlow, MXNet, Tableau, Javascript, Scala, etc.",
+//     "<i>Patent</i>: 3 CN patents granted and several pending.",
+//     "<i>Language</i>: I use 中文, <i>English</i> and <i>un peu Français</i>.",
+//     "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games."
 ];

@@ -57,7 +57,7 @@ const about = {
     nameEN: "Chen Li",
     nameCN: "李晨",
     affiliation: "PhD, National University of Defense Technology",
-    avatar: "assets/site/7c_副本.jpg",
+    avatar: "assets/imgs/7c_副本.jpg",
     contacts: [
         {
             //Please make sure the first one is always Google Scholar.
@@ -132,7 +132,7 @@ const news = [
 
 const publications = [
     {
-        title: "Tri-Directional Tasks Complementary Learning for Unsupervised Domain Adaptation of Cross-modality Medical Image Semantic Segmentation",
+        title: "AttENT: Domain-Adaptive Medical Image Segmentation via Attention-Aware Translation and Adversarial Entropy Minimization",
         venue: "BIBM (IEEE International Conference on Bioinformatics and Biomedicine)",
         year: "2021",
         authors: ["Chen Li","Xin Luo", "Wei Chen*", "Yulin He", "Mingfei Wu" , "Yusong Tan"],

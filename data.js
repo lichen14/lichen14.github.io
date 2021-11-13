@@ -35,7 +35,7 @@ const site = {
 //             href: "https://github.com/M3DV/Kickstart"
 //         },
         {
-            tag: "Others Learning Notes",
+            tag: "Others Learning Notes from duducheng",
             href: "https://github.com/duducheng/Learning-Notes"
         },
 //         {
@@ -57,7 +57,7 @@ const about = {
     nameEN: "Chen Li",
     nameCN: "李晨",
     affiliation: "PhD, National University of Defense Technology",
-    avatar: "assets/site/personal-square.jpg",
+    avatar: "assets/site/7c_副本.jpg",
     contacts: [
         {
             //Please make sure the first one is always Google Scholar.
@@ -80,9 +80,13 @@ const about = {
 };
 
 const biography = `I am a PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
-I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, Computers & Graphics, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
+I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, IEEE BIBM, Computers & Graphics, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
 
 const news = [
+    {
+        "mmyyyy": "10/2021",
+        "text": "2 more paper on medical image segmentation by unsupervised domain adaptation were accepted by IEEE BIBM'2021. (AttENT and TriDL)"
+    },
     {
         "mmyyyy": "09/2021",
         "text": "Begin to work as a reviewer in the IJMI (International Journal of Medical Imaging) from Sept.2021 to Sept.2023 and Applied Sciences, Biology, Sensors."
@@ -127,6 +131,40 @@ const news = [
 
 
 const publications = [
+    {
+        title: "Tri-Directional Tasks Complementary Learning for Unsupervised Domain Adaptation of Cross-modality Medical Image Semantic Segmentation",
+        venue: "BIBM (IEEE International Conference on Bioinformatics and Biomedicine)",
+        year: "2021",
+        authors: ["Chen Li","Xin Luo", "Wei Chen*", "Yulin He", "Mingfei Wu" , "Yusong Tan"],
+        img: "assets/imgs/attent.jpg",
+        materials: [
+            {
+                tag: "publication",
+                href: "#TODO"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/lichen14/AttENT"
+            }
+        ]
+    },
+    {
+        title: "Tri-Directional Tasks Complementary Learning for Unsupervised Domain Adaptation of Cross-modality Medical Image Semantic Segmentation",
+        venue: "BIBM (IEEE International Conference on Bioinformatics and Biomedicine)",
+        year: "2021",
+        authors: ["Chen Li", "Wei Chen*", "Mingfei Wu","Xin Luo" , "Yulin He", "Yusong Tan"],
+        img: "assets/imgs/tridl.jpg",
+        materials: [
+            {
+                tag: "publication",
+                href: "#TODO"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/lichen14/TriDL"
+            }
+        ]
+    },
     {
         title: "Fast and Accurate Lane Detection via Graph Structure and Disentangled Representation Learning",
         venue: "Sensors",

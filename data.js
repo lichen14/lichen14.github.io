@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2021",
     url: "https://github.com/lichen14/duducheng.github.io",
-    lastUpdated: "September, 2021",
+    lastUpdated: "December, 2021",
     showPageviews: false,
     navbar: [
         {
@@ -83,6 +83,10 @@ const biography = `I am a PhD student in the College of Computer, National Unive
 I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, IEEE BIBM, Computers & Graphics, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
 
 const news = [
+    {
+        "mmyyyy": "12/2021",
+        "text": "Invited to be the session chair (Biomedical Image Analysis) of BIBM'2021."
+    },
     {
         "mmyyyy": "10/2021",
         "text": "2 more paper on medical image segmentation by unsupervised domain adaptation were accepted by IEEE BIBM'2021. (AttENT and TriDL)"

@@ -80,7 +80,7 @@ const about = {
 };
 
 const biography = `I am a PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
-I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, IEEE BIBM, Computers & Graphics, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
+I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, IEEE BIBM, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
 
 const news = [
     {
@@ -94,10 +94,6 @@ const news = [
     {
         "mmyyyy": "09/2021",
         "text": "Begin to work as a reviewer in the IJMI (International Journal of Medical Imaging) from Sept.2021 to Sept.2023 and Applied Sciences, Biology, Sensors."
-    },
-    {
-        "mmyyyy": "07/2021",
-        "text": "1 more paper on Lane Detection was accepted by Sensors.<a href='https://doi.org/10.3390/s21144657'>"
     },
     {
         "mmyyyy": "06/2021",
@@ -117,11 +113,7 @@ const news = [
     },
     {
         "mmyyyy": "05/2020",
-        "text": "1 paper on the Nested Attention U-Net was accepted by SMI’2020 and published on Computers & Graphics."
-    },
-    {
-        "mmyyyy": "05/2020",
-        "text": "1 paper on liver CT segmentation with attention u-net was accepted by ICIP'2020.<a href = 'https://ieeexplore.ieee.org/abstract/document/9190761'>"
+        "text": "1 paper on liver CT segmentation with attention u-net++ was accepted by ICIP'2020.<a href = 'https://ieeexplore.ieee.org/abstract/document/9190761'>"
     },
     {
         "mmyyyy": "02/2020",
@@ -170,23 +162,6 @@ const publications = [
         ]
     },
     {
-        title: "Fast and Accurate Lane Detection via Graph Structure and Disentangled Representation Learning",
-        venue: "Sensors",
-        year: "2021",
-        authors: ["Yulin He","Wei Chen *","Chen Li","Xin Luo","Libo Huang"],
-        img: "assets/imgs/fast_lane_detection.jpeg",
-        materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.3390/s21144657"
-            },
-            {
-                tag: "code",
-                href: "#TODO"
-            }
-        ]
-    },
-    {
         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
         file: "assets/publication/applsci-10-06439.pdf",
         venue: "Applied Sciences",
@@ -229,30 +204,6 @@ const publications = [
             {
                 tag: "paper",
                 href: "https://ieeexplore.ieee.org/abstract/document/9190761"
-            },
-            {
-                tag: "code",
-                href: "#TODO"
-            }
-        //             ,
-        //             {
-        //                 tag: "preprint",
-        //                 href: "https://arxiv.org/abs/1911.10477"
-        //             }
-        ]
-    },
-    {
-        title: "ANU-Net: Attention-based Nested U-Net to exploit full resolution features for medical image segmentation",
-        file: "assets/publication/final_version.pdf",
-        venue: "Computers & Graphics",
-        //         abbr: "CG",
-        year: "2020",
-        authors: ["Chen Li", "Yusong Tan*", "Wei Chen", "Xin Luo", "Yulin He", "Yuanming Gao", "Fei Li"],
-        img: "assets/imgs/AttentionUNet++.png",
-        materials: [
-            {
-                tag: "paper",
-                href: "#TODO"
             },
             {
                 tag: "code",

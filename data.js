@@ -129,15 +129,12 @@ const news = [
 const publications = [
     {
         title: "AttENT: Domain-Adaptive Medical Image Segmentation via Attention-Aware Translation and Adversarial Entropy Minimization",
+        file: "https://doi.org/10.1109/BIBM52615.2021.9669620",
         venue: "BIBM (IEEE International Conference on Bioinformatics and Biomedicine)",
         year: "2021",
         authors: ["Chen Li","Xin Luo", "Wei Chen*", "Yulin He", "Mingfei Wu" , "Yusong Tan"],
         img: "assets/imgs/attent.jpg",
         materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1109/BIBM52615.2021.9669620"
-            },
             {
                 tag: "paper",
                 href: "assets/publication/BIBM_AttENT.pdf"
@@ -150,15 +147,12 @@ const publications = [
     },
     {
         title: "Tri-Directional Tasks Complementary Learning for Unsupervised Domain Adaptation of Cross-modality Medical Image Semantic Segmentation",
+        file: "https://doi.org/10.1109/BIBM52615.2021.9669615",
         venue: "BIBM (IEEE International Conference on Bioinformatics and Biomedicine)",
         year: "2021",
         authors: ["Chen Li", "Wei Chen*", "Mingfei Wu","Xin Luo" , "Yulin He", "Yusong Tan"],
         img: "assets/imgs/tridl.jpg",
         materials: [
-            {
-                tag: "publication",
-                href: "https://doi.org/10.1109/BIBM52615.2021.9669615"
-            },
             {
                 tag: "paper",
                 href: "assets/publication/BIBM_TriDL.pdf"
@@ -170,8 +164,26 @@ const publications = [
         ]
     },
     {
+        title: "Fast and Accurate Lane Detection via Frequency Domain Learning",
+        file: "https://doi.org/10.1145/3474085.3475267",
+        venue: "MM (ACM International Conference on Multimedia)",
+        year: "2021",
+        authors: ["Yulin He", " Wei Chen",  "Zhengfa Liang",  "Dan Chen",  "Yusong Tan",  "Xin Luo", "Chen Li", "Yulan Guo"],
+        img: "assets/imgs/ACM_MM_2021.png",
+        materials: [
+            {
+                tag: "paper",
+                href: "assets/publication/ACM_MM_2021.pdf"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/harrylin-hyl/MSLD"
+            }
+        ]
+    },
+    {
         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
-        file: "assets/publication/applsci-10-06439.pdf",
+        file: "https://www.mdpi.com/2076-3417/10/18/6439",
         venue: "Applied Sciences",
 //         abbr: "ISBI",
         year: "2020",
@@ -180,7 +192,7 @@ const publications = [
         materials: [
             {
                 tag: "paper",
-                href: "#TODO"
+                href: "assets/publication/applsci-10-06439.pdf"
             },
 //             {
 //                 tag: "project page",
@@ -202,7 +214,7 @@ const publications = [
     },
     {
         title: "CenterRepp: Predict Central Representative Point Set's Distribution For Detection",
-        file: "assets/publication/centerrepp.pdf",
+        file: "https://ieeexplore.ieee.org/abstract/document/9190761",
         venue: "ICPR (International Conference on Pattern Recognition)",
         //         abbr: "CG",
         year: "2020",
@@ -211,7 +223,7 @@ const publications = [
         materials: [
             {
                 tag: "paper",
-                href: "https://ieeexplore.ieee.org/abstract/document/9190761"
+                href: "assets/publication/centerrepp.pdf"
             },
             {
                 tag: "code",
@@ -226,7 +238,7 @@ const publications = [
     },
     {
         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
-        file: "assets/publication/ICIP 论文全文.pdf",
+        file: "https://doi.org/10.1016/j.ebiom.2020.103106",
         venue: "IEEE International Conference on Image Processing",
         abbr: "ICIP",
         year: "2020",
@@ -235,16 +247,16 @@ const publications = [
         materials: [
             {
                 tag: "paper",
-                href: "https://doi.org/10.1016/j.ebiom.2020.103106"
+                href: "assets/publication/ICIP 论文全文.pdf"
             },
 //             {
 //                 tag: "project page",
 //                 href: "https://m3dv.github.io/FracNet/"
 //             },
-            {
-                tag: "code",
-                href: "#TODO"
-            }
+//             {
+//                 tag: "code",
+//                 href: "#TODO"
+//             }
 //             {
 //                 tag: "dataset",
 //                 href: "https://ribfrac.grand-challenge.org/"
@@ -257,7 +269,7 @@ const publications = [
     },
     {
         title: "A Joint 2D-3D Complementary Network for Stereo Matching",
-        file: "",
+        file: "https://doi.org/10.3390/s21041430",
         abbr: "Sensors",
         year: "2020",
         authors: ["Xiaogang Jia","Wei Chen *","Zhengfa Liang","Xin Luo","Mingfei Wu","Chen Li","Yulin He","Yusong Tan","Libo Huang"],
@@ -265,12 +277,12 @@ const publications = [
         materials: [
             {
                 tag: "publication",
-                href: "https://doi.org/10.3390/s21041430"
-            },
-            {
-                tag: "code",
                 href: "#TODO"
-            }
+            },
+//             {
+//                 tag: "code",
+//                 href: "#TODO"
+//             }
 //             {
 //                 tag: "short slides",
 //                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
@@ -284,7 +296,7 @@ const publications = [
     },
     {
         title: "Application of U-Shaped Convolutional Neural Network Based on Attention Mechanism in Liver CT Image Segmentation",
-        file: "assets/publication/21.pdf",
+        file: "http://doi.org/10.1007/978-3-030-59719-1_55",
         venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
         abbr: "MICAD",
         year: "2020",
@@ -293,20 +305,20 @@ const publications = [
         materials: [
             {
                 tag: "paper",
-                href: "http://doi.org/10.1007/978-3-030-59719-1_55"
+                href: "assets/publication/21.pdf"
             },
-            {
-                tag: "code",
-                href: "#TODO"
-            },
-            {
-                tag: "video",
-                href: "https://www.bilibili.com/video/BV1qT4y1c73k/"
-            },
-            {
-                tag: "slides",
-                href: "assets/materials/AlignShift MICCAI20 slides.pdf"
-            }
+//             {
+//                 tag: "code",
+//                 href: "#TODO"
+//             },
+//             {
+//                 tag: "video",
+//                 href: "https://www.bilibili.com/video/BV1qT4y1c73k/"
+//             },
+//             {
+//                 tag: "slides",
+//                 href: "assets/materials/AlignShift MICCAI20 slides.pdf"
+//             }
 //             {
 //                 tag: "graphical abstract",
 //                 href: "assets/materials/AlignShift MICCAI20 abstract.pdf"
@@ -316,7 +328,7 @@ const publications = [
     },
     {
         title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
-        file: "assets/publication/applsci-10-06838（Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation）.pdf",
+        file: "https://doi.org/10.3390/app10196838",
         venue: "Applied Sciences",
         year: "2020",
         authors: ["Chen Li", "Wei Chen*", "Yusong Tan"],
@@ -324,17 +336,17 @@ const publications = [
         materials: [
             {
                 tag: "paper",
-                href: "#TODO"
+                href: "assets/publication/applsci-10-06838（Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation）.pdf"
             },
-            {
-                tag: "code",
-                href: "#TODO"
-            }
+//             {
+//                 tag: "code",
+//                 href: "#TODO"
+//             }
         ]
     },
     {
         title: "A Unified Framework for Depth Prediction from a Single Image and Binocular Stereo Matching",
-        file: "",
+        file: "https://doi.org/10.3390/rs12030588",
         venue: "Remote Sensors",
 //         abbr: "ISBI",
         year: "2020",
@@ -343,16 +355,16 @@ const publications = [
         materials: [
             {
                 tag: "paper",
-                href: "https://doi.org/10.3390/rs12030588"
+                href: "#TODO"
             },
 //             {
 //                 tag: "project page",
 //                 href: "https://medmnist.github.io/"
 //             },
-            {
-                tag: "code",
-                href: "https://github.com/lichen14/RenderUNet-Pytorch"
-            }
+//             {
+//                 tag: "code",
+//                 href: "https://github.com/lichen14/RenderUNet-Pytorch"
+//             }
 //             {
 //                 tag: "dataset",
 //                 href: "https://medmnist.github.io/#dataset"

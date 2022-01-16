@@ -1,7 +1,7 @@
 const site = {
-    year: "2020-2021",
+    year: "2020-2022",
     url: "https://github.com/lichen14/duducheng.github.io",
-    lastUpdated: "December, 2021",
+    lastUpdated: "Jan, 2022",
     showPageviews: false,
     navbar: [
         {
@@ -182,6 +182,26 @@ const publications = [
         ]
     },
     {
+        title: "Multi-Scale Cost Volumes Cascade Network for Stereo Matching",
+        file: "https://doi.org/10.1109/ICRA48506.2021.9560864",
+        venue: "ICRA(IEEE International Conference on Robotics and Automation)",
+        //         abbr: "CG",
+        year: "2021",
+        authors: ["Xiaogang Jia","Wei Chen","Chen Li","Zhengfa Liang","Mingfei Wu","Yusong Tan"," Libo Huang"],
+        img: "assets/imgs/ICAR_2021.png",
+        materials: [
+            {
+                tag: "paper",
+                href: "assets/publication/ICAR_2021.pdf"
+            },
+        //             ,
+        //             {
+        //                 tag: "preprint",
+        //                 href: "https://arxiv.org/abs/1911.10477"
+        //             }
+        ]
+    },
+    {
         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
         file: "https://www.mdpi.com/2076-3417/10/18/6439",
         venue: "Applied Sciences",
@@ -213,30 +233,6 @@ const publications = [
         ]
     },
     {
-        title: "CenterRepp: Predict Central Representative Point Set's Distribution For Detection",
-        file: "https://ieeexplore.ieee.org/abstract/document/9190761",
-        venue: "ICPR (International Conference on Pattern Recognition)",
-        //         abbr: "CG",
-        year: "2020",
-        authors: ["Yulin He", "Limeng Zhang", "Wei Chen", "Xin Luo", "Xiaogang Jia", "Chen Li"],
-        img: "assets/imgs/centerrepp.gif",
-        materials: [
-            {
-                tag: "paper",
-                href: "assets/publication/centerrepp.pdf"
-            },
-            {
-                tag: "code",
-                href: "#TODO"
-            }
-        //             ,
-        //             {
-        //                 tag: "preprint",
-        //                 href: "https://arxiv.org/abs/1911.10477"
-        //             }
-        ]
-    },
-    {
         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
         file: "https://doi.org/10.1016/j.ebiom.2020.103106",
         venue: "IEEE International Conference on Image Processing",
@@ -265,6 +261,30 @@ const publications = [
 //                 tag: "commentary",
 //                 href: "https://doi.org/10.1016/j.ebiom.2020.103158"
 //             }
+        ]
+    },
+    {
+        title: "CenterRepp: Predict Central Representative Point Set's Distribution For Detection",
+        file: "https://ieeexplore.ieee.org/abstract/document/9190761",
+        venue: "ICPR (International Conference on Pattern Recognition)",
+        //         abbr: "CG",
+        year: "2020",
+        authors: ["Yulin He", "Limeng Zhang", "Wei Chen", "Xin Luo", "Xiaogang Jia", "Chen Li"],
+        img: "assets/imgs/centerrepp.gif",
+        materials: [
+            {
+                tag: "paper",
+                href: "assets/publication/centerrepp.pdf"
+            },
+            {
+                tag: "code",
+                href: "#TODO"
+            }
+        //             ,
+        //             {
+        //                 tag: "preprint",
+        //                 href: "https://arxiv.org/abs/1911.10477"
+        //             }
         ]
     },
     {

@@ -136,7 +136,11 @@ const publications = [
         materials: [
             {
                 tag: "publication",
-                href: "#TODO"
+                href: "https://doi.org/10.1109/BIBM52615.2021.9669620"
+            },
+            {
+                tag: "paper",
+                href: "assets/imgs/attent.jpg"
             },
             {
                 tag: "code",
@@ -153,7 +157,11 @@ const publications = [
         materials: [
             {
                 tag: "publication",
-                href: "#TODO"
+                href: "https://doi.org/10.1109/BIBM52615.2021.9669615"
+            },
+            {
+                tag: "paper",
+                href: "assets/imgs/tridl.jpg"
             },
             {
                 tag: "code",

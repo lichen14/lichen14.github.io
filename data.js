@@ -140,7 +140,7 @@ const publications = [
             },
             {
                 tag: "paper",
-                href: "assets/imgs/attent.jpg"
+                href: "assets/publications/BIBM_ATTENT.pdf"
             },
             {
                 tag: "code",
@@ -161,7 +161,7 @@ const publications = [
             },
             {
                 tag: "paper",
-                href: "assets/imgs/tridl.jpg"
+                href: "assets/publications/BIBM_TriDL.pdf"
             },
             {
                 tag: "code",

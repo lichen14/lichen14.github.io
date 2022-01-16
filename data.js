@@ -277,7 +277,7 @@ const publications = [
         materials: [
             {
                 tag: "publication",
-                href: "#TODO"
+                href: "assets/publication/sensors_2021.pdf"
             },
 //             {
 //                 tag: "code",
@@ -355,7 +355,7 @@ const publications = [
         materials: [
             {
                 tag: "paper",
-                href: "#TODO"
+                href: "assets/publication/remote_sensing_2020.pdf"
             },
 //             {
 //                 tag: "project page",

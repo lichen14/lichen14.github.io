@@ -140,7 +140,7 @@ const publications = [
             },
             {
                 tag: "paper",
-                href: "assets/publication/BIBM_ATTENT.pdf"
+                href: "assets/publication/BIBM_AttENT.pdf"
             },
             {
                 tag: "code",

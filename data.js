@@ -84,6 +84,10 @@ I focus on medical image analysis, computer vision and unsupervised domain adapt
 
 const news = [
     {
+        "mmyyyy": "01/2022",
+        "text": "1 more paper on Pseudo Labeling was accepted by IEEE ICASSP'2022. (Adaptive Pseudo Labeling for Source-Free Domain Adaptation in Medical Image Segmentation)"
+    },
+    {
         "mmyyyy": "12/2021",
         "text": "Invited to be the session chair (Biomedical Image Analysis) of BIBM'2021."
     },

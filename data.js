@@ -84,6 +84,10 @@ I focus on medical image analysis, computer vision and unsupervised domain adapt
 
 const news = [
     {
+        "mmyyyy": "02/2022",
+        "text": "Accept the invitation to review for MICCAI'2022."
+    },
+    {
         "mmyyyy": "01/2022",
         "text": "1 more paper on Pseudo Labeling was accepted by IEEE ICASSP'2022. (Adaptive Pseudo Labeling for Source-Free Domain Adaptation in Medical Image Segmentation)"
     },
@@ -751,16 +755,16 @@ const honors = [
 //     },
 ];
 
-const activities = {
+const reviewer = {
 //     organizer: [
 //         "Lead organizer for <a href='https://ribfrac.grand-challenge.org/'>MICCAI 2020 RibFrac Challenge: Rib Fracture Detection and Classification</a>."
 //     ],
-//     conference: [
-//         {
-//             venue: "ACM International Conference on Multimedia",
-//             year: "2021",
-//             abbr: "ACM MM"
-//         },
+    conference: [
+        {
+            venue: "Medical Image Computing and Computer-Assisted Intervention",
+            year: "2022",
+            abbr: "MICCAI"
+        },
 // //         {
 // //             venue: "IEEE Conference on Computer Vision and Pattern Recognition",
 // //             year: "2020-2022",
@@ -806,7 +810,7 @@ const activities = {
 //             year: "2020",
 //             abbr: "ICIP"
 //         }
-//     ],
+    ],
     journal: [
         {
             venue: "Applied Sciences (ISSN:2076-3417)"

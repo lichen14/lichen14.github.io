@@ -755,7 +755,7 @@ const honors = [
 //     },
 ];
 
-const reviewer = {
+const activity = {
 //     organizer: [
 //         "Lead organizer for <a href='https://ribfrac.grand-challenge.org/'>MICCAI 2020 RibFrac Challenge: Rib Fracture Detection and Classification</a>."
 //     ],
@@ -764,7 +764,7 @@ const reviewer = {
             venue: "Medical Image Computing and Computer-Assisted Intervention",
             year: "2022",
             abbr: "MICCAI"
-        },
+        }
 // //         {
 // //             venue: "IEEE Conference on Computer Vision and Pattern Recognition",
 // //             year: "2020-2022",

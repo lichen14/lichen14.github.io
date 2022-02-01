@@ -755,7 +755,7 @@ const honors = [
 //     },
 ];
 
-const activity = {
+const activities = {
 //     organizer: [
 //         "Lead organizer for <a href='https://ribfrac.grand-challenge.org/'>MICCAI 2020 RibFrac Challenge: Rib Fracture Detection and Classification</a>."
 //     ],
@@ -765,51 +765,6 @@ const activity = {
             year: "2022",
             abbr: "MICCAI"
         }
-// //         {
-// //             venue: "IEEE Conference on Computer Vision and Pattern Recognition",
-// //             year: "2020-2022",
-// //             abbr: "CVPR"
-// //         },
-// //         {
-// //             venue: "International Conference on Computer Vision",
-// //             year: "2021",
-// //             abbr: "ICCV"
-// //         },
-// //         {
-// //             venue: "Advances in Neural Information Processing Systems",
-// //             year: "2020-2021",
-// //             abbr: "NeurIPS"
-// //         },
-// //         {
-// //             venue: "International Conference on Machine Learning",
-// //             year: "2021",
-// //             abbr: "ICML"
-// //         },
-//         {
-//             venue: "International Conference on Learning Representations",
-//             year: "2022",
-//             abbr: "ICLR"
-//         },
-//         {
-//             venue: "IEEE International Symposium on Biomedical Imaging",
-//             year: "2021",
-//             abbr: "ISBI"
-//         },
-//         {
-//             venue: "International Conference on Medical Imaging and Computer-Aided Diagnosis",
-//             year: "2020",
-//             abbr: "MICAD"
-//         },
-//         {
-//             venue: "International Conference on Pattern Recognition",
-//             year: "2020",
-//             abbr: "ICPR"
-//         },
-//         {
-//             venue: "IEEE International Conference on Image Processing",
-//             year: "2020",
-//             abbr: "ICIP"
-//         }
     ],
     journal: [
         {

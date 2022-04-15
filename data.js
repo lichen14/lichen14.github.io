@@ -136,6 +136,28 @@ const news = [
 
 const publications = [
     {
+        title: "Adaptive Pseudo Labeling For Source-Free Domain Adaptation In Medical Image Segmentation",
+        file: "https://doi.org/",
+        venue: "ICASSP (IEEE International Conference on Acoustics, Speech and Signal Processing)",
+        year: "2022",
+        authors: ["Chen Li","Wei Chen*","Xin Luo",  "Yulin He", "Yusong Tan"],
+        img: "assets/imgs/icassp2021.png",
+        materials: [
+            {
+                tag: "paper",
+                href: "#TODO"
+            },
+            {
+                tag: "poster",
+                href: "assets/materials/icassp_2021_poster.pdf"
+            },
+            {
+                tag: "ppt",
+                href: "assets/materials/icassp_2021_Presentation.pdf"
+            }
+        ]
+    },
+    {
         title: "AttENT: Domain-Adaptive Medical Image Segmentation via Attention-Aware Translation and Adversarial Entropy Minimization",
         file: "https://doi.org/10.1109/BIBM52615.2021.9669620",
         venue: "BIBM (IEEE International Conference on Bioinformatics and Biomedicine)",
@@ -150,6 +172,10 @@ const publications = [
             {
                 tag: "code",
                 href: "https://github.com/lichen14/AttENT"
+            },
+            {
+                tag: "ppt",
+                href: "assets/materials/BIBM_2021_Presentation-B221-AttENT.pdf"
             }
         ]
     },
@@ -168,6 +194,10 @@ const publications = [
             {
                 tag: "code",
                 href: "https://github.com/lichen14/TriDL"
+            },
+            {
+                tag: "ppt",
+                href: "assets/materials/BIBM 2021 Presentation-B521-TriDL.pdf"
             }
         ]
     },

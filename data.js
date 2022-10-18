@@ -80,9 +80,17 @@ const about = {
 };
 
 const biography = `I am a PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
-I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, IEEE BIBM, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
+I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, Neural Networks, IEEE Robotics and Automation Letters, IEEE ICASSP, IEEE BIBM, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
 
 const news = [
+    {
+        "mmyyyy": "10/2022",
+        "text": "1 more paper on Source-Free Model Adaptation was published by IEEE Robotics and Automation Letters. (Multi-Level Consistency Learning for Source-Free Model Adaptation)"
+    },
+    {
+        "mmyyyy": "09/2022",
+        "text": "1 more paper on Unsupervised Domain Adaptation was published by Neural Networks. (Adversarial Style Discrepancy Minimization for Unsupervised Domain Adaptation)"
+    },
     {
         "mmyyyy": "02/2022",
         "text": "Accept the invitation to review for MICCAI'2022."

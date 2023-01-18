@@ -75,8 +75,8 @@ const about = {
     ]
 };
 
-const biography = `I am a PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
-I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, Neural Networks, IEEE Robotics and Automation Letters, IEEE ICASSP, IEEE BIBM, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
+const biography = `I am a PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/citations?user=LGwaNSwAAAAJ">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
+I focus on medical image analysis, computer vision and weak/unsupervised learning. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, Neural Networks, IEEE Robotics and Automation Letters, IEEE ICASSP, IEEE BIBM, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
 
 const news = [
     {

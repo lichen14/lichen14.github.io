@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2022",
     url: "https://github.com/lichen14/duducheng.github.io",
-    lastUpdated: "Jan, 2022",
+    lastUpdated: "Jan, 2023",
     showPageviews: false,
     navbar: [
         {
@@ -19,17 +19,13 @@ const site = {
     ],
     relatedProjects: [
         {
-            tag: "TriDL",
-            href: "https://github.com/lichen14/TriDL"
-        },
-        {
             tag: "AttENT",
             href: "https://github.com/lichen14/AttENT"
         },
-//         {
-//             tag: "2048 Game API",
-//             href: "https://github.com/duducheng/2048-api"
-//         },
+        {
+            tag: "TOWER",
+            href: "https://github.com/lichen14/TOWER"
+        },
 //         {
 //             tag: "Deep Learning Kickstart",
 //             href: "https://github.com/M3DV/Kickstart"
@@ -61,7 +57,7 @@ const about = {
     contacts: [
         {
             //Please make sure the first one is always Google Scholar.
-            href: "https://scholar.google.com/citations?user=Bm7n1YUAAAAJ",
+            href: "https://scholar.google.com/citations?user=2xiuYdgAAAAJ",
             src: "assets/site/google_scholar.jpg"
         },
         {
@@ -83,6 +79,10 @@ const biography = `I am a PhD student in the College of Computer, National Unive
 I focus on medical image analysis, computer vision and unsupervised domain adaptation. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, Neural Networks, IEEE Robotics and Automation Letters, IEEE ICASSP, IEEE BIBM, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
 
 const news = [
+    {
+        "mmyyyy": "01/2023",
+        "text": "Accept the invitation to review for MICCAI'2023."
+    },
     {
         "mmyyyy": "10/2022",
         "text": "1 more paper on Source-Free Model Adaptation was published by IEEE Robotics and Automation Letters. (Multi-Level Consistency Learning for Source-Free Model Adaptation)"
@@ -144,8 +144,36 @@ const news = [
 
 const publications = [
     {
+        title: "Adversarial style discrepancy minimization for unsupervised domain adaptation",
+        file: "https://doi.org/10.1016/j.neunet.2022.10.015",
+        venue: "Neural Networks",
+        year: "2023",
+        authors: ["Xin Luo", "Wei Chen*","Zhengfa Liang",  "Chen Li","Yusong Tan"],
+        img: "assets/imgs/nn2022.png",
+        materials: [
+            {
+                tag: "paper",
+                href: "https://doi.org/10.1016/j.neunet.2022.10.015"
+            }
+        ]
+    },
+    {
+        title: "Multi-Level Consistency Learning for Source-Free Model Adaptation",
+        file: "https://ieeexplore.ieee.org/document/9928327",
+        venue: "IEEE Robotics and Automation Letters",
+        year: "2022",
+        authors: ["Xin Luo", "Wei Chen*", "Chen Li","Bin Zhou", "Yusong Tan"],
+        img: "assets/imgs/ral2022.png",
+        materials: [
+            {
+                tag: "paper",
+                href: "https://ieeexplore.ieee.org/document/9928327"
+            }
+        ]
+    },
+    {
         title: "Adaptive Pseudo Labeling For Source-Free Domain Adaptation In Medical Image Segmentation",
-        file: "https://doi.org/",
+        file: "https://ieeexplore.ieee.org/document/9746286",
         venue: "ICASSP (IEEE International Conference on Acoustics, Speech and Signal Processing)",
         year: "2022",
         authors: ["Chen Li","Wei Chen*","Xin Luo",  "Yulin He", "Yusong Tan"],
@@ -153,7 +181,7 @@ const publications = [
         materials: [
             {
                 tag: "paper",
-                href: "#TODO"
+                href: "assets/publication/icassp2022.pdf"
             },
             {
                 tag: "poster",
@@ -198,10 +226,6 @@ const publications = [
             {
                 tag: "paper",
                 href: "assets/publication/BIBM_TriDL.pdf"
-            },
-            {
-                tag: "code",
-                href: "https://github.com/lichen14/TriDL"
             },
             {
                 tag: "ppt",
@@ -259,14 +283,6 @@ const publications = [
             {
                 tag: "paper",
                 href: "assets/publication/applsci-10-06439.pdf"
-            },
-//             {
-//                 tag: "project page",
-//                 href: "https://medmnist.github.io/"
-//             },
-            {
-                tag: "code",
-                href: "https://github.com/lichen14/RenderUNet-Pytorch"
             }
 //             {
 //                 tag: "dataset",
@@ -731,7 +747,24 @@ const publications = [
 ];
 
 const preprints = [
-
+    {
+        title: "A Knowledge-based Learning Framework for Self-supervised Pre-training Towards Enhanced Recognition of Medical Images",
+        file: "https://arxiv.org/abs/2211.14715",
+        venue: "/",
+        year: "2023",
+        authors: ["Wei Chen", "Chen Li","Dan Chen","Xin Luo"],
+        img: "assets/imgs/tower.png",
+        materials: [
+            {
+                tag: "paper",
+                href: "https://arxiv.org/pdf/2211.14715.pdf"
+            },
+            {
+                tag: "code",
+                href: "https://github.com/lichen14/TOWER"
+            }
+        ]
+    },
 ];
 
 const honors = [
@@ -800,7 +833,7 @@ const activities = {
     conference: [
         {
             venue: "Medical Image Computing and Computer-Assisted Intervention",
-            year: "2022",
+            year: "2022,2023",
             abbr: "MICCAI"
         }
     ],

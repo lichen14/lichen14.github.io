@@ -52,7 +52,7 @@ const site = {
 const about = {
     nameEN: "Chen Li",
     nameCN: "李晨",
-    affiliation: "PhD, National University of Defense Technology",
+    affiliation: "Ph.D. Candidate, National University of Defense Technology",
     avatar: "assets/imgs/7c_副本.jpg",
     contacts: [
         {

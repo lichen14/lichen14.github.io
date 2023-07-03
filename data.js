@@ -1,7 +1,7 @@
 const site = {
-    year: "2020-2022",
+    year: "2020-2023",
     url: "https://github.com/lichen14/duducheng.github.io",
-    lastUpdated: "Jan, 2023",
+    lastUpdated: "Jul, 2023",
     showPageviews: false,
     navbar: [
         {
@@ -79,6 +79,14 @@ const biography = `I am a PhD student in the College of Computer, National Unive
 I focus on medical image analysis, computer vision and weak/unsupervised learning. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, Neural Networks, IEEE Robotics and Automation Letters, IEEE ICASSP, IEEE BIBM, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
 
 const news = [
+    {
+        "mmyyyy": "07/2023",
+        "text": "Begin to work as a reviewer in the journal (Neural Networks)."
+    },
+    {
+        "mmyyyy": "06/2023",
+        "text": "1 more paper on Source-Free Domain Adaptive Semantic Segmentation was accepted by International Journal of Computer Vision. (CROTS)."
+    },
     {
         "mmyyyy": "01/2023",
         "text": "Accept the invitation to review for MICCAI'2023."
@@ -838,6 +846,9 @@ const activities = {
         }
     ],
     journal: [
+        {
+            venue: "Neural Networks (ISSN:1879-2782)"
+        },
         {
             venue: "Applied Sciences (ISSN:2076-3417)"
         },

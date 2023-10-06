@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2023",
     url: "https://github.com/lichen14/duducheng.github.io",
-    lastUpdated: "Jul, 2023",
+    lastUpdated: "Oct, 2023",
     showPageviews: false,
     navbar: [
         {
@@ -26,10 +26,10 @@ const site = {
             tag: "TOWER",
             href: "https://github.com/lichen14/TOWER"
         },
-//         {
-//             tag: "Deep Learning Kickstart",
-//             href: "https://github.com/M3DV/Kickstart"
-//         },
+        // {
+        //     tag: "CROTS",
+        //     href: "https://github.com/luoxin13/CROTS"
+        // },
         {
             tag: "Others Learning Notes from duducheng",
             href: "https://github.com/duducheng/Learning-Notes"
@@ -76,12 +76,20 @@ const about = {
 };
 
 const biography = `I am a PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/citations?user=LGwaNSwAAAAJ">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
-I focus on medical image analysis, computer vision and weak/unsupervised learning. I have authored 10+ papers on top-tier journals / conferences, e.g., ACM MM, Neural Networks, IEEE Robotics and Automation Letters, IEEE ICASSP, IEEE BIBM, Sensors, ICIP, ICPR, Applied Sciences, Remote Sensors and MICAD.`
+I focus on medical image analysis, computer vision and weak/unsupervised learning. I have authored 10+ papers on top-tier journals / conferences, e.g., International Journal of Computer Vision, ACM MM, Neural Networks, IEEE Robotics and Automation Letters, IEEE ICASSP, IEEE BIBM, IEE ICIP, IEEE ICPR.`
 
 const news = [
     {
+        "mmyyyy": "10/2023",
+        "text": "1 more paper on Self-supervised Learning was published by Neural Networks. (TOWER)"
+    },
+    {
         "mmyyyy": "07/2023",
         "text": "Begin to work as a reviewer in the journal (Neural Networks)."
+    },
+    {
+        "mmyyyy": "07/2023",
+        "text": "1 more paper on medical image segmentation by unsupervised domain adaptation was accepted by IEEE ICASSP'2023. (DLM)."
     },
     {
         "mmyyyy": "06/2023",
@@ -89,7 +97,7 @@ const news = [
     },
     {
         "mmyyyy": "01/2023",
-        "text": "Accept the invitation to review for MICCAI'2023."
+        "text": "Accept the invitation to review for MICCAI'2023 and Computer Methods and Programs in Biomedicine (CMPB)."
     },
     {
         "mmyyyy": "10/2022",
@@ -101,7 +109,7 @@ const news = [
     },
     {
         "mmyyyy": "02/2022",
-        "text": "Accept the invitation to review for MICCAI'2022."
+        "text": "Accept the invitation to review for MICCAI'2022 and Measurement."
     },
     {
         "mmyyyy": "01/2022",
@@ -151,6 +159,56 @@ const news = [
 
 
 const publications = [
+    {
+        title: "A knowledge-based learning framework for self-supervised pre-training towards enhanced recognition of biomedical microscopy images",
+        file: "https://doi.org/10.1016/j.neunet.2023.09.001",
+        venue: "Neural Networks",
+        year: "2023",
+        authors: ["Wei Chen", "Chen Li*", "Dan Chen", "Xin Luo"],
+        img: "assets/imgs/tower.jpg",
+        materials: [
+            {
+                tag: "paper",
+                href: "https://doi.org/10.1016/j.neunet.2023.09.001"
+            }
+            {
+                tag: "code",
+                href: "https://github.com/lichen14/TOWER"
+            },
+        ]
+    },
+    {
+        title: "Crots: Cross-Domain Teacher–Student Learning for Source-Free Domain Adaptive Semantic Segmentation",
+        file: "https://doi.org/10.1007/s11263-023-01863-1",
+        venue: "International Journal of Computer Vision",
+        year: "2023",
+        authors: ["Xin Luo", "Wei Chen*", "Zhengfa Liang", "Longqi Yang", "Siwei Wang", "Chen Li"],
+        img: "assets/imgs/crots.jpg",
+        materials: [
+            {
+                tag: "paper",
+                href: "https://doi.org/10.1007/s11263-023-01863-1"
+            }
+            {
+                tag: "code",
+                href: "https://github.com/luoxin13/CROTS"
+            },
+        ]
+    },
+    {
+        title: "Domain Generalized Fundus Image Segmentation via Dual-Level Mixing",
+        file: "https://doi.org/10.1109/ICASSP49357.2023.10096623",
+        venue: "ICASSP (IEEE International Conference on Acoustics, Speech and Signal Processing)",
+        year: "2023",
+        authors: ["Xin Luo", "Wei Chen*", "Chen Li", "Bin Zhou", "Yusong Tan"],
+        img: "assets/imgs/dlm.jpg",
+        materials: [
+            {
+                tag: "paper",
+                href: "https://doi.org/10.1109/ICASSP49357.2023.10096623"
+            }
+        ]
+    },
     {
         title: "Adversarial style discrepancy minimization for unsupervised domain adaptation",
         file: "https://doi.org/10.1016/j.neunet.2022.10.015",
@@ -262,7 +320,7 @@ const publications = [
     {
         title: "Multi-Scale Cost Volumes Cascade Network for Stereo Matching",
         file: "https://doi.org/10.1109/ICRA48506.2021.9560864",
-        venue: "ICRA(IEEE International Conference on Robotics and Automation)",
+        venue: "ICRA (IEEE International Conference on Robotics and Automation)",
         //         abbr: "CG",
         year: "2021",
         authors: ["Xiaogang Jia","Wei Chen","Chen Li","Zhengfa Liang","Mingfei Wu","Yusong Tan"," Libo Huang"],
@@ -847,21 +905,28 @@ const activities = {
     ],
     journal: [
         {
-            venue: "Neural Networks (ISSN:1879-2782)"
+            venue: "Neural Networks (ISSN:1879-2782, IF 7.8)"
         },
         {
-            venue: "Applied Sciences (ISSN:2076-3417)"
+            venue: "Computer Methods and Programs in Biomedicine (ISSN:0169-2607, IF 6.1)"
         },
         {
-            venue: "Biology (ISSN:2079-7737)"
+            venue: "Measurement (ISSN:0263-2241, IF 5.6)"
+        },
+        {
+            venue: "Biology (ISSN:2079-7737, IF 4.2)"
+        },
+        {
+            venue: "Sensors (ISSN:1424-8220, IF 3.9)"
+        },
+        {
+            venue: "Applied Sciences (ISSN:2076-3417, IF 2.7)"
         },
         {
             venue: "International Journal of Medical Imaging (ISSN:2330-8303)",
             abbr: "IJMI"
-        },
-        {
-            venue: "Sensors (ISSN:1424-8220)"
         }
+        
 //         {
 //             venue: "Applied Sciences"
 //         },

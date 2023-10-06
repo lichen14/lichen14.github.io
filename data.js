@@ -170,7 +170,7 @@ const publications = [
             {
                 tag: "paper",
                 href: "https://doi.org/10.1016/j.neunet.2023.09.001"
-            }
+            },
             {
                 tag: "code",
                 href: "https://github.com/lichen14/TOWER"
@@ -188,7 +188,7 @@ const publications = [
             {
                 tag: "paper",
                 href: "https://doi.org/10.1007/s11263-023-01863-1"
-            }
+            },
             {
                 tag: "code",
                 href: "https://github.com/luoxin13/CROTS"

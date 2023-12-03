@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2023",
     url: "https://github.com/lichen14/duducheng.github.io",
-    lastUpdated: "Oct, 2023",
+    lastUpdated: "Dec, 2023",
     showPageviews: false,
     navbar: [
         {
@@ -14,7 +14,7 @@ const site = {
         },
         {
             tag: "More",
-            href: "#honors"
+            href: "#talks"
         },
     ],
     relatedProjects: [
@@ -26,10 +26,10 @@ const site = {
             tag: "TOWER",
             href: "https://github.com/lichen14/TOWER"
         },
-        // {
-        //     tag: "CROTS",
-        //     href: "https://github.com/luoxin13/CROTS"
-        // },
+        {
+            tag: "CROTS",
+            href: "https://github.com/luoxin13/CROTS"
+        },
         {
             tag: "Others Learning Notes from duducheng",
             href: "https://github.com/duducheng/Learning-Notes"
@@ -79,6 +79,10 @@ const biography = `I am a PhD student in the College of Computer, National Unive
 I focus on medical image analysis, computer vision and weak/unsupervised learning. I have authored 10+ papers on top-tier journals / conferences, e.g., International Journal of Computer Vision, ACM MM, Neural Networks, IEEE Robotics and Automation Letters, IEEE ICASSP, IEEE BIBM, IEE ICIP, IEEE ICPR.`
 
 const news = [
+    {
+        "mmyyyy": "12/2023",
+        "text": "Give a talk on The 3rd Postgraduate Academic Forum of Journal of image and Graphics."
+    },
     {
         "mmyyyy": "10/2023",
         "text": "1 more paper on Self-supervised Learning was published by Neural Networks. (TOWER)"
@@ -937,26 +941,26 @@ const activities = {
 };
 
 const talks = [
-//     {
-//         title: "MedMNIST Classification Decathlon and Clinical AI",
-//         materials: [
-//             {
-//                 tag: "slides",
-//                 href: "https://docs.qq.com/pdf/DS1Bab21waEhtdXNF"
-//             },
-//             {
-//                 tag: "video (YouTube)",
-//                 href: "https://www.nova77.org/recorded-video-for-webinar-slides-for-medmnist-classification-decathlon-and-clinical-ai-by-jiancheng-yang/4068/"
-//             }
-//         ],
-//         turns: [
-//             {
-//                 mmyyyy: "02/2021",
-//                 where: " Pie & AI by <a href='https://deeplearning.ai/' target='_blank'>DeepLearning.AI</a> (online)",
-//                 note: "Host: <a href='https://www.eventbrite.com/e/pie-ai-henderson-medmnist-classification-decathlon-clinical-ai-tickets-137316189419#' target='_blank'>Nova77 STEM Workshop</a>"
-//             }
-//         ]
-//     },
+    {
+        title: "面向稀疏标注医学影像的表征学习方法",
+        materials: [
+            // {
+            //     tag: "slides",
+            //     href: "https://docs.qq.com/pdf/DS1Bab21waEhtdXNF"
+            // },
+            {
+                tag: "video (Bilibili)",
+                href: "https://www.bilibili.com/video/BV1734y1c7dn/?spm_id_from=333.999.0.0"
+            }
+        ],
+        turns: [
+            {
+                mmyyyy: "11/2023",
+                where: " 第三届中国图象图形学报研究生学术论坛",
+                note: "Host: <a href='http://www.cjig.cn/jig/ch/en/index.aspx' target='_blank'>Journal of image and Graphics</a>"
+            }
+        ]
+    },
 //     {
 //         title: "How to Develop Open Research Dataset: Examples of Medical Images",
 //         materials: [

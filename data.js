@@ -840,7 +840,7 @@ const preprints = [
 const honors = [
     {
         "yyyy": "2023",
-        "text": "湖南省优秀硕士学位论文 (<a href='http://jyt.hunan.gov.cn/jyt/sjyt/xxgk/tzgg/202312/t20231204_32456028.html</a>)."
+        "text": "<a href='http://jyt.hunan.gov.cn/jyt/sjyt/xxgk/tzgg/202312/t20231204_32456028.html'</a>湖南省优秀硕士学位论文."
     },
 //     {
 //         "yyyy": "2020",
@@ -925,19 +925,19 @@ const activities = {
         {
             venue: "Measurement (ISSN:0263-2241, IF 5.6)"
         },
-        {
-            venue: "Biology (ISSN:2079-7737, IF 4.2)"
-        },
-        {
-            venue: "Sensors (ISSN:1424-8220, IF 3.9)"
-        },
-        {
-            venue: "Applied Sciences (ISSN:2076-3417, IF 2.7)"
-        },
-        {
-            venue: "International Journal of Medical Imaging (ISSN:2330-8303)",
-            abbr: "IJMI"
-        }
+        // {
+        //     venue: "Biology (ISSN:2079-7737, IF 4.2)"
+        // },
+        // {
+        //     venue: "Sensors (ISSN:1424-8220, IF 3.9)"
+        // },
+        // {
+        //     venue: "Applied Sciences (ISSN:2076-3417, IF 2.7)"
+        // },
+        // {
+        //     venue: "International Journal of Medical Imaging (ISSN:2330-8303)",
+        //     abbr: "IJMI"
+        // }
         
 //         {
 //             venue: "Applied Sciences"
@@ -965,7 +965,7 @@ const talks = [
             {
                 mmyyyy: "11/2023",
                 where: " 第三届中国图象图形学报研究生学术论坛",
-                note: "Host: <a href='http://www.cjig.cn/jig/ch/en/index.aspx' target='_blank'>Journal of image and Graphics</a>"
+                note: "Host: <a href='http://www.cjig.cn/jig/ch/en/index.aspx' target='_blank'>Journal of image and graphics</a>"
             }
         ]
     },

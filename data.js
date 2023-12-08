@@ -13,7 +13,7 @@ const site = {
             href: "#publications"
         },
         {
-            tag: "More",
+            tag: "Talks",
             href: "#talks"
         },
     ],
@@ -838,10 +838,10 @@ const preprints = [
 ];
 
 const honors = [
-//     {
-//         "yyyy": "2021",
-//         "text": "Top 100 Chinese Rising Stars in AI (<a href='https://mp.weixin.qq.com/s?__biz=MzA4NzQ5MTA2NA==&mid=2653639431&idx=1&sn=25b6368c1954419b9090840347d9a27d&chksm=8be75b90bc90d286a5af3ef8e610e822d705dc3cf4382b45e3f14489f3e7ec4fd8c95ed0eceb&mpshare=1&scene=2&srcid=0511LMlj9Qv9DeIZAjMjYAU9&sharer_sharetime=1620731348139&sharer_shareid=631c113940cb81f34895aa25ab14422a#rd'>AI华人新星百强榜单</a>)."
-//     },
+    {
+        "yyyy": "2023",
+        "text": "湖南省优秀硕士学位论文 (<a href='http://jyt.hunan.gov.cn/jyt/sjyt/xxgk/tzgg/202312/t20231204_32456028.html</a>)."
+    },
 //     {
 //         "yyyy": "2020",
 //         "text": "China National PhD Scholarship (top 2%)."
@@ -905,11 +905,19 @@ const activities = {
             venue: "Medical Image Computing and Computer-Assisted Intervention",
             year: "2022,2023",
             abbr: "MICCAI"
+        },
+        {
+            venue: "IEEE International Symposium on Biomedical Imaging",
+            year: "2024",
+            abbr: "ISBI"
         }
     ],
     journal: [
         {
             venue: "Neural Networks (ISSN:1879-2782, IF 7.8)"
+        },
+        {
+            venue: "Computers in Biology and Medicine (ISSN:0010-4825, IF 7.7)"
         },
         {
             venue: "Computer Methods and Programs in Biomedicine (ISSN:0169-2607, IF 6.1)"
@@ -1083,8 +1091,8 @@ const talks = [
 
 const misc = [
 //     "<i>Teaching</i>: Machine Learning (EE369: Aut’18, Aut’19), Machine Learning for AI class (EE228: Spr’19, Spr’20).",
-//     "<i>Tools</i>: Python (10+ years), PyTorch, scikit-learn, Keras, TensorFlow, MXNet, Tableau, Javascript, Scala, etc.",
-//     "<i>Patent</i>: 3 CN patents granted and several pending.",
-//     "<i>Language</i>: I use 中文, <i>English</i> and <i>un peu Français</i>.",
+    "<i>Tools</i>: Python (7+ years), PyTorch, scikit-learn, Javascript, etc.",
+    "<i>Patent</i>: 4 CN patents granted and several pending.",
+    "<i>Language</i>: I use 中文, <i>English</i>.",
 //     "I enjoy <a href='https://book.douban.com/people/209295222/' target='_blank'>reading</a>, traveling, tennis, swimming, Go (amateur 2 dan rank) and Nintendo games."
 ];

@@ -839,8 +839,14 @@ const preprints = [
 
 const honors = [
     {
-        "yyyy": "2023",
-        "text": "<a href='http://jyt.hunan.gov.cn/jyt/sjyt/xxgk/tzgg/202312/t20231204_32456028.html'</a>湖南省优秀硕士学位论文."
+        "yyyy": "11/2023",
+        "text": "<a href='http://jyt.hunan.gov.cn/jyt/sjyt/xxgk/tzgg/202312/t20231204_32456028.html'</a>湖南省优秀硕士学位论文.",
+        "materials": [
+            {
+                tag: "paper",
+                href: "https://arxiv.org/pdf/2211.14715.pdf"
+            },
+        ]
     },
 //     {
 //         "yyyy": "2020",
@@ -858,41 +864,15 @@ const honors = [
 //         "yyyy": "2020",
 //         "text": "<a href='https://www.kaggle.com/c/prostate-cancer-grade-assessment'>MICCAI 2020 Prostate cANcer graDe Assessment (PANDA) Challenge</a>: Kaggle Silver. <i>Role: team mentor</i>."
 //     },
-//     {
-//         "yyyy": "2020",
-//         "text": "<a href='https://isbi.deepdr.org/'>ISBI 2020 DeepDR Diabetic Retinopathy Image Dataset (DeepDRiD) Challenge</a> (Diabetic Retinopathy Disease Grading track): 1 / 371. <i>Role: team mentor</i>."
-//     },
-//     {
-//         "yyyy": "2020",
-//         "text": "<a href='https://isbi.deepdr.org/'>ISBI 2020 DeepDR Diabetic Retinopathy Image Dataset (DeepDRiD) Challenge</a> (Image Quality Estimation track): 2 / 371. <i>Role: team mentor</i>."
-//     },
-//     {
-//         "yyyy": "2019",
-//         "text": "China National PhD Scholarship (top 2%)."
-//     },
-//     {
-//         "yyyy": "2019",
-//         "text": "<a href='https://digestpath2019.grand-challenge.org/'>MICCAI 2019 Digestive-System Pathological (DigestPath) Challenge</a> (Signet Ring Cell Detection track): 2 / 731. <i>Role: team mentor</i>. Check our <a href='https://arxiv.org/abs/2004.04455'>paper</a> on Neurocomputing."
-//     },
-//     {
-//         "yyyy": "2019",
-//         "text": "<a href='https://digestpath2019.grand-challenge.org/'>MICCAI 2019 Digestive-System Pathological (DigestPath) Challenge</a> (Colonoscopy Tissue Segmentation track): 4/ 731. <i>Role: team mentor</i>."
-//     },
-//     {
-//         "yyyy": "2019",
-//         "text": "<a href='https://tianchi.aliyun.com/markets/tianchi/ijcai19_en'>IJCAI 2019 Adversarial AI Challenge</a> (Non-Targeted Attack track): 3 / 2520. <i>Role: team mentor</i>."
-//     },
-//     {
-//         "yyyy": "2017",
-//         "text": "<a href='https://tianchi.aliyun.com/competition/entrance/231601/introduction'>Alibaba Tianchi Medical AI Competition</a>: 3 / 2887. <i>Role: team leader</i>."
-//     },
-//     {
-//         "yyyy": "2010",
-//         "text": "National First Prize in the National High School Mathematics Competition."
-//     },
     {
         "yyyy": "2023",
-        "text": "Best poster at the Chongqing Digital Medicine Annual Conference."
+        "text": "<a href='https://github.com/lichen14/lichen14.github.io/tree/main/assets/imgs/cq2023-poster.png'</a>Best poster at the Chongqing Digital Medicine Annual Conference.",
+        "materials": [
+            {
+                tag: "paper",
+                href: "https://arxiv.org/pdf/2211.14715.pdf"
+            },
+        ]
     },
 ];
 

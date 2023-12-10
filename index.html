@@ -207,24 +207,7 @@
             </div>
         </div>
 
-        <div class="row" id="honors">
-            <div class="col-xs-12">
-                <h2><b>Selected Honors and Competitions</b></h2>
-                <ul>
-                    <li v-for="item in honors" style="text-align:justify; text-justify:inter-ideograph">
-                        [{{item.yyyy}}]
-                        <span v-html="item.text"></span>
-                        <p v-if="item.materials">
-                            <span v-for="material in item.materials">
-                                <a v-bind:href="material.href" target="_blank">
-                                    [{{material.tag}}]
-                                </a>
-                            </span>
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        
 
 
         <div class="row" id="talks">
@@ -259,7 +242,25 @@
             </div>
         </div>
 
-
+        <div class="row" id="honors">
+            <div class="col-xs-12">
+                <h2><b>Selected Honors and Competitions</b></h2>
+                <ul>
+                    <li v-for="item in honors" style="text-align:justify; text-justify:inter-ideograph">
+                        [{{item.yyyy}}]
+                        <span v-html="item.text"></span>
+                        <p v-if="item.materials">
+                            <span v-for="material in item.materials">
+                                <a v-bind:href="material.href" target="_blank">
+                                    [{{material.tag}}]
+                                </a>
+                            </span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
         <div class="row" id="activities">
             <div class="col-xs-12">
                 <h2><b>Professional Activities</b></h2>

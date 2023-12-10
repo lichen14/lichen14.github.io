@@ -81,11 +81,11 @@ I focus on medical image analysis, computer vision and weak/unsupervised learnin
 const news = [
     {
         "mmyyyy": "12/2023",
-        "text": "Give a talk on The 3rd Postgraduate Academic Forum of Journal of image and Graphics."
+        "text": "Give a talk on the 3rd Postgraduate Academic Forum of Journal of image and Graphics."
     },
     {
         "mmyyyy": "10/2023",
-        "text": "1 more paper on Self-supervised Learning was published by Neural Networks. (TOWER)"
+        "text": "1 more paper on Self-supervised Learning was published by Neural Networks (TOWER)."
     },
     {
         "mmyyyy": "07/2023",
@@ -890,10 +890,10 @@ const honors = [
 //         "yyyy": "2010",
 //         "text": "National First Prize in the National High School Mathematics Competition."
 //     },
-//     {
-//         "yyyy": "2010",
-//         "text": "National Second Prize in the National High School Physics Competition."
-//     },
+    {
+        "yyyy": "2023",
+        "text": "Best poster at the Chongqing Digital Medicine Annual Conference."
+    },
 ];
 
 const activities = {

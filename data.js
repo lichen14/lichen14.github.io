@@ -839,12 +839,22 @@ const preprints = [
 
 const honors = [
     {
-        "yyyy": "11/2023",
-        "text": "<a href='http://jyt.hunan.gov.cn/jyt/sjyt/xxgk/tzgg/202312/t20231204_32456028.html'</a>湖南省优秀硕士学位论文.",
+        "yyyy": "12/2023",
+        "text": "Best poster at the Chongqing Digital Medicine Annual Conference.",
         "materials": [
             {
-                tag: "paper",
-                href: "https://arxiv.org/pdf/2211.14715.pdf"
+                tag: "poster",
+                href: "assets/imgs/cq2023-poster.png"
+            },
+        ]
+    },
+    {
+        "yyyy": "11/2023",
+        "text": "湖南省优秀硕士学位论文.",
+        "materials": [
+            {
+                tag: "certificate",
+                href: "http://jyt.hunan.gov.cn/jyt/sjyt/xxgk/tzgg/202312/t20231204_32456028.html"
             },
         ]
     },
@@ -864,16 +874,6 @@ const honors = [
 //         "yyyy": "2020",
 //         "text": "<a href='https://www.kaggle.com/c/prostate-cancer-grade-assessment'>MICCAI 2020 Prostate cANcer graDe Assessment (PANDA) Challenge</a>: Kaggle Silver. <i>Role: team mentor</i>."
 //     },
-    {
-        "yyyy": "2023",
-        "text": "<a href='https://github.com/lichen14/lichen14.github.io/tree/main/assets/imgs/cq2023-poster.png'</a>Best poster at the Chongqing Digital Medicine Annual Conference.",
-        "materials": [
-            {
-                tag: "paper",
-                href: "https://arxiv.org/pdf/2211.14715.pdf"
-            },
-        ]
-    },
 ];
 
 const activities = {

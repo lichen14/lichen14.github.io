@@ -214,6 +214,13 @@
                     <li v-for="item in honors" style="text-align:justify; text-justify:inter-ideograph">
                         [{{item.yyyy}}]
                         <span v-html="item.text"></span>
+                        <p v-if="item.materials">
+                            <span v-for="material in item.materials">
+                                <a v-bind:href="material.href" target="_blank">
+                                    [{{material.tag}}]
+                                </a>
+                            </span>
+                        </p>
                     </li>
                 </ul>
             </div>

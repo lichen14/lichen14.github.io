@@ -34,10 +34,10 @@ const site = {
             tag: "Others Learning Notes from duducheng",
             href: "https://github.com/duducheng/Learning-Notes"
         },
-//         {
-//             tag: "AI Deadlines (CV-oriented)",
-//             href: "https://m3dv.github.io/ai-deadlines/"
-//         },
+        {
+            tag: "AI Conference Deadlines (CCF)",
+            href: "https://ccfddl.github.io/"
+        },
 //         {
 //             tag: "Export: Source Data (json)",
 //             href: "export/data.html"

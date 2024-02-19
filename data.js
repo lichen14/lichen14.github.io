@@ -80,6 +80,14 @@ I focus on medical image analysis, computer vision and weak/unsupervised learnin
 
 const news = [
     {
+        "mmyyyy": "02/2024",
+        "text": "Begin to work as a reviewer in the two top journals Knowledge-Based Systems and Computerized Medical Imaging and Graphics."
+    },
+    {
+        "mmyyyy": "01/2024",
+        "text": "Accept the invitation to review for conference MICCAI'2024."
+    },
+    {
         "mmyyyy": "12/2023",
         "text": "Give a talk on the 3rd Postgraduate Academic Forum of Journal of image and Graphics."
     },
@@ -894,6 +902,9 @@ const activities = {
     ],
     journal: [
         {
+            venue: "Knowledge-Based Systems (ISSN:0950-7051, IF 8.8)"
+        },
+        {
             venue: "Neural Networks (ISSN:1879-2782, IF 7.8)"
         },
         {
@@ -903,14 +914,11 @@ const activities = {
             venue: "Computer Methods and Programs in Biomedicine (ISSN:0169-2607, IF 6.1)"
         },
         {
+            venue: "Computerized Medical Imaging and Graphics (ISSN:0895-6111, IF 5.7)"
+        },
+        {
             venue: "Measurement (ISSN:0263-2241, IF 5.6)"
         },
-        // {
-        //     venue: "Biology (ISSN:2079-7737, IF 4.2)"
-        // },
-        // {
-        //     venue: "Sensors (ISSN:1424-8220, IF 3.9)"
-        // },
         // {
         //     venue: "Applied Sciences (ISSN:2076-3417, IF 2.7)"
         // },

@@ -1,7 +1,7 @@
 const site = {
-    year: "2020-2023",
+    year: "2020-2024",
     url: "https://github.com/lichen14/duducheng.github.io",
-    lastUpdated: "Dec, 2023",
+    lastUpdated: "Jun, 2024",
     showPageviews: false,
     navbar: [
         {
@@ -79,6 +79,10 @@ const biography = `I am a PhD student in the College of Computer, National Unive
 I focus on medical image analysis, computer vision and weak/unsupervised learning. I have authored 10+ papers on top-tier journals / conferences, e.g., International Journal of Computer Vision, ACM MM, Neural Networks, IEEE Robotics and Automation Letters, IEEE ICASSP, IEEE BIBM, IEE ICIP, IEEE ICPR.`
 
 const news = [
+    {
+        "mmyyyy": "05/2024",
+        "text": "Begin to work as a reviewer in the top journals IEEE Transactions on Neural Networks and Learning Systems."
+    },
     {
         "mmyyyy": "02/2024",
         "text": "Begin to work as a reviewer in the two top journals Knowledge-Based Systems and Computerized Medical Imaging and Graphics."
@@ -901,6 +905,9 @@ const activities = {
         }
     ],
     journal: [
+        {
+            venue: "IEEE Transactions on Neural Networks and Learning Systems (ISSN:2162-2388, IF 10.4)"
+        },
         {
             venue: "Knowledge-Based Systems (ISSN:0950-7051, IF 8.8)"
         },

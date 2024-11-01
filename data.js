@@ -375,29 +375,29 @@ const publications = [
         //             }
         ]
     },
-    {
-        title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
-        file: "https://www.mdpi.com/2076-3417/10/18/6439",
-        venue: "Applied Sciences",
-//         abbr: "ISBI",
-        year: "2020",
-        authors: ["Chen Li", "Wei Chen*", "Yusong Tan"],
-        img: "assets/imgs/overview3d1.png",
-        materials: [
-            {
-                tag: "paper",
-                href: "assets/publication/applsci-10-06439.pdf"
-            }
+//     {
+//         title: "Render U-Net: A Unique Perspective on Render to Explore Accurate Medical Image Segmentation",
+//         file: "https://www.mdpi.com/2076-3417/10/18/6439",
+//         venue: "Applied Sciences",
+// //         abbr: "ISBI",
+//         year: "2020",
+//         authors: ["Chen Li", "Wei Chen*", "Yusong Tan"],
+//         img: "assets/imgs/overview3d1.png",
+//         materials: [
 //             {
-//                 tag: "dataset",
-//                 href: "https://medmnist.github.io/#dataset"
-//             },
-//             {
-//                 tag: "preprint",
-//                 href: "https://arxiv.org/abs/2010.14925"
+//                 tag: "paper",
+//                 href: "assets/publication/applsci-10-06439.pdf"
 //             }
-        ]
-    },
+// //             {
+// //                 tag: "dataset",
+// //                 href: "https://medmnist.github.io/#dataset"
+// //             },
+// //             {
+// //                 tag: "preprint",
+// //                 href: "https://arxiv.org/abs/2010.14925"
+// //             }
+//         ]
+//     },
     {
         title: "Attention Unet++: A Nested Attention-Aware U-Net for Liver CT Image Segmentation",
         file: "https://doi.org/10.1016/j.ebiom.2020.103106",
@@ -453,33 +453,33 @@ const publications = [
         //             }
         ]
     },
-    {
-        title: "A Joint 2D-3D Complementary Network for Stereo Matching",
-        file: "https://doi.org/10.3390/s21041430",
-        abbr: "Sensors",
-        year: "2020",
-        authors: ["Xiaogang Jia","Wei Chen *","Zhengfa Liang","Xin Luo","Mingfei Wu","Chen Li","Yulin He","Yusong Tan","Libo Huang"],
-//         img: "assets/imgs/LeBA NeurIPS20.png",
-        materials: [
-            {
-                tag: "publication",
-                href: "assets/publication/sensors_2021.pdf"
-            },
+//     {
+//         title: "A Joint 2D-3D Complementary Network for Stereo Matching",
+//         file: "https://doi.org/10.3390/s21041430",
+//         abbr: "Sensors",
+//         year: "2020",
+//         authors: ["Xiaogang Jia","Wei Chen *","Zhengfa Liang","Xin Luo","Mingfei Wu","Chen Li","Yulin He","Yusong Tan","Libo Huang"],
+// //         img: "assets/imgs/LeBA NeurIPS20.png",
+//         materials: [
 //             {
-//                 tag: "code",
-//                 href: "#TODO"
-//             }
-//             {
-//                 tag: "short slides",
-//                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
+//                 tag: "publication",
+//                 href: "assets/publication/sensors_2021.pdf"
 //             },
-//             ,
-//             {
-//                 tag: "poster",
-//                 href: "assets/materials/LeBA NeurIPS20 poster.pdf"
-//             }
-        ]
-    },
+// //             {
+// //                 tag: "code",
+// //                 href: "#TODO"
+// //             }
+// //             {
+// //                 tag: "short slides",
+// //                 href: "assets/materials/LeBA NeurIPS20 slides.pdf"
+// //             },
+// //             ,
+// //             {
+// //                 tag: "poster",
+// //                 href: "assets/materials/LeBA NeurIPS20 poster.pdf"
+// //             }
+//         ]
+//     },
     {
         title: "Application of U-Shaped Convolutional Neural Network Based on Attention Mechanism in Liver CT Image Segmentation",
         file: "http://doi.org/10.1007/978-3-030-59719-1_55",
@@ -512,28 +512,28 @@ const publications = [
         ]
 //         img: "assets/imgs/AlignShift MICCAI20.jpg"
     },
-    {
-        title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
-        file: "https://doi.org/10.3390/app10196838",
-        venue: "Applied Sciences",
-        year: "2020",
-        authors: ["Chen Li", "Wei Chen*", "Yusong Tan"],
-        img: "assets/imgs/point-sampling.png",
-        materials: [
-            {
-                tag: "paper",
-                href: "assets/publication/applsci-10-06838（Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation）.pdf"
-            },
+//     {
+//         title: "Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation",
+//         file: "https://doi.org/10.3390/app10196838",
+//         venue: "Applied Sciences",
+//         year: "2020",
+//         authors: ["Chen Li", "Wei Chen*", "Yusong Tan"],
+//         img: "assets/imgs/point-sampling.png",
+//         materials: [
 //             {
-//                 tag: "code",
-//                 href: "#TODO"
-//             }
-        ]
-    },
+//                 tag: "paper",
+//                 href: "assets/publication/applsci-10-06838（Point-Sampling Method Based on 3D U-Net Architecture to Reduce the Influence of False Positive and Solve Boundary Blur Problem in 3D CT Image Segmentation）.pdf"
+//             },
+// //             {
+// //                 tag: "code",
+// //                 href: "#TODO"
+// //             }
+//         ]
+//     },
     {
         title: "A Unified Framework for Depth Prediction from a Single Image and Binocular Stereo Matching",
         file: "https://doi.org/10.3390/rs12030588",
-        venue: "Remote Sensors",
+        venue: "Remote Sensing",
 //         abbr: "ISBI",
         year: "2020",
         authors: ["Wei Chen","Xin Luo","Zhengfa Liang","Chen Li","Mingfei Wu","Yuanming Gao","Xiaogang Jia"],

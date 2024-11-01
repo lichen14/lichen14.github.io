@@ -1,7 +1,7 @@
 const site = {
     year: "2020-2024",
     url: "https://github.com/lichen14/duducheng.github.io",
-    lastUpdated: "Jun, 2024",
+    lastUpdated: "Nov, 2024",
     showPageviews: false,
     navbar: [
         {
@@ -76,16 +76,24 @@ const about = {
 };
 
 const biography = `I am a PhD student in the College of Computer, National University of Defense Technology, advised by <a href="https://scholar.google.com/citations?user=LGwaNSwAAAAJ">Prof. Yusong Tan</a> and <a href="https://scholar.google.com/">Wei Chen</a>. I received CS Bachelor and Master degree from the same university.  <br> 
-I focus on medical image analysis, computer vision and weak/unsupervised learning. I have authored 10+ papers on top-tier journals / conferences, e.g., International Journal of Computer Vision, ACM MM, Neural Networks, IEEE Robotics and Automation Letters, IEEE ICASSP, IEEE BIBM, IEE ICIP, IEEE ICPR.`
+I focus on medical image analysis, computer vision and weak/unsupervised learning. I have authored 10+ papers on top-tier journals / conferences, e.g., IJCV, ACM MM, NN, IEEE RAL, IEEE ICASSP, IEEE BIBM, IEE ICIP, IEEE ICPR.`
 
 const news = [
     {
+        "mmyyyy": "11/2024",
+        "text": "Accept the invitation to review for the top journal IEEE Transactions on Circuits and Systems for Video Technology."
+    },
+    {
+        "mmyyyy": "08/2024",
+        "text": "1 more paper on esophageal cancer T-stage diagnosis was published by Expert Systems with Applications."
+    },
+    {
         "mmyyyy": "05/2024",
-        "text": "Begin to work as a reviewer in the top journals IEEE Transactions on Neural Networks and Learning Systems."
+        "text": "Begin to work as a reviewer in the top journal IEEE Transactions on Neural Networks and Learning Systems."
     },
     {
         "mmyyyy": "02/2024",
-        "text": "Begin to work as a reviewer in the two top journals Knowledge-Based Systems and Computerized Medical Imaging and Graphics."
+        "text": "Begin to work as a reviewer in the two journals Knowledge-Based Systems and Computerized Medical Imaging and Graphics."
     },
     {
         "mmyyyy": "01/2024",
@@ -175,6 +183,20 @@ const news = [
 
 
 const publications = [
+    {
+        title: "Segmentation prompts classification: A nnUNet-based 3D transfer learning framework with ROI tokenization and cross-task attention for esophageal cancer T-stage diagnosis",
+        file: "https://doi.org/10.1016/j.eswa.2024.125067",
+        venue: "Expert Systems with Applications",
+        year: "2024",
+        authors: ["Chen Li", "Runyuan Wang", "Ping He", "Wei Chen", "Wei Wu", "Yi Wu"],
+        img: "assets/imgs/eswa2024.jpg",
+        materials: [
+            {
+                tag: "paper",
+                href: "assets/publication/eswa2024.pdf"
+            },
+        ]
+    },
     {
         title: "A knowledge-based learning framework for self-supervised pre-training towards enhanced recognition of biomedical microscopy images",
         file: "https://doi.org/10.1016/j.neunet.2023.09.001",
@@ -910,6 +932,9 @@ const activities = {
         },
         {
             venue: "Knowledge-Based Systems (ISSN:0950-7051, IF 8.8)"
+        },
+        {
+            venue: "IEEE Transactions on Circuits and Systems for Video Technology (ISSN:1051-8215, IF 8.3)"
         },
         {
             venue: "Neural Networks (ISSN:1879-2782, IF 7.8)"
